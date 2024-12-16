@@ -11,3 +11,4 @@ sed -i '5 s/\([_a-zA-Z0-9]\+\)/"\1", /g' *
 sed -i '5 s/"tags", /tags/g' *
 sed -i '5 s/, ]/]/' *
 sed -i '/tags: /d' *
+sed -i 's|\[\[\(.\+\)\]\]|\[\1\](/wiki/\1/)|g' *

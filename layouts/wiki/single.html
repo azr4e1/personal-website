@@ -10,7 +10,7 @@
   <h2>tags</h2>
   <ul>
   {{ range .Params.Tags}}
-    <li><a href='{{"/tags/" | relLangURL }}{{. | urlize}}'>{{.}}</a></li>
+    <li><a href='{{"/quidest/tags/" | relLangURL }}{{. | urlize}}'>{{.}}</a></li>
   {{end}}
   </ul>
 {{end}}
