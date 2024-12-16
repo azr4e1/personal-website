@@ -1,0 +1,8 @@
+<li>{{ .Date.Format "02 Jan 2006" }} &mdash; <a href="{{.RelPermalink}}">{{ .Title | title }}</a>
+{{ $summary := .Summary }}
+{{with .Params.Summ }}
+  {{ if . }}
+    <br>{{$summary}}
+  {{end}}
+{{end}}</li>
+

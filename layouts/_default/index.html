@@ -1,0 +1,13 @@
+{{ define "main"}}
+  <h1 style="text-align: center;">{{.Title | title}}</h1>
+  <p>
+    {{ .Content }}
+  </p>
+  <ul>
+  {{range .Pages}}
+  <article>
+  {{ partial "list-item.html" . }}
+  </article>
+  {{end}}
+  </ul>
+{{end}}

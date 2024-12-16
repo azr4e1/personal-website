@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <h1 style="text-align: center;">{{.Title | title}}</h1>
+  <div style='text-align: center;'>
+    <i style="color: blue;">{{.Date.Format "02 Jan 2006"}}</i><br>
+    <b style="color: green;">{{ with .Params.Author }} {{.}} {{end}}</b>
+  </div>
+  <p>
+    {{ .Content }}
+  </p>
+{{end}}
