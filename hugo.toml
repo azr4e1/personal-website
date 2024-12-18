@@ -1,3 +1,14 @@
 baseURL = 'https://azr4e1.github.io/quidest/'
 languageCode = 'en-us'
 title = 'Quidest?'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+[params]
+  math = true
