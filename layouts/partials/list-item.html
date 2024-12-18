@@ -1,8 +1,11 @@
-<li>{{ .Date.Format "02 Jan 2006" }} &mdash; <a href="{{.RelPermalink}}">{{ .Title | title }}</a>
-{{ $summary := .Summary }}
-{{with .Params.Summ }}
+<li class="article-item" id="{{.Title}}{{with .Params.Tags}}_{{delimit . `_`}}{{end}}">{{ .Date.Format "02 Jan 2006" }}
+  &mdash; <a href="{{.RelPermalink}}">{{
+    .Title |
+    title }}</a>
+  {{ $summary := .Summary }}
+  {{with .Params.Summ }}
   {{ if . }}
-    <br>{{$summary}}
+  <br>{{$summary}}
   {{end}}
-{{end}}</li>
-
+  {{end}}
+</li>

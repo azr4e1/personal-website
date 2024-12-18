@@ -1,7 +1,7 @@
 {{ define "main"}}
+<ul>
   {{ range .Pages }}
-  <ul>
-    {{ partial "list-item.html" . }}
-  </ul>
+  {{ partial "list-item.html" . }}
   {{ end}}
+</ul>
 {{end}}

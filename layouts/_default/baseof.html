@@ -4,12 +4,14 @@
   <meta charset="utf-8">
   <link rel="icon" href="/quidest/file.png" type="image/x-icon" />
   {{ if .Param "math" }}
-    {{ partialCached "math.html" . }}
+  {{ partialCached "math.html" . }}
   {{ end }}
+  <title>{{.Title | title}}</title>
+  {{ with .Params.Description }}
+  <meta name="description" content="{{.}}"> {{end}}
+  {{ with .Params.Author }}
+  <meta name="author" content="{{.}}"> {{end}}
   {{ block "head" . }}
-    <title>{{.Title | title}}</title>
-    {{ with .Params.Description }} <meta name="description" content="{{.}}"> {{end}}
-    {{ with .Params.Author }} <meta name="author" content="{{.}}"> {{end}}
   {{ end }}
 </head>
 
