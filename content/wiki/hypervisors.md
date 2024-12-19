@@ -20,7 +20,7 @@ Type 2 Hypervisors are installed on existing operating systems. They hand over t
 
 They are less performant but support a wider range of hardware.
 
-
+<pre>
                          +--------+ +--------+
                          |Guest OS| |Guest OS|
                          +--------+ +--------+
@@ -34,7 +34,7 @@ They are less performant but support a wider range of hardware.
 |      Hardware     |    |      Hardware     |
 +-------------------+    +-------------------+
   Type 1 Hypervisor        Type 2 Hypervisor
-
+</pre>
 
 A notable technology is the KVM hypervisor, which turns the Linux kernel into a
 bare-metal hypervisor, but is classified as type 2 hypervisor due to the full
