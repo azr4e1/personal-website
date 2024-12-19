@@ -3,7 +3,7 @@ let articles = document.querySelectorAll(".article-item")
 let bigList = document.querySelector('ul')
 // console.log(articles)
 
-search.addEventListener('keyup', function() {
+search.addEventListener('input', function() {
   bigList.innerHTML = ''
   for (var article of articles) {
     if (article.id.toLowerCase().includes(search.value.toLowerCase())) {
