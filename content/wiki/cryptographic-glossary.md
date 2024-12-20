@@ -6,7 +6,6 @@ tags = ["glossary",  "cryptography"]
 +++
 
 
-# Cryptographic glossary
 
 - The plaintext is the original message.
 - The ciphertext is traditionally a message that has been transformed to provide confidentiality.

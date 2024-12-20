@@ -6,7 +6,6 @@ tags = ["table",  "for_the_love_of_go",  "programming",  "golang"]
 +++
 
 
-# Test cases
 If a function or feature we are developing can expect edge cases or change behaviour depending on the input, we need to be able to test these values to make sure it's bug-free.
 
 We could write separate tests for each input values. However this can become tedious quickly.

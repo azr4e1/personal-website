@@ -6,7 +6,6 @@ tags = ["programming",  "control",  "statement",  "flow",  "basics",  "golang", 
 +++
 
 
-# If statements in Go
 An if statement begins with the keyword if, followed by some expression whose value is true or false. This is the conditional expression which determines whether or not the code in the if statement will be executed.
 
 ```go
@@ -15,7 +14,7 @@ if x > 0 {
 }
 ```
 
-## Else statements
+# Else statements
 Whereas an if statement on its own just does or doesn’t do something based on the condition, an if ... else statement does one thing or another (but never both).
 
 ```go

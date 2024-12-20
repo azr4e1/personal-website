@@ -6,7 +6,6 @@ tags = ["structure",  "google",  "firebase",  "mobile",  "property",  "website",
 +++
 
 
-# Set up your App for Data Collection
 You can use GA to measure websites, apps and both in the same property.
 
 App data streams are powered by the Firebase SDK.

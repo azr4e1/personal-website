@@ -6,7 +6,6 @@ tags = ["thinking",  "article",  "naughty",  "anarchy",  "wise",  "revolution", 
 +++
 
 
-# The curse of conformism
 The pathology of aggressively conformist people:
 
   Follow a ribellious idea after it becomes the norm (sexism is bad), but don't stop there. Stretch the idea to such an extreme that it loses its meaning and morphs into something else altogether which has very little to do with the original idea (being male is equivalent to being sexist)

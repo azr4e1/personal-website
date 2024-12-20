@@ -6,7 +6,6 @@ tags = ["boot",  "linux",  "process",  "init",  "introduction",  "systemctl",  "
 +++
 
 
-# Systemd introduction
 systemd is a software suite that provides an array of system components for Linux operating systems.
 
 The main aim is to unify service configuration and behavior across Linux distributions. Its primary component is a "system and service manager" – an init system used to bootstrap user space and manage user processes.

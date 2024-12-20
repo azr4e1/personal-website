@@ -6,7 +6,6 @@ tags = ["sales",  "website",  "marketing",  "real_time",  "property",  "analytic
 +++
 
 
-# Manage your Google Analytics Conversions
 A conversion is a high value event. You can define specific events to be a conversion event in Google Analytics.
 
 By setting up conversion tracking, you can measure how well your website performs towards specific business objectives.

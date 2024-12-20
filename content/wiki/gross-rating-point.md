@@ -6,7 +6,6 @@ tags = ["grp",  "gross",  "marketing",  "point",  "campaign",  "ads",  "offline"
 +++
 
 
-# Gross Rating Point
 In advertising, a __Gross Rating Point__ (GRP) measures the size of an audience that an advertisement impacts. GRPs help answer _how often_ must someone see it before they can readily recall it, and how many times does it take before the desired outcome occurs
 
 GRPs are used predominantly as a measure of media with high potential exposures of impressions.

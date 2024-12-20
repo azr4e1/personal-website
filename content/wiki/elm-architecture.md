@@ -6,10 +6,9 @@ tags = ["computer_science",  "paradigm",  "architecture",  "programming",  "game
 +++
 
 
-# Elm Architecture
 The Elm Architecture is a pattern for architecting interactive programs, like webapps and games.
 
-## Basic Pattern
+# Basic Pattern
 
 Elm programs always look something like:
 

@@ -6,7 +6,6 @@ tags = ["variadic",  "values",  "list",  "signature",  "type",  "golang",  "firs
 +++
 
 
-# Functions as values in Go
 In Go, functions are values. We can do anything with a function that we could do with a value; we can:
 - assign a function to a variable or struct field
 - pass a function as an argument to another function

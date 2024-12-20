@@ -6,7 +6,6 @@ tags = ["property",  "account",  "marketing",  "customers",  "aggregated",  "pri
 +++
 
 
-# Control how data is used in GA
 GA provides data collections control to meet the privacy expectation of users across the globe:
 - Disable data collection: you can partially or completely disable data collection from your digital properties
 - IP Addresses: GA doesn't log or store individual IP addresses

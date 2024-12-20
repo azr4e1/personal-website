@@ -6,7 +6,6 @@ tags = ["slice",  "structured",  "capacity",  "reference",  "length",  "zero",  
 +++
 
 
-# Creating a slice with make
 Slices can be created with the built-in `make` function; this is how you create dynamically-sized arrays.
 
 The `make` function allocates a zeroed array and returns a slice that refers to that array:

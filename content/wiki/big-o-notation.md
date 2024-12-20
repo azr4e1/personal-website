@@ -6,7 +6,6 @@ tags = ["computer_science",  "boot_dev",  "big_o",  "programming",  "algorithm",
 +++
 
 
-# Big O Notation
 
 There are lots of existing algorithms; some are fast and some are slow. Some use lots of memory. It can be hard to decide which algorithm is the best to solve a particular problem. "Big O" analysis (pronounced "Big Oh", not "Big Zero") is one way to compare algorithms.
 

@@ -6,7 +6,6 @@ tags = ["heap",  "for_the_love_of_go",  "programming",  "reference",  "pointer",
 +++
 
 
-# Interfaces in Go
 
 An _interface_ type is defined as a set of method signatures.
 

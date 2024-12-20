@@ -6,13 +6,12 @@ tags = ["deterministic",  "reducible",  "notation",  "algorithm",  "programming"
 +++
 
 
-# Recursive Sets
 
 A set of natural numbers is called computable, recursive, or decidable if there is an algorithm which takes a number as input, terminates after a finite amount of time (possibly depending on the given number) and correctly decides whether the number belongs to the set or not.
 
 A set which is not computable is called noncomputable or undecidable.
 
-## Formal definition
+# Formal definition
 
 A subset S of the natural numbers is called computable if there exists a total computable function (algorithm) f such that f(x) = 1 if x in S, and f(x) = 0 if x not in S.
 

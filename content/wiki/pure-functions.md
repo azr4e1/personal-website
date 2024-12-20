@@ -6,7 +6,6 @@ tags = ["declarative",  "computer_science",  "paradigm",  "boot_dev",  "programm
 +++
 
 
-# Pure Functions
 
 Pure functions are functions that:
 

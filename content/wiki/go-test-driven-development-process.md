@@ -6,7 +6,6 @@ tags = ["programming",  "golang",  "for_the_love_of_go",  "testing",  "developme
 +++
 
 
-# Go test driven development process
 1. Start by writing a test for the function (even though it doesn't exist yet)
 2. see the test fail with a compilation error because the function doesn't exist yet
 3. write the minimum code necessary to make the test compile and fail

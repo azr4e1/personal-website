@@ -6,7 +6,6 @@ tags = ["syntax",  "grammar",  "naur",  "code",  "form",  "backus",  "notation",
 +++
 
 
-# Backus Naur Form (BNF)
 BNF is a notation used to describe the syntax of programming languages or other formal languages.
 
 BNF can be described as a metasyntax notation for context-free grammars.

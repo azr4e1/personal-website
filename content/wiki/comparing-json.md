@@ -6,7 +6,6 @@ tags = ["marshalling",  "comparing",  "unit",  "computer_science",  "JSON",  "pr
 +++
 
 
-# Comparing JSON
 In tests, we usually want to compare JSON strings while ignoring differences due to whitespace. A good way to do this is to normalise them both, by unmarshalling them and then re-marshalling, eliminating any irrelevant whitespace.
 
 # References

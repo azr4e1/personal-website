@@ -6,7 +6,6 @@ tags = ["golang",  "for_the_love_of_go",  "heap",  "methods",  "stringers",  "pa
 +++
 
 
-# Stringers interface in Go
 One of the most common interfaces is `Stringer` defined by the `fmt` package:
 ```go
 type Stringer interface {

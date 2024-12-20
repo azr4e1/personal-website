@@ -6,7 +6,6 @@ tags = ["programming",  "loops",  "range",  "break",  "init",  "flow",  "assignm
 +++
 
 
-# Continue and Break in For loops in Go
 If we want to skip onto the next element in succession in a for loop, we can use the `continue` keyword:
 ```go
 for _, el := range employees {

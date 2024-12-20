@@ -6,7 +6,6 @@ tags = ["heap",  "snippet",  "for_the_love_of_go",  "programming",  "reference",
 +++
 
 
-# Readers in Go
 The `io` package specifies the `io.Reader` interface, which represents the read end of a stream of data.
 
 The Go standard library contains many implementations of this interface, including files, network connections, compressors, ciphers, and others.

@@ -6,7 +6,6 @@ tags = ["typing",  "computer_science",  "programming"]
 +++
 
 
-# Structural subtyping
 One way to categorize type systems is by whether they are **nominal**
 or **structural**:
 - in a nominal system, comparison between types are based on names and declarations; The Python type system is mostly nominal, where an int can be used in place of a float because of their subtype relationship.

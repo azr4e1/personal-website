@@ -6,7 +6,6 @@ tags = ["programming",  "function",  "signature",  "boot_dev"]
 +++
 
 
-# Function signature
 
 A function signature (or method signature) includes the name, inputs, and outputs of a function or method.
 

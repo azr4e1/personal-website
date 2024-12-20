@@ -6,7 +6,6 @@ tags = ["slice",  "array",  "type",  "data",  "append",  "structured",  "golang"
 +++
 
 
-# Go slices
 An array has a fixed size. A _slice_, on the other hand, is a dynamically-sized, flexible _view_ into the elements of an array.
 
 The type `[]T` is a slice with elements of type `T`

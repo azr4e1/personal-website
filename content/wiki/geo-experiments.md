@@ -6,7 +6,6 @@ tags = ["incrementality",  "experiments",  "segmentation",  "based",  "testing",
 +++
 
 
-# Geo experiments
 
 Marketing incrementality measurement is a method of assessing how much marketing activities or interventions contribute to the desired outcomes. It involves comparing the outcomes of a group that received marketing exposure, known as the treatment group, with those of a group that did not, known as the control group.
 
@@ -36,7 +35,6 @@ Another method similar to GeoX is “causal lift studies”. Instead of classify
 
 Both GeoX and causal lift studies are popular methods for measuring marketing incrementality, however, in this article, we will focus more on GeoX and how to work it in Python.
 
-# GeoX
 
 Now you know what is GeoX, it’s time to get our hands dirty and experiment with example data and Python script.
 
@@ -51,16 +49,13 @@ They collect data on how many customers buy AutoX from both groups. They use the
 They use a number called p-value and a rule called 95% confidence level to decide if the difference is real or not. This helps them know how good their marketing is in making customers buy AutoX.
 
 ```python
-# Generate fabricated data
 np.random.seed(42)
 
-# Treatment group data
 treatment_data = pd.DataFrame({
     'region': np.random.choice(['A', 'B', 'C'], size=100),
     'conversion': np.random.binomial(1, 0.2, size=100)
 })
 
-# Control group data
 control_data = pd.DataFrame({
     'region': np.random.choice(['D', 'E', 'F'], size=100),
     'conversion': np.random.binomial(1, 0.1, size=100)
@@ -76,19 +71,15 @@ control_conversion_rate = control_data['conversion'].mean()
 Then we calculate conversion rates for treatment and control groups.
 
 ```python
-# Perform t-test to determine statistical significance
 _, p_value = stats.ttest_ind(treatment_data['conversion'], control_data['conversion'], equal_var=False)
 
-# Determine confidence level
 confidence_level = 0.95
 
-# Check if the result is statistically significant
 if p_value < (1 - confidence_level):
     result_significance = "Statistically significant"
 else:
     result_significance = "Not statistically significant"
 
-# Determine which group performed better
 if treatment_conversion_rate > control_conversion_rate:
     better_group = "Treatment group"
 else:
@@ -99,7 +90,6 @@ With a predefined confidence level of 95%, the script checks if the p-value is l
 
 Furthermore, the script compares the conversion rates of the treatment and control groups to identify which group performed better. If the treatment group’s conversion rate is higher than the control group’s conversion rate, it will conclude that the treatment group performed better. Otherwise, it is stated that the control group performed better.
 
-# Interpretations
 
 ```
 Treatment Conversion Rate: 19.00%
@@ -158,7 +148,6 @@ print(f'Result significance: {result_significance}')
 print(f'{better_group} performed better.')
 ```
 
-# Conclusions
 
 Congratulations! You have gone through the tutorial and learned GeoX.
 

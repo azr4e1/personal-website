@@ -6,7 +6,6 @@ tags = ["working_tree",  "computer_science",  "repository",  "boot_dev",  "progr
 +++
 
 
-# Git basic plumbing
 
 All the data in a Git repository is stored directly in the (hidden) .git directory. That includes all the commits, branches, tags, and other objects we'll learn about later.
 

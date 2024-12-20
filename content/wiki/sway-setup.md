@@ -6,21 +6,20 @@ tags = ["sway",  "setup",  "scripts",  "workflow",  "idea"]
 +++
 
 
-# sway setup
 
-## Workflow
+# Workflow
 
 - [ ] lof: launch or focus; if provided with arguments, it will try to focus on it, otherwise it will launch it. Else it can list the available windows
 - [ ] passgo: password manager for cli in go
 - [ ] rofi + passgo
 
-## Email
+# Email
 
 - [ ] setup mbsync
 - [ ] setup notmuch
 - [ ] setup astroid
 
-## Music
+# Music
 
 - [ ] setup mpd (music player daemon)
 - [ ] find a graphical client for mpd

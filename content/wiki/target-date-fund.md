@@ -6,7 +6,6 @@ tags = ["goals",  "safety",  "metrics",  "investing",  "personal",  "retirement"
 +++
 
 
-# Target date fund
 A target date fund is _one_ [investment-fund](/wiki/investment-fund/), picked based on the year you're going to retire.
 
 E.g. if you're retiring in 2065, go and look for brokers that offer 2056 funds (Vanguard 2065, Fidelity 2065, etc).

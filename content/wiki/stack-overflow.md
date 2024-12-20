@@ -6,7 +6,6 @@ tags = ["overflow",  "stack",  "computer_science",  "programming",  "memory"]
 +++
 
 
-# Stack Overflow
 This is a phenomenon that happens when the call stack ([heap-and-stack](/wiki/heap-and-stack/)) of an application exceeds its set limits.
 
 A stack ([stack-data-structure](/wiki/stack-data-structure/)) is a data structure similar to a pile of books. The call stack contains

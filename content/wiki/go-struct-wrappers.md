@@ -6,7 +6,6 @@ tags = ["golang",  "types",  "methods",  "wrapper",  "non_local",  "programming"
 +++
 
 
-# Go struct wrappers
 When we create a new type from an existing one, the new type doesn't inherit the methods of the parent one.
 
 What we can do instead is a technique called _wrapping_: we create a `struct` where one of the fields is of the type we want to inherit from.

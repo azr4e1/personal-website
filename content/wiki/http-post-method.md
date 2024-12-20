@@ -6,7 +6,6 @@ tags = ["what",  "HTTP",  "post",  "code",  "get",  "exchange",  "methods",  "we
 +++
 
 
-# HTTP POST method
 The HTTP POST method sends data to the server. The type of the body of the request is indicated by the Content-Type header.
 
 The difference between PUT and POST is that PUT is idempotent: calling it once or several times successively has the same effect (that is no side effect), where successive identical POST may have additional effects, like passing an order several times.

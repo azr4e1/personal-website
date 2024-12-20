@@ -6,7 +6,6 @@ tags = ["google",  "analytics",  "sales",  "marketing",  "website",  "measuremen
 +++
 
 
-# What is web analytics
 Digital analytics is the process of collecting, measuring and analysing data from digital sources like websites apps. You can use this to improve your marketing and business decisions.
 
 Tools like Google Analytics empower these decisions.

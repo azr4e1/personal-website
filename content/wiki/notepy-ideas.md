@@ -6,7 +6,6 @@ tags = ["notepy",  "python",  "todo",  "development"]
 +++
 
 
-# Notepy ideas
 
 - [ ] Create tests!!!
 - [ ] Warning about formatting issues in notes should only belong in reindex
@@ -32,7 +31,7 @@ tags = ["notepy",  "python",  "todo",  "development"]
 - [x] Add a star when creating _next_ note to indicate the link to the next note
 - [x] support filename reference and full title reference for links
 
-## Plugins
+# Plugins
 - [ ] AI for categorisation and grouping of notes
 - [ ] AI for tag creation
 - [ ] AI for summarisation of notes

@@ -6,7 +6,6 @@ tags = ["boot_dev",  "history",  "commit",  "rebase",  "github",  "git_directory
 +++
 
 
-# Git rebase
 
 Say we have this commit history:
 

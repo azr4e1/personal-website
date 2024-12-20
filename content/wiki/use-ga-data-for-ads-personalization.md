@@ -6,7 +6,6 @@ tags = ["property",  "account",  "personalization",  "marketing",  "customers", 
 +++
 
 
-# Use GA data for ads personalization
 You may use digital advertising to help reach people online and drive conversions on your app and website. When you enable ads personalization in Analytics, for example by activating Google Signals, you gain the ability to use your Analytics audiences to personalize your digital ads, which can improve the performance of your campaigns.
 
 You can manage ad personalitation at property, country, even/user property or session level.

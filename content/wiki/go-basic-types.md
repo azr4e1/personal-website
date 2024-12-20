@@ -6,7 +6,6 @@ tags = ["rune",  "golang",  "int",  "basic",  "type",  "blocks",  "float",  "fac
 +++
 
 
-# Go basic types
 Go's basic types are
 
 ```go

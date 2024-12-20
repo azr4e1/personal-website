@@ -6,7 +6,6 @@ tags = ["first_class_citizens",  "values",  "signature",  "declare",  "variadic"
 +++
 
 
-# Closures in Go
 In Go, anonymous functions have something called _closure_.
 
 Anonymous functions defined inside the calling function can see all variables that are in scope in the function. This is referred to as a closure.

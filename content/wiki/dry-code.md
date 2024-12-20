@@ -6,7 +6,6 @@ tags = ["yourself",  "pattern",  "boot_dev",  "programming",  "clean",  "repeat"
 +++
 
 
-# Dry Code
 
 "Don't Repeat Yourself" (DRY). It just means that, when possible, you should avoid writing the same code in multiple places. Repeating code can be bad because:
 

@@ -6,7 +6,6 @@ tags = ["integrity",  "PKI",  "confidentiality",  "errors",  "authorisation",  "
 +++
 
 
-# Public Key Infrastructure
 
 When deploying a system that uses public key cryptography, determining how to trust and distribute public keys becomes a challenge that adds extra engineering complexity and costs to the system. A public key by itself contains no information; some format that contains any other required identity and metadata information needs to be specified.
 

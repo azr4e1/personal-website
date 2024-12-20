@@ -6,7 +6,6 @@ tags = ["web",  "transmission",  "handshake",  "protocol",  "reliable",  "networ
 +++
 
 
-# TCP handshake
 TCP protocol uses a three-way handshake to set up a TCP/IP connection over an IP based network.
 
 The three messages transmitted by TCP are: SYN, SYN-ACK, and ACK (synchronize, synchronize-acknowledgment and acknowledge). This is done so that the two computers that want to pass information back and forth to each other can negotiate the parameters of the connection before transmitting data such as HTTP browser requests.

@@ -6,12 +6,11 @@ tags = ["working_tree",  "computer_science",  "repository",  "boot_dev",  "progr
 +++
 
 
-# Git stage and commit
 
 `git add <file|pattern>` will add your files to the _index_
 or staging area. They will be tracked as staged.
 
-## Committing
+# Committing
 
 Once the files you want to save have been added to the
 index, you can commit them to the git directory with

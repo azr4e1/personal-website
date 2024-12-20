@@ -6,7 +6,6 @@ tags = ["turing",  "deterministic",  "machine",  "programming"]
 +++
 
 
-# Deterministic Turing Machine
 
 A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules.
 

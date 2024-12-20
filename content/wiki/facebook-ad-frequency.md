@@ -6,7 +6,6 @@ tags = ["fb",  "advertisement",  "ad",  "marketing",  "frequency",  "reach",  "f
 +++
 
 
-# Facebook Ad Frequency
 Ad frequency is the average number of times users see your ad.
 
 Facebook ads are interactive: users can sumbit ad feedback, and negative feedback will make an ad relevance score plummet. If an ad's relevance score is high (10 is highest), the ad is more likely to be served than other ads targeting the same audience, meaning lower CPM.

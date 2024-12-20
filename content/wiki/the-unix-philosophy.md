@@ -6,7 +6,6 @@ tags = ["computer_science",  "boot_dev",  "programming",  "unix",  "philosophy"]
 +++
 
 
-# The Unix philosophy
 
 The Unix Philosophy is a simple set of principles that have guided the development of Unix-like operating systems for decades. It can be summarized as:
 

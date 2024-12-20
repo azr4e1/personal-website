@@ -6,7 +6,6 @@ tags = ["programming",  "type",  "golang",  "zero",  "for_the_love_of_go",  "def
 +++
 
 
-# Zero values and default values in Go
 Variables that get declared but not assigned have a default value.
 
 That default value depends on the type of the variable.

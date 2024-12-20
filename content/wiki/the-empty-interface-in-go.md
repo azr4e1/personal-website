@@ -6,7 +6,6 @@ tags = ["nil",  "pointer",  "heap",  "interface",  "empty",  "pass_by",  "golang
 +++
 
 
-# The empty interface in Go
 The interface type that specifies zero methods is knows as the _empty interface_:
 ```go
 interface{}

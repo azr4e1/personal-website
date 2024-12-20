@@ -6,7 +6,6 @@ tags = ["ad",  "frequency",  "exposure",  "optimization",  "advertisement",  "ma
 +++
 
 
-# Ad Frequency in general
 Ad frequency is how many times a customer sees your ad on average [facebook-ad-frequency](/wiki/facebook-ad-frequency/). These may be different ads, but all related to the same product.
 
 In a meta-analysis by researchers Schmidt and Eisend (2015), it was found the in experimental settings maximum attitude is reached at aten exposures, while recall increases linearly and doesn't level off before the eigth exposure. In field settings this is probably higher.

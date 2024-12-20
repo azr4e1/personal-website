@@ -6,7 +6,6 @@ tags = ["nil",  "pointer",  "heap",  "interface",  "empty",  "assertion",  "pass
 +++
 
 
-# Type assertions in Go
 A type assertion provides access to an interface value's underlying concrete value.
 
 ```go

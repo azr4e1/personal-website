@@ -6,7 +6,6 @@ tags = ["data",  "function",  "memory",  "structure",  "search",  "computer_scie
 +++
 
 
-# Trie Data Structure
 
 At its core, a trie is often represented as a nested tree of dictionaries where each key is a character, and it maps to the next character in the word. For example, the words "hello", "help" and "hi" would be represented as:
 

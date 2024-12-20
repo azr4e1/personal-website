@@ -6,7 +6,6 @@ tags = ["working_tree",  "computer_science",  "boot_dev",  "programming",  "work
 +++
 
 
-# Git porcelain and plumbing
 
 In Git, commands are divided into high-level ("porcelain")
 commands and low-level ("plumbing") commands.

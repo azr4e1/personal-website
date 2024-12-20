@@ -6,7 +6,6 @@ tags = ["bayesian",  "tests",  "statistics",  "frequentist"]
 +++
 
 
-# Questions asked when performing stat. test
 An AB test is a test performed when we want to see if
 a change to a product will have an impact in terms of some key metric.
 

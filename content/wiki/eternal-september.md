@@ -6,7 +6,6 @@ tags = ["internet",  "usenet",  "eternal",  "slang",  "september"]
 +++
 
 
-# Eternal September
 Eternal September is a slang born from the Usenet days, when ISP started providing Internet and Usenet ([usenet](/wiki/usenet/)) access to many new users all of a sudden.
 
 Before, joining rate was low, and new users would learn and adapt to the cultural online conventions of the experienced users.

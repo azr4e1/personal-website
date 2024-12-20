@@ -6,7 +6,6 @@ tags = ["projects",  "gtk",  "python",  "libadwaita",  "linux",  "terminal",  "n
 +++
 
 
-# Projects
 - [ ] Dijkstra Algorithm
 - [ ] Crivello di Eratostene
 - [x] lof (launch or focus)

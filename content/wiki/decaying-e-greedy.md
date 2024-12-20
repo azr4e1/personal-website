@@ -6,7 +6,6 @@ tags = ["medium",  "exploration",  "exploitation",  "greedy",  "statistics",  "s
 +++
 
 
-# Decaying e-greedy
 
 In the exploration vs exploitation dilemma, we want to minimize the expected loss that arises when exploring alternatives from the current best choice.
 

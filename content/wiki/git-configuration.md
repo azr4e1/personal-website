@@ -6,7 +6,6 @@ tags = ["boot_dev",  "history",  "commit",  "github",  "git_directory",  "primea
 +++
 
 
-# Git configuration
 
 git has one global configuration, and one local (per repo) configuration. They way to set or retrieve config values is via
 
@@ -21,22 +20,18 @@ git config --add --global webflyx.ceo "ThePrimeagen"
 git config --add --global webflyx.cto "TheLaneagen"
 git config --add --global webflyx.evaluation "mid"
 
-# to view the config
 git config --list --local
 
-# to get a key
 git config --get <key>
 
-# remove a value
 git config --unset <key>
 
-# remove a section
 git config --remove-section <section>
 ```
 
 git configuration allows for duplicate keys. To operate on all duplicate keys, you can use the variants `get-all` and `unset-all`
 
-### Locations
+## Locations
 
 There are several locations where Git can be configured. From more general to more specific, they are:
 

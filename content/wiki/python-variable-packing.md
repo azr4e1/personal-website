@@ -6,7 +6,6 @@ tags = ["tricks",  "python",  "variable",  "tips",  "programming",  "packing"]
 +++
 
 
-# Python Variable Packing
 
 Variable packing minimises memory usage by grouping multiple data items into a single structure. This technique is critical in scenarios where memory access times significantly impact performance, such as in large-scale data processing. When related data is packed together, it allows for more efficient use of CPU cache, leading to faster data retrieval.
 
@@ -15,10 +14,8 @@ Example:
 ```python
 import struct
 
-# Packing two integers into a binary format
 packed_data = struct.pack('ii', 10, 20)
 
-# Unpacking the packed binary data
 a, b = struct.unpack('ii', packed_data)
 ```
 

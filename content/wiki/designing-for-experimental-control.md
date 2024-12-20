@@ -6,12 +6,11 @@ tags = ["statistics",  "designing_running_and_analyzing_experiments",  "week4", 
 +++
 
 
-# Designing for Experimental Control
 Experimental control means making sure that the situation so that we know that
 the things that we manipulate are responsible for the changes in the measures
 that we make, and not due to some other factors.
 
-## Example
+# Example
 Let's consider task completion time, very common study. In particular, authoring tools like sketching or programming tools.
 
 Let's consider the time it takes to write small programs in a language by an intro-to-programming students in different languages:

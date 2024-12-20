@@ -6,7 +6,6 @@ tags = ["analytics",  "sales",  "account",  "marketing",  "tag",  "data_stream",
 +++
 
 
-# Get to know the Predefined Reports of GA4
 Reports in GA:
 - Realtime report: displays user activity in the past 30 minutes.
 - Lifecycle reports: contains sections for acquisition, engagements and monetization.

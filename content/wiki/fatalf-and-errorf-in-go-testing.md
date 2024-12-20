@@ -6,7 +6,6 @@ tags = ["programming",  "testing",  "golang"]
 +++
 
 
-# Fatalf and Errorf in Go testing
 `testing.Fatalf` and `testing.Errorf` are two functions used in Go testing.
 
 These are used when we need to mark a test case as failed.

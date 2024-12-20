@@ -5,7 +5,6 @@ date = "2024-01-06T12:42:16"
 +++
 
 
-# Adguardhome Setup
 Create
 ```bash
 mkdir /srv/containers/adguard-home
@@ -35,7 +34,7 @@ services:
         image: adguard/adguardhome
 ```
 
-## Free Port 53
+# Free Port 53
 Before running this container, we need to make sure that port 53 is available. On Fedora Server, it is occupied by `systemd-resolved`.
 
 From https://hub.docker.com/r/adguard/adguardhome:
@@ -59,7 +58,7 @@ ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
 systemctl reload-or-restart systemd-resolved
 ```
 
-## Run Container
+# Run Container
 In `/srv/containers/adguard-home` run:
 ```bash
 docker-compose up -d

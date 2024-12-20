@@ -6,7 +6,6 @@ tags = ["web",  "transmission",  "handshake",  "protocol",  "reliable",  "networ
 +++
 
 
-# What is TCP
 TCP (Transmission Control Protocol) is an important network protocol that lets two hosts connect and exchange data streams. TCP guarantees the delivery of data and packets in the same order as they were sent.
 
 TCP is a reliable byte stream delivery service that guarantees that all bytes received will be identical and in the same order as those sent. Since packet transfer by many networks is not reliable, TCP achieves this using a technique known as positive acknowledgment with re-transmission. This requires the receiver to respond with an acknowledgment message as it receives the data. The sender keeps a record of each packet it sends and maintains a timer from when the packet was sent. The sender re-transmits a packet if the timer expires before receiving the acknowledgment. The timer is needed in case a packet gets lost or corrupted.
@@ -17,7 +16,7 @@ TCP protocol operations may be divided into three phases. Connection establishme
 
 A TCP connection is managed by an operating system through a resource that represents the local end-point for communications, the Internet socket [network-sockets](/wiki/network-sockets/).
 
-## Connection establishment
+# Connection establishment
 Before a client attempts to connect with a server, the server must first bind to and listen at a port to open it up for connections: this is called a passive open. Once the passive open is established, a client may establish a connection by initiating an active open using the three-way (or 3-step) handshake:
 
 1. SYN: The active open is performed by the client sending a SYN to the server. The client sets the segment's sequence number to a random value A.

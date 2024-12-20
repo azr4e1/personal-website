@@ -6,7 +6,6 @@ tags = ["distributions",  "statistics",  "theory",  "week4",  "designing_running
 +++
 
 
-# Probability Distributions
 Data can be distributed in many different ways.
 
 If we think of a chart where X axis is a score and Y axis some kind of frequency, a normal distribution would look like a bell - _Gaussian distribution_. The mean is at the peak, and the standard deviation is the spread.

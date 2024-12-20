@@ -6,7 +6,6 @@ tags = ["computer_science",  "programming",  "linux",  "inter_process_communicat
 +++
 
 
-# Network sockets in Golang
 Network sockets are used for communication between processes on different machines. They use network protocols, such as TCP and UDP. Network sockets are more versatile than Unix domain sockets, as they can be used to communicate with processes on any machine that is connected to the network. They are commonly used for client-server communication, such as web servers and client applications.
 
 In golang, network sockets are created using the `net.Dial` or `net.Listen` functions, with a network type such as `TCP` or `UDP`.

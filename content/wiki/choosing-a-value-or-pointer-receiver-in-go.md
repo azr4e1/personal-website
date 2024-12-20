@@ -6,7 +6,6 @@ tags = ["golang",  "stack",  "programming",  "reference",  "pass_by",  "heap",  
 +++
 
 
-# Choosing a value or pointer receiver in Go
 
 In Go, arguments are always passed by value. This means that values are always copied.
 

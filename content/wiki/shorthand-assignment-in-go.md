@@ -6,7 +6,6 @@ tags = ["programming",  "type",  "golang",  "zero",  "default",  "variables"]
 +++
 
 
-# Shorthand assignment in Go
 Go has a shorthand for both declaring and assigning a variable:
 ```go
 x := 1

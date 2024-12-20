@@ -6,7 +6,6 @@ tags = ["offline",  "target",  "line",  "advertising",  "marketing",  "online", 
 +++
 
 
-# Below the line marketing
 Below the line marketing, also known as BTL advertising, is a highly targeted strategy where products and services are promoted in media that diverges from the traditional mainstream options. Below the line marketing advertising systems include:
 
 - Direct mail and email campaigns

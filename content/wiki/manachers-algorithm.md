@@ -6,20 +6,19 @@ tags = ["space",  "time",  "string",  "palindrome",  "algorithm",  "complexity",
 +++
 
 
-# Manacher's algorithm
 
-## Approach
+# Approach
 
 Manacher's Algorithm is a powerful technique that allows us to find the longest palindromic substring in a given string in linear time. Here's a detailed breakdown of the algorithm's approach:
 
-### 1. String Transformation
+## 1. String Transformation
 
 We first transform the original string to simplify the algorithm. This transformation achieves two things:
 
 - It ensures that every potential center of a palindrome is surrounded by identical characters (#), which simplifies the process of expanding around a center.
 - It adds special characters ^ at the beginning and $ at the end of the string to avoid any boundary checks during the palindrome expansion. For instance, the string "babad" is transformed into "^#b#a#b#a#d#$".
 
-### 2. Initialization
+## 2. Initialization
 
 We maintain an array P with the same length as the transformed string. Each entry P[i] denotes the radius (half-length) of the palindrome centered at position i.
 
@@ -30,7 +29,7 @@ We also introduce two critical pointers:
 
 Both C and R start at the beginning of the string.
 
-### 3. Iterating Through the String
+## 3. Iterating Through the String
 
 For every character in the transformed string, we consider it as a potential center for a palindrome.
 
@@ -43,12 +42,12 @@ Starting from the current radius at position i (which might be derived from its 
 **c. Updating C and R:**
 If the palindrome centered at i extends beyond R, we update C to i and R to the new boundary.
 
-### 4. Extracting the Result
+## 4. Extracting the Result
 
 Once we've computed the palindromic radii for all positions in the transformed string, we find the position with the largest radius in P. This position represents the center of the longest palindromic substring. We then extract and return this palindrome from the original string.
 
 
-## Complexity
+# Complexity
 
 - Time complexity: O(n)O(n)O(n)
 Manacher's algorithm processes each character in the transformed string once, making the time complexity linear.

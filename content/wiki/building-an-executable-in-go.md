@@ -6,7 +6,6 @@ tags = ["package",  "cross_compilation",  "golang",  "go_tools",  "main",  "prog
 +++
 
 
-# Building an executable in Go
 We can run the `main` package with `go run main.go`.
 
 To build a binary, we can instead use `go build` inside our project folder.

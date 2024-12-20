@@ -6,7 +6,6 @@ tags = ["experiment",  "statistics",  "rlang",  "coursera",  "asymptotic",  "bin
 +++
 
 
-# Exact, Asymptotic and Binomial Tests
 The one sample chi-square test is an asymptotic test, which means it approximates the p-value, and works better with more samples (> 1000).
 
 We can use an exact test, more computational heavy, like the binomial. It still can be used for one sample proportion tests. We report it similarly to before, just saying the test was the binomial test.

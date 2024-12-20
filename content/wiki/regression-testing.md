@@ -6,7 +6,6 @@ tags = ["integration",  "coding",  "programming",  "testing",  "computer_science
 +++
 
 
-# Regression testing
 Regression testing is re-running functional and non-functional tests to ensure that previously developed and tested software still performs as expected after a change. If not, that would be called a regression.
 
 # References

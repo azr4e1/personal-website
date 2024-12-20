@@ -6,7 +6,6 @@ tags = ["programming",  "if",  "control",  "basics",  "statement",  "conditional
 +++
 
 
-# Compound if statements in Go
 It’s very common in Go to assign or compute the value of some variable, and then use an if statement to take some decision about it. So common, indeed, that Go provides a special form to make this easier. We can write the assignment statement after the if keyword, but before the condition, separated from it by a semicolon (;):
 ```go
 if _, ok := menu["eggs"]; ok {

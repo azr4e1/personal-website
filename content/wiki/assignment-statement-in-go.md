@@ -6,7 +6,6 @@ tags = ["basics",  "assignment",  "programming",  "golang",  "statement"]
 +++
 
 
-# Assignment statement in Go
 The following statement:
 ```go
 b = Book{Title: "The Making of a Butterfly"}
@@ -15,7 +14,7 @@ is an _assignment statement_: it assigns a literal value of the Book struct to a
 
 We can think of this as assigning labels to values; from now own, we can refer to that `Book` value via the name b, and everytime the name b occurs in the code, it will be translated to that `Book` value.
 
-## Short Variable Declaration
+# Short Variable Declaration
 It’s so common in Go to want to declare a variable and then assign a value to it that there’s actually a special syntax form to do just this: the short variable declaration.
 
 It looks like this:

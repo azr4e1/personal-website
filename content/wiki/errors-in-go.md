@@ -6,7 +6,6 @@ tags = ["pointer",  "errors",  "stack",  "for_the_love_of_go",  "interface",  "m
 +++
 
 
-# Errors in Go
 Go programs express error state with `error` values.
 
 The `error` type is a built-in interface similar to `fmt.Stringer`:

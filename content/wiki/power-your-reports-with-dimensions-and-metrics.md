@@ -6,7 +6,6 @@ tags = ["structure",  "reports",  "mobile",  "data_stream",  "firebase",  "ga4",
 +++
 
 
-# Power your Reports with Dimensions and Metrics
 With each interaction to your website or app, an event and parameters containing information about the interaction are sent to analytics. Events are user interactions with a website or app that can be measured, like a video view. An event could be when a user first opens your app, watches a video, or views a page on your website.
 
 Events are sent with additional data called event parameters. Event parameters add context to the event. Event parameters are additional pieces of information sent with events that can further specify an action the user took or add further context to the event, like the name of the video or how long the user watched it.

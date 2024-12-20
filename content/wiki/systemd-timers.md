@@ -6,13 +6,12 @@ tags = ["boot",  "linux",  "process",  "init",  "introduction",  "systemctl",  "
 +++
 
 
-# Systemd Timers
 Timers can trigger events at specified time intervals; they can trigger a
 script or program to run a specific amount of time after an event such as
 boot, startup, completion of previous task, or even the previous completion
 of the service unit called by the timer.
 
-## System maintenance timers
+# System maintenance timers
 When Fedora gets installed, it creates several timers that are part of the system maintenance procedures. These timers triggers are necessary for common maintenance tasks, such as updating system databases, cleaning up temporary files, etc
 
 To look at some of the timers, do
@@ -29,7 +28,7 @@ Each timer has at least six lines of information associated with it:
 - pointer to relevant documentation (optional)
 - journal entry for the most recent instance of the service triggered by the timer.
 
-## Create a timer
+# Create a timer
 Let's create our own service unit and a timer unit to trigger it.
 
 First let's create a simple service that runs something basic, such as `free`.
@@ -82,7 +81,7 @@ AccuracySec=1us
 
 Timers are started and enabled in the same way as other service files.
 
-## Timer Types
+# Timer Types
 systemd timers have capabilities not found in cron. A timer might be configured to trigger a specific elapsed time after system boot, after startup, or after a defined service unit activates. These are called _monotonic timers_. They are reset after each boot.
 
 Here's a list of timers
@@ -95,7 +94,7 @@ Here's a list of timers
 | OnStartupSec=      | X         | timer relative to when the service manager first starts                        |
 | OnCalendar=        |           | real-time (i.e., wall clock) timers with calendar event expressions.           |
 
-## Calendar event specifications
+# Calendar event specifications
 These are a key part of triggering timers at desired repetitive times.
 
 The basic format using `OnCalendar=` is `DOW YYYY-MM-DD HH:MM:SS`
@@ -122,7 +121,7 @@ Here some example
 | *-05~03/2                    | The third day from the end of the month in May and the again two days later. Repeats every year.       |
 | *-05-03/2                    | The third day of the month of May and then every second day for the rest of May. Repeats every year.   |
 
-## Test calendar specifications
+# Test calendar specifications
 To test calendar specifications, we can use `systemd-analyze calendar` to provide the normalized form used by `OnCalendar=`
 
 # References

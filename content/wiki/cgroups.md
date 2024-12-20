@@ -6,7 +6,6 @@ tags = ["virtualization",  "container",  "computer_science",  "virtual_machine",
 +++
 
 
-# cgroups
 A control group (cgroup) is a Linux kernel feature that limits, accounts for, and isolates the resource usage (CPU, memory, disk I/O, network, and so on) of a collection of processes. They provide the following features:
 
 - resource limits

@@ -6,9 +6,8 @@ tags = ["integrity",  "randomness",  "confidentiality",  "errors",  "authorisati
 +++
 
 
-# Memory, randomness and clock in secure systems
 
-## Memory
+# Memory
 
 Sensitive data will have to be loaded into memory.
 
@@ -24,13 +23,13 @@ Memory is a difficult attack surface to secure. It’s helpful to ask these foll
 - When it’s loaded in memory, who owns it? How long does it live in memory? What happens when it’s no longer used?
 - If the secrets lived on a virtual machine, how much trust can be placed in parties that have access to the host machine? Can other tenants (i.e. users of other virtual machines) find a way to access secrets? What happens when the machine is decomissioned?
 
-## Randomness
+# Randomness
 
 Cryptographic systems rely on sources of sufficiently random data. We want the data from these sources to be indistinguishable from ideally random data (a uniform distribution over the range of possible values). There has been historically a lot of confusion between the options available on Unix platforms, but the right answer  is to use `/dev/urandom`. Fortunately, `crypto/rand.Reader` in the Go standard library uses this on Unix systems.
 
 Ensuring the platform has sufficient randomness is another problem, which mainly comes down to ensuring that the kernel’s PRNG is properly seeded before being used for cryptographic purposes. This is a problem particularly with virtual machines, which may be duplicated elsewhere or start from a known or common seed. In this case, it might be useful to include additional sources of entropy in the kernel’s PRNG, such as a hardware RNG that writes to the kernel’s PRNG. The host machine may also have access to the PRNG via disk or memory allowing its observation by the host, which must be considered as well.
 
-## Time
+# Time
 
 Some protocols rely on clocks being synced between peers. This has historically been a challenging problem.
 

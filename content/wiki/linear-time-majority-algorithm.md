@@ -6,7 +6,6 @@ tags = ["linear",  "golang",  "algorithm",  "programming",  "sequence",  "comput
 +++
 
 
-# Linear Time Majority Algorithm
 Given an array of length n, calculate the majority element, which is the element which appears `>= n/2 + 1`, with time complexity O(n) and space complexity of O(1)
 
 We will sweep down the sequence starting at the pointer position shown above.

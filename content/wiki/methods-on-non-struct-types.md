@@ -6,7 +6,6 @@ tags = ["non_local",  "golang",  "methods",  "programming",  "types",  "receiver
 +++
 
 
-# Methods on non struct-types
 Methods are functions with a receiver parameter
 
 The receiver doesn't need to be a struct. We can declare methods on non-struct types too.

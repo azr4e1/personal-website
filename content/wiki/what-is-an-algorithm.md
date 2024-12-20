@@ -6,7 +6,6 @@ tags = ["boot_dev",  "algorithm",  "computer_science",  "programming"]
 +++
 
 
-# What is an algorithm
 
 An algorithm is a finite sequence of well-defined, computer-implementable instructions. Algorithms are always unambiguous and are used as specifications for real world implementations.
 

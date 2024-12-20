@@ -6,7 +6,6 @@ tags = ["medium",  "exploration",  "exploitation",  "greedy",  "statistics",  "s
 +++
 
 
-# Comparing stategies
 
 When it comes to strategies we can adopt to determine when to choose the current optimal choice or to explore for more potentially better choices by selecting a different action, we cannot really draw general comparisons.
 

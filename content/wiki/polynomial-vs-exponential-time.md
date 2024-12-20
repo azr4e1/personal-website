@@ -6,7 +6,6 @@ tags = ["computer_science",  "algorithm",  "notation",  "programming",  "boot_de
 +++
 
 
-# Polynomial VS Exponential time
 
 Broadly speaking, algorithms can be classified into two categories:
 

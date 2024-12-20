@@ -6,7 +6,6 @@ tags = ["target",  "vanguard",  "bonds",  "investment",  "stocks",  "market",  "
 +++
 
 
-# Investment fund
 A fund is a basket of stocks and bonds. A fund owns bits of lots of companies like Microsoft, Apple and Tesla.
 
 A fund allows an investor to diversify their portfolio very easily.

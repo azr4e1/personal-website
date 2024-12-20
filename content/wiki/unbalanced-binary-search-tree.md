@@ -6,7 +6,6 @@ tags = ["memory",  "unbalanced",  "linked",  "programming",  "bst",  "search",  
 +++
 
 
-# Unbalanced Binary Search Tree
 
 While it's true that on average a BST has O(log(n)) lookups, deletions, and insertions, that fundamental benefit can break down quickly.
 

@@ -6,7 +6,6 @@ tags = ["remedy",  "populism",  "dissent",  "violence",  "edmund",  "wise",  "de
 +++
 
 
-# Edmund Burke and the role of parliament in popular complaints
 According to 1768 UK MP Edmund Burke, representatives should be trustees, not delegates - they should be free to act according to their own judgement rather than bend to popular pressures.
 
 However, parliaments should never disregard protests as unreasoned, unenlightened or excessive. The job of the parliament as a representative institution is to study and remedy popular complaints rather than dismiss them. Even violent protesters never forfeited their right to representation.

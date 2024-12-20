@@ -6,7 +6,6 @@ tags = ["installation",  "fedora",  "setup",  "server",  "homelab",  "os"]
 +++
 
 
-# Fedora Server setup
 Create a bootable stick using a spare USB stick. Plug it in, unmount it and run
 ```bash
 dd if=fedora_server_iso_location of=/dev/sdb status=progress
@@ -61,13 +60,9 @@ nmcli con mod DEVICE connection.autoconnect yes
 Let's now install Docker so that we can run all our services
 ```bash
 dnf -y install dnf-plugins-core
-# setup docker repos
 dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
-# install docker engine
 dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-# start docker
 systemctl enable --now docker
-# verify it's running correctly
 docker run hello-world
 ```
 

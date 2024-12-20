@@ -6,7 +6,6 @@ tags = ["marketing",  "ads",  "the",  "advertising",  "atl",  "online",  "above"
 +++
 
 
-# Above the line marketing
 Above the line marketing, also called ATL advertising, is a less focused marketing technique that reaes a larger/wider targer audience. This is a more old-school approach that boosts brand awareness. ATL advertsiting strategies include:
 
 - Television

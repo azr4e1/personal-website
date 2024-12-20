@@ -6,7 +6,6 @@ tags = ["rate",  "balance",  "annual",  "growth",  "return",  "investment",  "fi
 +++
 
 
-# CAGR
 
 The compound annual growth rate is the rate of return that an investment would need to have every year in order to grow from its beginning balance to its ending balance, over a given time interval. The CAGR assumes that any profits were reinvested at the end of each period of the investment’s life span.
 
@@ -16,7 +15,7 @@ The compound annual growth rate is the rate of return that an investment would n
 - CAGR is thus a good way to evaluate how different investments have performed over time, or against a benchmark.
 - The CAGR does not, however, reflect investment risk.
 
-## Formula
+# Formula
 
 ```
 CAGR = ((EV/BV)^(1/n) - 1) * 100

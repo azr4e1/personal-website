@@ -6,7 +6,6 @@ tags = ["computer_science",  "boot_dev",  "programming",  "github",  "git",  "pr
 +++
 
 
-# Git tips and uses
 
 Git is the distributed version control system (VCS). Nearly every developer in the world uses it to manage their code. It has quite a monopoly on VCS. Developers use Git to:
 
@@ -16,7 +15,7 @@ Git is the distributed version control system (VCS). Nearly every developer in t
 - Make backups of their code
 - And much more
 
-## Basics
+# Basics
 
 The major difference between Git and any other VCS (Subversion and friends included) is the way
 Git thinks about its data. Conceptually, most other systems store information as a list of file-based

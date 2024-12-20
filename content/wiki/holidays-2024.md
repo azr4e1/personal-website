@@ -6,9 +6,8 @@ tags = ["holidays",  "bank",  "vacation"]
 +++
 
 
-# Holidays 2024
 
-## Bank Holidays
+# Bank Holidays
 - 29 March (Friday)
 - 1 April (Monday)
 - 6 May (Monday)
@@ -17,7 +16,7 @@ tags = ["holidays",  "bank",  "vacation"]
 - 25 December (Wednesday)
 - 26 December (Thursday)
 
-## Planned Holidays
+# Planned Holidays
 1. 29 March - 1 April
 2. 4 - 8 May
 3. 20 June - 7 July

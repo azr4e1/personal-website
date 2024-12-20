@@ -6,7 +6,6 @@ tags = ["what",  "HTTP",  "code",  "get",  "post",  "web",  "methods",  "protoco
 +++
 
 
-# HTTP methods
 HTTP defines a set of request methods to indicate the desired action to be performed for a given resource. They are also referred to as _nouns_. A request method can be _safe_, _idempotent_, or _cacheable_.
 
 - GET: this method request a representation of the specified resource. Requests using GET should only retrieve data.

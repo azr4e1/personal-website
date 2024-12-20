@@ -6,7 +6,6 @@ tags = ["type",  "generics",  "parameters",  "golang",  "type_theory",  "compara
 +++
 
 
-# Generic type parameters in Go
 Go functions can be written to work on multiple types using type parameters. The type parameters of a function appear between brackets, before the function's argument:
 ```go
 func Index[T comparable](s []T, x T) int

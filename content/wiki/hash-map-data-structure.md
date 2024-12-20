@@ -6,7 +6,6 @@ tags = ["boot_dev",  "search",  "data",  "structure",  "memory",  "programming",
 +++
 
 
-# Hash Map Data Structure
 
 A hash map or hash table is a structure that maps keys to values. A hash table uses a hash function to compute an index into an array of buckets, from which the desired value can be found. During lookup, the key is hashed and the resulting hash indicates where the corresponding value is stored. A key must be hashable in order to be a key in a hashmap.
 

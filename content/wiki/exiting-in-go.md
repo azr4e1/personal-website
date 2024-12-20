@@ -6,7 +6,6 @@ tags = ["package",  "golang",  "main",  "go_tools",  "code",  "panic",  "program
 +++
 
 
-# Exiting in Go
 A Go program automatically exits once it reaches the end of `main`. If we want to exit before that, we can use the `os.Exit` function.
 
 We need to pass it a parameter called the `exit code`, which is just a number. Conventionally, a zero exit status indicates that everything's fine, while non-zero means some error occurred.

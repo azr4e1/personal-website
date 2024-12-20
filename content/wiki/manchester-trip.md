@@ -6,6 +6,5 @@ tags = ["manchester",  "holidays",  "things_to_do",  "trip"]
 +++
 
 
-# Manchester Trip
 
 # References

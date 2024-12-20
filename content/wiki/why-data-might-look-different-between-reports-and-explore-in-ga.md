@@ -6,7 +6,6 @@ tags = ["sales",  "google",  "property",  "tag",  "data_stream",  "data",  "stru
 +++
 
 
-# Why data might look different between Reports and Explore in GA
 Usually, you should find the same data in both Reports and Explorations. But sometimes you may notice differences in the data shown in each area. Here are a few reasons why:
 
 - Metrics and dimensions: Some metrics and dimensions available in Reports aren't supported in Explore.

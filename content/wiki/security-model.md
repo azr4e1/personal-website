@@ -6,7 +6,6 @@ tags = ["confidentiality",  "basics",  "integrity",  "auditing",  "authorisation
 +++
 
 
-# Security Model
 
 One of the key steps in designing a secure system is building a security model.
 

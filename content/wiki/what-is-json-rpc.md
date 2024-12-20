@@ -6,7 +6,6 @@ tags = ["calling",  "computer_science",  "stub",  "sub_routing",  "remote_proced
 +++
 
 
-# What is JSON-RPC
 JSON-RPC is a remote procedure call (RPC) protocol encoded in JSON.
 
 JSON-RPC allows for notifications (data sent to the server that does not require a response) and for multiple calls to be sent to the server which may be answered asynchronously.

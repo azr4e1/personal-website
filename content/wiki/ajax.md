@@ -5,7 +5,6 @@ date = "2024-01-18T12:56:18"
 +++
 
 
-# Ajax
 Ajax stands for _Asynchronous Javascript and XML_.
 
 It is a set of web development principles to build more responsive websites and applications. AJAX allows web pages to update content without users having to reload the page.
@@ -24,7 +23,7 @@ JavaScript and Extensible Markup Language work together under AJAX to ensure the
 |The browser receives the data from the server and reloads it as an HTML page. Users have to wait until it finishes loading. Therefore, the conventional model increases the load on the server and is more time-consuming.	| The browser uses JavaScript to process the response and displays the updated content directly on the HTML page without reloading.|
 
 
-## Example
+# Example
 A classic example is the Google's autocomplete feature. This feature offers keyword suggestions, helping users complete their search query when typing into the search bar. The changes happen in real-time, but the web page remains the same.
 
 # References

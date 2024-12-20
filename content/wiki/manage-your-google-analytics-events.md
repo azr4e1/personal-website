@@ -6,7 +6,6 @@ tags = ["analytics",  "sales",  "account",  "marketing",  "tag",  "data_stream",
 +++
 
 
-# Manage your Google Analytics Events
 Google Analytics collects and stores user interactions with your website or your app as events.
 
 Event parameters are collected as well, which give additional information with each event

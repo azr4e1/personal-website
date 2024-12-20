@@ -6,7 +6,6 @@ tags = ["retirement",  "safety",  "finance",  "metrics",  "pension",  "goals",  
 +++
 
 
-# How to get a rich life
   Spend extravagantly on the things that you love, but cut mercilessly on the things that you don't love.
 
 In order to craft your rich life, you need to track your [key-metrics-for-personal-finance](/wiki/key-metrics-for-personal-finance/). You need to be able to tell very specifically what your rich life looks like, e.g. you want to travel six weeks a year, you want to own a yacht, you want to stay in a hotels, etc. And from there adjust your metrics based on this goals.

@@ -6,7 +6,6 @@ tags = ["boot_dev",  "big_o",  "programming",  "algorithm",  "computer_science",
 +++
 
 
-# Big O summary
 
 | Big-O | Name | Description |
 |-------|------|-------------|

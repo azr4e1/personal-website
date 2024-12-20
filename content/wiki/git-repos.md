@@ -6,7 +6,6 @@ tags = ["working_tree",  "computer_science",  "repository",  "boot_dev",  "progr
 +++
 
 
-# Git repos
 
 The very first step of any project is to create a
 repository. A Git "repository" (or "repo") represents a

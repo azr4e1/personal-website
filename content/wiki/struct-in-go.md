@@ -6,7 +6,6 @@ tags = ["structured",  "data",  "go",  "type"]
 +++
 
 
-# Struct in Go
 A `struct` in Go is a structured data type: something that contains multiple different bits of information, united into a single record.
 
 A `struct` is a colection of fields.

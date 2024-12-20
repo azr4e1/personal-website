@@ -6,7 +6,6 @@ tags = ["computer_science",  "programming",  "linux",  "inter_process_communicat
 +++
 
 
-# Unix Domain Sockets
 A Unix Domain socket (UDS) or IPC socket (inter-process communication) is a data communication endpoint for exchanging data between processes executing on the same host operating system. It is also referred by its address family `AF_UNIX`
 
 Differently from TCP/IP sockets, a UDS operates on a single machine. Listening sockets live in the filesystem hierarchy and access to them can be controlled by filesystem permission.

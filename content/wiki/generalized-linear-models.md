@@ -6,7 +6,6 @@ tags = ["designing_running_and_analyzing_experiments",  "logit",  "experiment", 
 +++
 
 
-# Generalized Linear Models
 A few facts about GLM:
 - Nominal logistic regression is also called multinomial logistic regression. This has a multinomial distribution with logit link function
 - Ordinal Logistic regression for Likert responses has a multinomial distribution with cumulative logit link function

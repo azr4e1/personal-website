@@ -6,7 +6,6 @@ tags = ["working_tree",  "computer_science",  "boot_dev",  "programming",  "stat
 +++
 
 
-# Git states
 Git has three main states that your files can reside in:
 modified, staged, and committed:
 

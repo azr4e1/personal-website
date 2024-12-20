@@ -6,7 +6,6 @@ tags = ["integrity",  "PKI",  "confidentiality",  "errors",  "authorisation",  "
 +++
 
 
-# Data lifetimes
 
 Normally when we send encrypted messages, we prefer to do so using ephemeral message keys that are erased when communication is complete. This means that a message can’t be decrypted later using the same key it was encrypted with; while this is good for security, it means the burden of figuring out how to store messages (if that is a requirement) falls on the system. Some systems, such as Pond (https://pond.imperialviolet.org/), enforce a week lifetime for messages. This forced erasure of messages is considered the social norm; such factors will have to play into decisions about how to store decrypted messages and how long to store them.
 

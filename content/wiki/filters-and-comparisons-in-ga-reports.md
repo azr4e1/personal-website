@@ -6,7 +6,6 @@ tags = ["sales",  "google",  "property",  "tag",  "data_stream",  "data",  "stru
 +++
 
 
-# Filters and Comparisons in GA reports
 You can apply filters to detail reports, custom detail reports, the realtime report and summary cards.
 
 Click the add filter at the top of the report. This will give you the option to choose data to include or exclude. When you're choosing a dimension, only dimensions that have dimension values appear in the list. Google Analytics will gray out a dimension if it's incompatible with other dimensions in a report.

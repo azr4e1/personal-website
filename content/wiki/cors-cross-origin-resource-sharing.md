@@ -6,13 +6,12 @@ tags = ["computer_science",  "programming",  "CORS",  "cross_origin_resource_sha
 +++
 
 
-# CORS Cross-Origin Resource Sharing
 
 Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. CORS also relies on a mechanism by which browsers make a "preflight" request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request.
 
 For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts. For example, fetch() and XMLHttpRequest follow the same-origin policy. This means that a web application using those APIs can only request resources from the same origin the application was loaded from unless the response from other origins includes the right CORS headers.
 
-## Problem
+# Problem
 
 The key problem is how implicit credentials are handled in the web. In the past browsers made the disastrous decision that these credentials could be included in cross-origin requests. This opened up the following attack vector.
 
@@ -32,7 +31,7 @@ Every single site that uses cookies needs to explicitly handle it to avoid this 
 
 The key defence against these cross-site attacks is ensuring that implicit credentials are not inappropriately used. It is best to start by ignoring all implicit credentials on cross-site requests, then you can add specific exceptions as required.
 
-## Solution
+# Solution
 
 The best solution is to set up server-wide middleware that ignores implicit credentials on all cross-origin requests. This example strips cookies, if you use HTTP Authentication or TLS client certificates be sure to ignore those too. Thankfully the Sec-Fetch-* headers are now available on all modern browsers. This makes cross-site requests easy to identify.
 

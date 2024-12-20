@@ -6,7 +6,6 @@ tags = ["boot_dev",  "history",  "commit",  "github",  "git_directory",  "primea
 +++
 
 
-# Git fast-forward merge
 
 The simplest type of merge is a fast-forward merge. Let's say we start with this:
 

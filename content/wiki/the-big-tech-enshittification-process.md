@@ -6,7 +6,6 @@ tags = ["though",  "big",  "product",  "article",  "tech",  "wise",  "enshittifi
 +++
 
 
-# The Big Tech enshittification process
 Enshittification is a three stage process:
 
 1. Surpluses are allocated to users until they are locked in

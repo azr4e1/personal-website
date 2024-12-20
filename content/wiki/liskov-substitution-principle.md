@@ -6,7 +6,6 @@ tags = ["substitution",  "typing",  "subclass",  "computer_science",  "programmi
 +++
 
 
-# Liskov substitution principle
 A superclass should be _replaceable_ with objects of its _subclasses_ without affecting the correctness of the program.
 
 A subclass can stand in for its parent class.

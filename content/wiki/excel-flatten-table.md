@@ -6,7 +6,6 @@ tags = ["microsoft",  "excel",  "table",  "office",  "formula",  "snippets"]
 +++
 
 
-# Excel flatten table
 Flatten 2D table into 1D array, where:
 - A1 is upper left corner
 - B2 is lower right corner

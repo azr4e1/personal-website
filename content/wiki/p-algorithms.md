@@ -6,7 +6,6 @@ tags = ["computer_science",  "algorithm",  "notation",  "programming",  "boot_de
 +++
 
 
-# P algorithms
 
 P algorithms is the class of algorithms that run in polynomial time.
 

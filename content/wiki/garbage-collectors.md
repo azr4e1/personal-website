@@ -6,7 +6,6 @@ tags = ["memory",  "programming",  "heap",  "computer_science"]
 +++
 
 
-# Garbage collectors
 A garbage collector is a routine in many programming languages
 whose purpose is to free up space in the heap.
 

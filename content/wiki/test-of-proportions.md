@@ -6,7 +6,6 @@ tags = ["experiment",  "statistics",  "rlang",  "coursera",  "week2",  "design",
 +++
 
 
-# Test of Proportions
 A test of proportion is looking at proportions of responses.
 
 example: two versions of website A/B; 60 partecipants (stakeholders), haven't seen website before. After 20 mins of free exploration, they give preference on A or B.

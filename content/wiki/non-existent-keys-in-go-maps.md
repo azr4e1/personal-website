@@ -6,7 +6,6 @@ tags = ["nil",  "programming",  "golang",  "struct",  "map",  "element"]
 +++
 
 
-# Non-existent keys in Go maps
 In Go maps, looking up a non-existent key doesn't cause an error; instead, it returns the zero value ([zero-values-and-default-values-in-go](/wiki/zero-values-and-default-values-in-go/)) of the element type.
 
 # References

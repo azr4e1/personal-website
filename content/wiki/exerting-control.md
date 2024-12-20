@@ -6,7 +6,6 @@ tags = ["statistics",  "week4",  "designing_running_and_analyzing_experiments", 
 +++
 
 
-# Exerting control
 How can we make sure we have experimental control in a study?
 
 If something in a study threatens to change the results, we can

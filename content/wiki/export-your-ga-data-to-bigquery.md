@@ -6,7 +6,6 @@ tags = ["segment",  "sql",  "conversions",  "website",  "sequence",  "account", 
 +++
 
 
-# Export your GA data to BigQuery
 BigQuery is a server-less, cost-effective, multicloud data warehouse designed to help you manage and analyze data with built-in features like machine learning, geospatial analysis, and business intelligence.
 
 BigQuery lets you run SQL queries to answer your organization's biggest questions with zero infrastructure management.

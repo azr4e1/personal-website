@@ -6,7 +6,6 @@ tags = ["designing_running_and_analyzing_experiments",  "week9",  "experiment", 
 +++
 
 
-# Analysis of a Linear Mixed Model
 
 The following data is used to run an example analysis of a linear mixed model,
 where the random effect is Subject, and Trial is nested in Keyboard and Posture.
@@ -21,10 +20,8 @@ where the random effect is Subject, and Trial is nested in Keyboard and Posture.
 |       1 |   iPhone |     Sit |             1 |      5| 22.58 |        0.05|
 
 ```R
-## Linear Mixed Model (LMM) on WPM
+# Linear Mixed Model (LMM) on WPM
 
-# read in data file of smartphone text entry by 24 people, but now
-# it has every single trial performed, not averaged over trials.
 mbltxttrials = read.csv("mbltxttrials.csv")
 View(mbltxttrials)
 mbltxttrials$Subject = factor(mbltxttrials$Subject) # convert to nominal factor
@@ -34,12 +31,10 @@ mbltxttrials$Posture_Order = factor(mbltxttrials$Posture_Order) # convert to nom
 mbltxttrials$Trial = factor(mbltxttrials$Trial) # convert to nominal factor
 summary(mbltxttrials)
 
-# explore the WPM data
 library(plyr)
 ddply(mbltxttrials, ~ Keyboard * Posture, function(data) summary(data$WPM))
 ddply(mbltxttrials, ~ Keyboard * Posture, summarise, WPM.mean=mean(WPM), WPM.sd=sd(WPM))
 
-# histograms for two factors
 hist(mbltxttrials[mbltxttrials$Keyboard == "iPhone" & mbltxttrials$Posture == "Sit",]$WPM)
 hist(mbltxttrials[mbltxttrials$Keyboard == "iPhone" & mbltxttrials$Posture == "Stand",]$WPM)
 hist(mbltxttrials[mbltxttrials$Keyboard == "iPhone" & mbltxttrials$Posture == "Walk",]$WPM)
@@ -49,41 +44,25 @@ hist(mbltxttrials[mbltxttrials$Keyboard == "Galaxy" & mbltxttrials$Posture == "W
 boxplot(WPM ~ Keyboard * Posture, data=mbltxttrials, xlab="Keyboard.Posture", ylab="WPM") # boxplots
 with(mbltxttrials, interaction.plot(Posture, Keyboard, WPM, ylim=c(0, max(mbltxttrials$WPM)))) # interaction?
 
-# libraries for LMMs we'll use on WPM
 library(lme4) # for lmer
 library(lmerTest)
 library(car) # for Anova
 
-# set sum-to-zero contrasts for the Anova calls
 contrasts(mbltxttrials$Keyboard) <- "contr.sum"
 contrasts(mbltxttrials$Posture) <- "contr.sum"
 contrasts(mbltxttrials$Posture_Order) <- "contr.sum"
 contrasts(mbltxttrials$Trial) <- "contr.sum"
 
-# LMM order effect test
-# Keyboard, Posture_Order, Keyboard:Posture_Order
-# and Trial are all fixed effects. Trial is nested
-# within Keyboard, Posture_Order. Subject is a
-# random effect.
 m = lmer(WPM ~ (Keyboard * Posture_Order)/Trial + (1|Subject), data=mbltxttrials)
 Anova(m, type=3, test.statistic="F")
 
-# main LMM test on WPM
-# Keyboard, Posture, Keyboard:Posture and Trial are
-# all fixed effects. Trial is nested within
-# Keyboard, Posture. Subject is a random effect.
 m = lmer(WPM ~ (Keyboard * Posture)/Trial  + (1|Subject), data=mbltxttrials)
 Anova(m, type=3, test.statistic="F")
 
-# we should consider Trial to be a random effect and we obtain
-# almost exactly the same results, but takes longer to run.
-# NOTE: the syntax in the Coursera video was incorrect for this
-# and has been corrected here.
 #m = lmer(WPM ~ (Keyboard * Posture)/(1|Trial) + (1|Subject), data=mbltxttrials)  # incorrect in video
 m = lmer(WPM ~ Keyboard * Posture + (1|Keyboard:Posture:Trial) + (1|Subject), data=mbltxttrials) # new, correct
 Anova(m, type=3, test.statistic="F")
 
-# perform post hoc pairwise comparisons
 library(multcomp) # for glht
 library(emmeans) # for emm
 summary(glht(m, emm(pairwise ~ Keyboard * Posture)), test=adjusted(type="holm"))

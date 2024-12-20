@@ -6,11 +6,10 @@ tags = ["computer_science",  "algorithm",  "notation",  "sorting",  "binary_sear
 +++
 
 
-# selection sort algorithm
 
 It's similar to bubble sort in that it works by repeatedly swapping items in a list. However, it's slightly more efficient than bubble sort because it only makes one swap per iteration.
 
-## Pseudocode
+# Pseudocode
 
 1. For each index:
   1. Set smallest_idx to the current index

@@ -6,7 +6,6 @@ tags = ["authentication",  "integrity",  "cryptography",  "basics",  "authorisat
 +++
 
 
-# Authorisation
 
 Authorisation asks the question, “should you be doing this?” Authorisation relies on an access control mechanism of some kind. This might be as simple as an access control list, where the system has a list of parties that should have access to a resource or should be allowed to perform some operation. The Unix security model uses a set of access control lists for reading, writing, and executing by the owner, the group the resource belongs to, and the world. It employs “discretionary access control”: a user can explicitly change the values of those access control lists, giving other users and groups permission at their discretion. A mandatory access control model (such as provided by SELinux or AppArmor) operates on security levels or labels; each label is given a set of capabilities. Users or processes are given a label or security level, and they can only operate within the confines of the permitted capabilities.
 

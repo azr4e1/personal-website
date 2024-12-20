@@ -5,7 +5,6 @@ date = "2024-01-22T12:55:34"
 +++
 
 
-# Attribution modeling in GA
 Attribution is the act of assigning credit for conversions to different ads, clicks, and factors along a user's path to completing a conversion. An attribution model can be a rule, a set of rules, or a data-driven algorithm that determines how credit for conversions is assigned to touchpoints on conversion paths.
 
 Cross-channel models:

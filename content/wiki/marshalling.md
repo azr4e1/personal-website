@@ -6,7 +6,6 @@ tags = ["persistent",  "data",  "storage",  "marshalling",  "programming",  "for
 +++
 
 
-# Marshalling
 Marshalling in computer science is the process of putting our data into a format that can exist outside a program. The inverse operation is called _unmarshalling_.
 
 More formally (from Wikipedia):

@@ -6,7 +6,6 @@ tags = ["statistics",  "designing_running_and_analyzing_experiments",  "week3", 
 +++
 
 
-# Measurement errors
 
 A measurement error is the random noise in the measurement we are taking. This is also the variation in things
 that happen naturally.

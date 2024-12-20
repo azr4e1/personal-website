@@ -6,31 +6,20 @@ tags = ["statistics",  "experiment",  "rlang",  "coursera",  "t_test",  "design"
 +++
 
 
-# Independent Samples T-Test
 
 When the experiment is between-samples, that means
 the levels are independent and we use an independent
 samples t-test.
 
 ```r
-# independent-samples t-test
 t.test(Pages ~ Site, data=pgviews, var.equal=TRUE)
 
-#         Two Sample t-test
 #
-# data:  Pages by Site
-# t = -7.2083, df = 498, p-value = 2.115e-12
-# alternative hypothesis: true difference in means between group A and group B is not equal to 0
-# 95 percent confidence interval:
-#  -1.3821544 -0.7900745
-# sample estimates:
-# mean in group A mean in group B
-#        3.404082        4.490196
 ```
 
 This is a parametric test.
 
-## Report the test
+# Report the test
 How do we report this test?
 
 ```latex

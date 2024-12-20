@@ -6,7 +6,6 @@ tags = ["statistics",  "between_subjects",  "theory",  "designing_running_and_an
 +++
 
 
-# Introduction to Generalized Linear Models
 ANOVA fall in the category of _linear models_ (LM).
 
 There is a generalization of linear models called __GLM__ (Generalized Linear Models).

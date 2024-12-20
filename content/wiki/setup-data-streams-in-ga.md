@@ -6,7 +6,6 @@ tags = ["structure",  "google",  "firebase",  "mobile",  "property",  "website",
 +++
 
 
-# Setup data streams in GA
 GA is a web analytics platform that allows you to collect and analyse data about websites and mobile apps interactions with your customer base
 
 To connect a website to GA, you'll need tags (snippets of JS code) embedded in the HTML. For a mobile app, you'll need to use the Firebase SDK
@@ -15,7 +14,7 @@ A GA Account is made of properties and data streams.
 
 Let's assume we've already created an account and a property in GA.
 
-## Web data stream
+# Web data stream
 To tag your website you'll first navigate to the data stream's creation screen,
 choose web, and then enter your website URL. This will generate a measurement
 ID and website tags specifically for your website.
@@ -25,13 +24,13 @@ To add this tag to your website's code, you have a few options:
 - Manually add your Google tag to your website's code
 - Provide your measurement ID or Google tag to your website builder
 
-### Website builder
+## Website builder
 If you are using a website
 builder or a CMS system, you should copy the measurement ID and paste it into
 your website builder account. You can select your website builder to view
 instructions on how to add the measurement ID to your website.
 
-### Google Tag Manager
+## Google Tag Manager
 If you do not use a website builder, you'll need to install the Google tag on
 your website. There are two options to choose from. The first option is to use
 Google Tag Manager to install the tag. Google Tag Manager allows you to install
@@ -40,7 +39,7 @@ account's interface instead of having to go back and edit the code itself. In
 addition, Tag Manager serves as a central place to manage and update all of
 your marketing and website tags.
 
-### Manual
+## Manual
 The second option is to manually install the tag on each page of your site.
 When you choose this option, you'll see the new website tag listed in the UI.
 This tag will need to be installed on every page of your website immediately

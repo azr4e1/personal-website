@@ -6,7 +6,6 @@ tags = ["types",  "golang",  "methods",  "non_local",  "programming",  "custom",
 +++
 
 
-# Go methods on non-local types
 We cannot add methods to _non-local_ types, that is, types not defined in our package.
 
 We can however create a new type that inherits from the type we want to add the method too:

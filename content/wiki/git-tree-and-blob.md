@@ -6,7 +6,6 @@ tags = ["working_tree",  "computer_science",  "repository",  "boot_dev",  "progr
 +++
 
 
-# Git tree and blob
 
 A _tree_ is git's way of storing a directory
 A _blob_ is git's way of storing a file

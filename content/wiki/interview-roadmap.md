@@ -6,7 +6,6 @@ tags = ["copmuter_science",  "interview",  "boot_dev",  "golang"]
 +++
 
 
-# Interview Roadmap
 
 1. [ ] Cryptography
 2. [ ] Databases

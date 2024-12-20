@@ -6,10 +6,9 @@ tags = ["experiment",  "anova",  "week7",  "coursera",  "designing_running_and_a
 +++
 
 
-# Factorial ANOVA
 These are studies that have mulitple factors at one time.
 
-## Example
+# Example
 - 24 subjects
 - they use either Apple Iphone or Samsung Galaxy keyboard on phone
 - they use it when they are either sitting, standing or walking

@@ -6,7 +6,6 @@ tags = ["boot_dev",  "undoing",  "history",  "commit",  "reset",  "rebase",  "gi
 +++
 
 
-# gitignore
 
 A .gitignore file solves the problem of when we want to put files in our project's directory, but we don't want to track them with Git.
 
@@ -32,7 +31,7 @@ It's fairly common to have multiple .gitignore files in different directories
 throughout a project. A nested .gitignore file only applies to the directory
 it's in and its subdirectories.
 
-## Patterns
+# Patterns
 
 gitignore supports patterns.
 

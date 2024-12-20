@@ -6,7 +6,6 @@ tags = ["calling",  "computer_science",  "stub",  "remote_procedure_calling",  "
 +++
 
 
-# What is RPC
 "Remote Procedure Call" is a software communication protocol that one program can use to request a service from a program located in another computer on a network without having to understand the network's details. RPC is used to call other processes on the remote systems like a local system. A procedure call is also sometimes known as a function call or a subroutine call.
 
 RPC uses the client-server model. The requesting program is a client, and the service-providing program is the server. Like a local procedure call, an RPC is a synchronous operation requiring the requesting program to be suspended until the results of the remote procedure are returned.

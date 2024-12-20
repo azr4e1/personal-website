@@ -6,7 +6,6 @@ tags = ["programming",  "computer_science",  "typing"]
 +++
 
 
-# Subtypes
 
 The subtype relationship arises from the question: if `first_var` has type `first_type`, and `second_var` has type `second_type`, is it safe to assign `first_var = second_var`?
 

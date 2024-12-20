@@ -6,7 +6,6 @@ tags = ["interface",  "golang",  "value",  "pass_by",  "programming",  "type",  
 +++
 
 
-# Type switches in Go
 A type switch is a construct that permits to do several type assertions in series.
 
 A type switch is like a regular switch statement [switch-expressions](/wiki/switch-expressions/), but the cases in a type switch specify types (not values), and those values are compared against the type of the value held by the given interface value:

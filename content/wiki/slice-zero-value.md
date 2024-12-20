@@ -6,7 +6,6 @@ tags = ["slice",  "structured",  "capacity",  "reference",  "length",  "zero",  
 +++
 
 
-# Slice zero value
 The zero value of a slice is a `nil`
 
 A `nil` slice has a length and capacity of 0 and has no underlying array

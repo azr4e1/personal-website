@@ -6,7 +6,6 @@ tags = ["sales",  "website",  "marketing",  "real_time",  "property",  "analytic
 +++
 
 
-# Understand Google Analytics Reports
 You can find all of your reports by clicking the reports icon in the left-hand
 navigation. By default, you'll see a report snapshot as well as the realtime
 report. Below these are two default report collections: lifecycle, which
@@ -16,7 +15,7 @@ user, which contains reports on technology and demographic information.
 
 Google Analytics has two main types of reports: an overview report, which summarizes information about a topic into several cards, each focusing on a different objective, and a details report that lets you drill into one or two dimensions to investigate data in greater detail in a table format.
 
-## Acquisition
+# Acquisition
 The first report in acquisition is an acquisition overview report, and the other reports focus on insights around user and traffic acquisition.
 
 On the overview report, you'll see cards that provide a snapshot of your acquisition data. Each of the cards have icons at the top. The first is a data quality icon, which indicates how much data is being represented in the card.

@@ -6,7 +6,6 @@ tags = ["statistics",  "sampling",  "theory",  "experiment"]
 +++
 
 
-# Snowball sampling
 In snowball sampling each subject recommends the next subject to contact for the experiment. This violates the assumption of independence of ANOVA tests.
 
 # References

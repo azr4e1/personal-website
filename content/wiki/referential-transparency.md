@@ -6,7 +6,6 @@ tags = ["programming",  "speed",  "cache",  "optimal",  "efficient",  "algorithm
 +++
 
 
-# Referential transparency
 
 Referential transparency is a property of a function that allows it to be replaced by its equivalent output. In simpler terms, if you call the function a second time with the same arguments, you’re guaranteed to get the same returning value.
 

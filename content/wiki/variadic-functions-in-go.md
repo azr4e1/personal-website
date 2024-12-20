@@ -6,7 +6,6 @@ tags = ["parameters",  "body",  "signature",  "functions",  "slice",  "type",  "
 +++
 
 
-# Variadic Functions in Go
 Some GO functions can take a variable number of parameters: these are called _variadic functions_.
 
 To define a variadic function in Go, we need to use the `...` symbol, followed by a type.

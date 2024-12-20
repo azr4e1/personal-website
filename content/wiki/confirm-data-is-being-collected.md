@@ -6,7 +6,6 @@ tags = ["structure",  "google",  "firebase",  "recorded",  "mobile",  "property"
 +++
 
 
-# Confirm Data is being collected
 Once Google Analytics starts to receive data, the data first appears in the
 Realtime report, and then in other reports shortly after. You can use the
 Realtime report to confirm that data from your website is actually being

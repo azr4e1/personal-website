@@ -6,7 +6,6 @@ tags = ["AI",  "decision",  "agents",  "buying",  "ML",  "distribution",  "chann
 +++
 
 
-# AI agents as distribution channels
 
 As AI agents become more and more common, we will delegate purchasing decisions to them more and more.
 

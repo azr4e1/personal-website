@@ -6,7 +6,6 @@ tags = ["ideas",  "borne",  "state",  "creativity",  "awareness",  "minds",  "se
 +++
 
 
-# How ideas are borne
 All ideas are made of other ideas.
 
 Smart people always relate their ideas to something that already exist.

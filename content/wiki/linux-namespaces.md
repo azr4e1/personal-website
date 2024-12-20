@@ -6,12 +6,11 @@ tags = ["virtualization",  "container",  "computer_science",  "virtual_machine",
 +++
 
 
-# Linux Namespaces
 Namespaces are a feature of the Linux kernel that partitions kernel resources such that one set of processes sees one set of resources while another set of processes sees a different set of resources.
 
 In other words, they isolate processes from each other, providing an isolation layer between system resources.
 
-## Types of Namespaces
+# Types of Namespaces
 - User namespace: own set of user and group IDs. A process can have `root` within its user namespace but not in another
 - Process ID namespace: assigns a set of PIDs to processes that are independent from the set of PIDs in other namespaces
 - Network namespace: creates independent network stacks - private routing table, set of IP addresses, socket listing, connection tracking table, firewall, and other network‑related resources

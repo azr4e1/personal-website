@@ -6,7 +6,6 @@ tags = ["experiment",  "statistics",  "rlang",  "coursera",  "week2",  "design",
 +++
 
 
-# Multiple categories test of proportions
 Now we have A, B, and C websites to test against the 60 partecipants. From the point of view of study design, we must consider also the order to which the partecipants were exposed to the websites. This could cause an unorder effect. Let's assume the partecipants are different from before, so they aren't biased towards the first two (A and B).
 
 In R, we can use the crosstabulation function `xtabs` to deal with proportions, and run the chi-square test again.

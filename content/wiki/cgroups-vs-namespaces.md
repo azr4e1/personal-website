@@ -6,7 +6,6 @@ tags = ["virtualization",  "container",  "computer_science",  "virtual_machine",
 +++
 
 
-# cgroups VS namespaces
 - __cgroups__ ([cgroups](/wiki/cgroups/)): control groups provide a mechanism for aggregating/partitioning sets of tasks, and all their future children, into hierarchical groups with specialized behaviour. I.e.: it limits how much resources you can use for each group.
 - __namespaces__ ([linux-namespaces](/wiki/linux-namespaces/)): wraps a global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of the global resource. I.e.: it limits what the processes in a namespace can see.
 

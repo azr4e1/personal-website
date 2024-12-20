@@ -6,7 +6,6 @@ tags = ["programming",  "golang",  "for_the_love_of_go",  "testing",  "pattern",
 +++
 
 
-# want-and-got pattern
 In testing, the want-and-got pattern works like this: set up a variable `want` containing the correct result of the operation, call the function under test, and store its result in a variable `got`. Then compare the two.
 
 # References

@@ -6,12 +6,11 @@ tags = ["what",  "HTTP",  "code",  "communication",  "web",  "protocol",  "hyper
 +++
 
 
-# Anatomy of a HTTP message
 HTTP messages, as defined in HTTP/1.1 and earlier, are human-readable. In HTTP/2, these messages are embedded into a binary structure, a frame, allowing optimizations like compression of headers and multiplexing.
 
 There are two types of HTTP messages, requests and responses, each with its own format.
 
-## Requests
+# Requests
 
 ```curl
 GET / HTTP/1.1
@@ -27,7 +26,7 @@ It consists of:
 4. Optional headers that convey additional information to the servers
 5. A body for some methods like POST, similar to those in responses
 
-## Responses
+# Responses
 
 ```curl
 HTTP/1.1 200 OK

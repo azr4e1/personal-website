@@ -5,7 +5,6 @@ date = "2024-01-19T09:50:31"
 +++
 
 
-# Initialize a go package
 Create a folder. Inside that folder execute the command:
 
 `go mod init {name_of_package}`.

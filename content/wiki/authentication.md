@@ -6,7 +6,6 @@ tags = ["authentication",  "integrity",  "cryptography",  "basics",  "authorisat
 +++
 
 
-# Authentication
 
 Authentication asks the question, “who am I talking to?”; it attempts to verify the identity of some party. Passwords are one means of authentication; they aren’t a strong authentication mechanism because anyone who knows the password (whether because they chose it, were given it, or guessed it) will be authenticated. Multifactor authentication attempts to provide a stronger basis for assurance of an identity, and is based on three factors:
 

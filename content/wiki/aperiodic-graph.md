@@ -6,7 +6,6 @@ tags = ["edge",  "statistics",  "graph_theory",  "search",  "aperiodic",  "node"
 +++
 
 
-# Aperiodic Graph
 
 In the mathematical area of graph theory, a directed graph is said to be aperiodic if there is no integer k > 1 that divides the length of every cycle of the graph. Equivalently, a graph is aperiodic if the greatest common divisor of the lengths of its cycles is one; this greatest common divisor for a graph G is called the period of G.
 

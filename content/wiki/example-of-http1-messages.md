@@ -6,7 +6,6 @@ tags = ["what",  "HTTP",  "code",  "exchange",  "web",  "protocol",  "hypertext"
 +++
 
 
-# Example of HTTP/1 messages
 Request:
 
 ```curl

@@ -6,7 +6,6 @@ tags = ["statistics",  "week4",  "designing_running_and_analyzing_experiments", 
 +++
 
 
-# Running an A/B test
 Considerations when running an experiment like in [designing-for-experimental-control](/wiki/designing-for-experimental-control/):
 
 1. for lengthy experiments, we need to give breaks to the subjects and control the lengths
@@ -17,7 +16,7 @@ Considerations when running an experiment like in [designing-for-experimental-co
 
 Experiments are not just about recording numbers. We need to observe the data qualitatively and make conclusions from that.
 
-## Example
+# Example
 Going back to the experiment in [designing-for-experimental-control](/wiki/designing-for-experimental-control/), the formal setup is as follows:
 
 - 40 students

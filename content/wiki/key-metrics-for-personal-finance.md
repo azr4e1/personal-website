@@ -6,7 +6,6 @@ tags = ["retirement",  "safety",  "finance",  "metrics",  "pension",  "goals",  
 +++
 
 
-# Key metrics for personal finance
 In order to be able to speak the "language of money" and be able to stay on top of personal finances, and know where you are headed, you need to track these key metrics:
 - fixed costs: rent/mortage, debt/payments, groceries, etc - any money spent every month that is "fixed". Recommended: 50-60% of net income.
 - savings: emergency funds, downpayment, etc. Recommended: 5-10%

@@ -6,7 +6,6 @@ tags = ["exported",  "programming",  "for_the_love_of_go",  "values",  "struct",
 +++
 
 
-# Unexported fields and cmp.Equal in Go
 When you have unexported fields in your struct, but you want to be able to use `cmp.Equal` in your tests, you'll run in compilation errors because `cmp.Equal` cannot see all the fields.
 
 ```

@@ -6,7 +6,6 @@ tags = ["file",  "read",  "linux",  "computer_science",  "write",  "api",  "prog
 +++
 
 
-# File Descriptors
 In Unix, a _file descriptor_ is a __process-unique__ identifier (_handle_) for a file or other input/output resource, such as a [Unix pipes](/wiki/Unix pipes/) or network socket.
 
 File descriptors have non-negative integer values.

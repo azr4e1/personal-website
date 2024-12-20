@@ -6,7 +6,6 @@ tags = ["computer_science",  "obvious",  "code",  "oop",  "programming",  "cleve
 +++
 
 
-# Clever code and obviousness-oriented programming
 When it comes to writing code, always strive for obvious code but clever _design_.
 
 When you're in front of a hard problem, stop and break down it to simpler problems.

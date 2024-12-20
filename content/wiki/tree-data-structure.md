@@ -6,7 +6,6 @@ tags = ["list",  "linked",  "tree",  "memory",  "boot_dev",  "computer_science",
 +++
 
 
-# Tree Data Structure
 
 A tree is a widely used data structure that simulates a hierarchical tree structure, with a root value and subtrees of children with a parent node, represented as a set of linked nodes.
 

@@ -6,7 +6,6 @@ tags = ["repeated_measures",  "within_subjects",  "designing_running_and_analyzi
 +++
 
 
-# Description of One-Way Repeated Measures ANOVA
 Repeated measures is just another name for within-subjects variables. These should be used whenever we can because:
 1. it takes fewer subjects to get same amount of data
 2. experiments are designed to detect differences, and using same subjects multiple times reduces the variance that arise from individual differences
@@ -15,7 +14,7 @@ One big challenge with this type of variables is __Carryover Effects__: we need 
 
 To test for order effect, we need to encode another variable in our table: the presentation order of the conditions, and then perform a test.
 
-## Example
+# Example
 1. 20 subjects
 1. they need to find a set number of contact in a phone
 1. two methods: using search, and scrolling

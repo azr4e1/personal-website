@@ -6,7 +6,6 @@ tags = ["working_tree",  "computer_science",  "boot_dev",  "programming",  "work
 +++
 
 
-# Git workflow
 The basic Git workflow goes something like this:
 
 1. You modify files in your working tree.

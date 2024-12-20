@@ -6,7 +6,6 @@ tags = ["set",  "map",  "programming",  "booleans",  "values",  "variables",  "g
 +++
 
 
-# Use a map to represent a set in Go
 When you want to represent a set of objects in Go, a nice trick is to use a map with keys as your objects, and values as booleans.
 
 E.g.:

@@ -6,7 +6,6 @@ tags = ["computer_science",  "programming",  "linux",  "inter_process_communicat
 +++
 
 
-# Unix Domain Sockets in Golang
 
 A socket is a communication endpoint that allows a program to send and receive data over a network.
 

@@ -6,7 +6,6 @@ tags = ["bayesian",  "machine_learning",  "introduction",  "probabilistic",  "di
 +++
 
 
-# Bayesian Inference - Probability Distributions
 
 Let Z be some random variable. Then associated with Z is a probability distribution function that assigns probabilities to the different outcomes Z can take. Graphically, a probability distribution is a curve where the probability of an outcome is proportional to the height of the curve.
 

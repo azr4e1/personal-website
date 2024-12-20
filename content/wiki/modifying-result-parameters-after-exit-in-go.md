@@ -6,7 +6,6 @@ tags = ["expression",  "values",  "defer",  "programming",  "type",  "bubble",  
 +++
 
 
-# Modifying result parameters after exit in Go
 The `defer` keyword is useful for clean up operations. However sometimes we want to be able for the deferred call to modify the return value of the enclosing function.
 
 Suppose we have some function that writes data to a file, and returns a `error` result to indicate whether is succeeded.

@@ -6,7 +6,6 @@ tags = ["cache",  "memory",  "computer_science",  "code",  "programming",  "fast
 +++
 
 
-# Caching
 Caching is a method of storing temporary data for quick access.
 
 We store copies of files in temporary storage location known as a _cache_.

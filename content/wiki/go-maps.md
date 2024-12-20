@@ -6,7 +6,6 @@ tags = ["slice",  "hash",  "programming",  "map",  "golang",  "computer_science"
 +++
 
 
-# Go maps
 A `map` is a data structure that allows to store values with arbitrary indexes called _keys_.
 
 A map maps keys to values.
@@ -31,7 +30,7 @@ catalog := map[int]Book{
 }
 ```
 
-## Operations
+# Operations
 To access elements, you just need to specify their key in square brackets:
 ```go
 catalog[1]

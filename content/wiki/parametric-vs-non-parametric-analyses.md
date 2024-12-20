@@ -6,14 +6,13 @@ tags = ["statistics",  "designing_running_and_analyzing_experiments",  "week4", 
 +++
 
 
-# Parametric vs Non-parametric Analyses
-## Parametric
+# Parametric
 Parametric analyses assume a distribution of data concerning the population under study. These require the same assumptions as [anova-assumptions](/wiki/anova-assumptions/):
 - independence
 - normality
 - homoscedasticity
 
-## Non-parametric
+# Non-parametric
 Non-parametric analyses don't make these underlying distributions assumptions. They convert the data into ranks and analysing these ranks in various ways.
 
 

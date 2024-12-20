@@ -6,7 +6,6 @@ tags = ["confidentiality",  "basics",  "integrity",  "auditing",  "authorisation
 +++
 
 
-# Auditing
 
 Security efforts are for nought if no one is auditing the system to ensure it is operating correctly. An audit log should be available, and its access restricted to auditors, that records security events. The events recorded and the details present will vary based on the requirements of the system. Auditors should also be confident that the audit log will not have been tampered with.
 

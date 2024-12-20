@@ -6,7 +6,6 @@ tags = ["programming",  "computer_science",  "python",  "logging"]
 +++
 
 
-# Python logging
 
 # References
 - https://realpython.com/python-logging/

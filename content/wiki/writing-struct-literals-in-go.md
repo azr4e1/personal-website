@@ -6,7 +6,6 @@ tags = ["programming",  "type",  "golang",  "composite",  "struct",  "github",  
 +++
 
 
-# Writing Struct literals in Go
 
 E.g.
 ```go

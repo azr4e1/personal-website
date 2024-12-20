@@ -6,7 +6,6 @@ tags = ["arguments",  "programming",  "computer_science",  "parameters",  "boot_
 +++
 
 
-# Parameters vs arguments
 
 Parameters are the names used for inputs when defining a function. Arguments are the values of the inputs supplied when a function is called.
 

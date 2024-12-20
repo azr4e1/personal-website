@@ -6,7 +6,6 @@ tags = ["protocol",  "internet",  "layer",  "encryption",  "handshake",  "comput
 +++
 
 
-# TLS handshake
 
 Image: https://cf-assets.www.cloudflare.com/slt3lc6tev37/5aYOr5erfyNBq20X5djTco/3c859532c91f25d961b2884bf521c1eb/tls-ssl-handshake.png
 
@@ -30,7 +29,6 @@ The exact steps within a TLS handshake will vary depending upon the kind of key 
 8. Server is ready: The server sends a "finished" message encrypted with a session key.
 9. Secure symmetric encryption achieved: The handshake is completed, and communication continues using the session keys.
 
-# Handshake TLS 1.3
 
 TLS 1.3 does not support RSA, nor other cipher suites and parameters that are vulnerable to attack. It also shortens the TLS handshake, making a TLS 1.3 handshake both faster and more secure.
 

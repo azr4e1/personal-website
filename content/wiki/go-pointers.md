@@ -6,7 +6,6 @@ tags = ["stack",  "indirecting",  "golang",  "reference",  "pass_by",  "value", 
 +++
 
 
-# Go pointers
 In Go parameters are _passed by value_; the __value__ of a variable is passed to a function, and the function will use that value without modifying the original variable.
 
 If we want the function to be able to access the variables outside, we need to pass it their _pointers_. Pointers are objects that provide the memory address of the variable.

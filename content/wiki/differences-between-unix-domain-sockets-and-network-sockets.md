@@ -6,7 +6,6 @@ tags = ["TCP",  "internet",  "IP",  "unix",  "inter_process_communication",  "so
 +++
 
 
-# Differences between Unix Domain Sockets and Network Sockets
 A TCP/IP socket is used for communication across TCP/IP networks. A connected TCP socket is identified by the combination of local IP, local port, remote IP and remote port. A listening TCP socket is identified by local port and possibly local IP. As I understand it, at least on linux TCP/IP sockets always result in the generation and decoding of TCP/IP packets, even if the client and server are on the same machine.
 
 A unix domain socket (sometimes shortened to unix socket) on the other hand operates on a single machine. Listening sockets live in the filesystem hierarchy and access to them can be controlled by filesystem permissions.

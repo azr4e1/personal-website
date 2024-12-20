@@ -6,7 +6,6 @@ tags = ["protocol",  "internet",  "layer",  "encryption",  "handshake",  "comput
 +++
 
 
-# How does TLS work
 A TLS connection is initiated using a sequence known as the TLS handshake. When a user navigates to a website that uses TLS, the TLS handshake begins between the user's device (also known as the client device) and the web server.
 
 During the TLS handshake, the user's device and the web server:

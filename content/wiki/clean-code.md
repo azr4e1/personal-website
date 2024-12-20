@@ -6,7 +6,6 @@ tags = ["pattern",  "boot_dev",  "programming",  "clean",  "wise",  "code"]
 +++
 
 
-# Clean Code
 
 Paradigms like object-oriented programming [object-oriented-programming]] and functional programming [[functional-programming](/wiki/object-oriented-programming]] and functional programming [[functional-programming/) are all about making code easier to work with and understand as the feeble humans we are. Code that's easy for humans to understand is called "clean code".
 
@@ -14,13 +13,13 @@ Paradigms like object-oriented programming [object-oriented-programming]] and fu
 
     -- Martin Fowler
 
-## Clean Code Does Not
+# Clean Code Does Not
 
 - Make your programs run faster
 - Make your programs function correctly
 - Only occur in object-oriented programming
 
-## Clean code does
+# Clean code does
 
 - Make code easier to work with
 - Make it easier to find and fix bugs

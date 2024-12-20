@@ -6,9 +6,8 @@ tags = ["computer_science",  "search",  "function",  "structure",  "boot_dev",  
 +++
 
 
-# Types of Graph
 
-## Complete Graph
+# Complete Graph
 
 A complete graph is a graph in which every pair of vertices is connected by an edge. They are named as K1, K2, K3, ... Kn where n is the number of vertices.
 

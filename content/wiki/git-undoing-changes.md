@@ -6,12 +6,11 @@ tags = ["boot_dev",  "undoing",  "history",  "commit",  "reset",  "rebase",  "gi
 +++
 
 
-# Git undoing changes
 
 One of the major benefits of using Git is the ability to undo changes. There
 are a lot of different ways to do this.
 
-## Soft Reset
+# Soft Reset
 
 the index (staged but not committed changes) and the worktree (unstaged and not
 committed changes).
@@ -25,7 +24,7 @@ but keep all of your changes. Committed changes will be uncommitted and staged,
 while uncommitted changes will remain staged or unstaged as before. HEAD~1
 refers to the commit 1 before the current commit.
 
-## Hard reset
+# Hard reset
 
 If we don't want to keep the changes, we can do a hard reset:
 

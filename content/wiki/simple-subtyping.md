@@ -6,7 +6,6 @@ tags = ["programming",  "computer_science",  "typing"]
 +++
 
 
-# Simple subtyping
 
 A type T is a subtype of type U if:
 - every value from T is also in the set of values of U.

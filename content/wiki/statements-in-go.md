@@ -6,7 +6,6 @@ tags = ["basics",  "golang",  "statement",  "programming"]
 +++
 
 
-# Statements in Go
 A statement is simply an instruction to Go to do something.
 
 E.g.:

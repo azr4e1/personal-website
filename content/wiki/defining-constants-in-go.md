@@ -6,7 +6,6 @@ tags = ["values",  "constants",  "define",  "variables",  "golang",  "sets",  "p
 +++
 
 
-# Defining constants in Go
 We define a constant with the `const` keyword:
 
 ```go

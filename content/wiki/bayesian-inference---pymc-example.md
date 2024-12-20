@@ -6,7 +6,6 @@ tags = ["bayesian",  "introduction",  "probabilistic",  "distribution",  "hacker
 +++
 
 
-# Bayesian Inference - PyMC example
 
 task: You are given a series of daily text-message counts from a user of your system. The data, plotted over time, appears in the chart below. You are curious to know if the user's text-messaging habits have changed over time, either gradually or suddenly. How can you model this?
 

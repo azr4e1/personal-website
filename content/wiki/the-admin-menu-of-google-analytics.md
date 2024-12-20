@@ -6,7 +6,6 @@ tags = ["structure",  "reports",  "mobile",  "data_stream",  "firebase",  "ga4",
 +++
 
 
-# The Admin Menu of Google Analytics
 The admin menu is an essential tool to manage users, accounts, properties, and
 data streams. It's also where you manage the creation of advanced features such
 as custom dimensions and metrics, audiences, and more.

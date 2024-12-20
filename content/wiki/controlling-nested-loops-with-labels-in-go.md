@@ -6,7 +6,6 @@ tags = ["programming",  "nested",  "loops",  "range",  "break",  "init",  "goto"
 +++
 
 
-# Controlling nested loops with labels in Go
 Loops can be nested. When you use `break` inside a nested loop, it will jump out of the _current_ loop; `continue` will continue the _current_ loop.
 
 If we want to break out of both loops from inside the inner loop, we can use a _label_.

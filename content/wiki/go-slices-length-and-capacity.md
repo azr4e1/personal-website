@@ -6,7 +6,6 @@ tags = ["slice",  "structured",  "capacity",  "length",  "array",  "data",  "gol
 +++
 
 
-# Go slices length and capacity
 A slice has both a _length_ and a _capacity_.
 
 The _length_ of a slice is the number of elements it contains.

@@ -6,7 +6,6 @@ tags = ["minimum_detectable_effect",  "mde",  "stats",  "power",  "statistics", 
 +++
 
 
-# MDE
 
 The Minimum Detectable Effect is the smallest change in the KPI that we are able (or want to be able) to detect with a given significance level and power of the test.
 

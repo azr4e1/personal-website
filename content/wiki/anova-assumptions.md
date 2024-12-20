@@ -6,7 +6,6 @@ tags = ["statistics",  "week4",  "designing_running_and_analyzing_experiments", 
 +++
 
 
-# Anova assumptions
 With certain analysis of variance ([independent-samples-t-test](/wiki/independent-samples-t-test/)) there are some assumptions.
 
 ANOVA stands for Analysis of Variance.

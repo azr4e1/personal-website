@@ -6,7 +6,6 @@ tags = ["exported",  "programming",  "for_the_love_of_go",  "values",  "struct",
 +++
 
 
-# Validating methods in Go
 When we want to make sure that a field of a struct we've defined is not arbitrarily set by the user of our library, but is validated against allowed values, we have some options.
 
 One option is to make that field unexported (lowercase initial, [exported-identifiers-in-go](/wiki/exported-identifiers-in-go/)), and then creating _accessor methods_ for the struct to set and get the field.

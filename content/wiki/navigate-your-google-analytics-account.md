@@ -6,7 +6,6 @@ tags = ["structure",  "google",  "firebase",  "recorded",  "website",  "property
 +++
 
 
-# Navigate your Google Analytics account
 When you first log into Google Analytics, you'll arrive at the homepage. The homepage shows a snapshot of information that's relevant to you and your business. It will also surface reports and pages that you've recently viewed, as well as data and insights about your property.
 
 To the left we have the navigation menu with the following sections:

@@ -6,19 +6,18 @@ tags = ["software",  "design",  "tips",  "programming",  "wise"]
 +++
 
 
-# Software Design tips
 
-## 1. Maintain one source of truth
+# 1. Maintain one source of truth
 
 Don't try to maintain a piece of state in two different locations within the same service. Reference the same state wherever you can.
 
 If there is a piece of data that is derived from another value, then that value should be derived rather than stored, because storing could lead to synchronization bugs.
 
-## 2. Please Repeat Yourself
+# 2. Please Repeat Yourself
 
 Obsessing over abstracting and refactoring to create reusable object can lead to frankenstein code that does too many things. Sometimes a bit of code duplication is fine
 
-## 3. Don't overuse mocks
+# 3. Don't overuse mocks
 
 Try to stay closer to real dependencies when possible. Test being a bit more heavyweight is worthwhile when it come to higher reliability.
 
@@ -28,7 +27,7 @@ Overusing mocks causes tests to be:
 - harder to maintain
 - less assurance because reliability is only guaranteed IF the mocks are accurate
 
-## 4. Minimize mutable state
+# 4. Minimize mutable state
 
 Minimizing as much mutable state as possible gets you pretty far, because you don't have to worry about sync bugs, conflicting data and stale state.
 

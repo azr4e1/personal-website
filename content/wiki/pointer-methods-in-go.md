@@ -6,7 +6,6 @@ tags = ["golang",  "stack",  "programming",  "pass_by",  "reference",  "heap",  
 +++
 
 
-# Pointer methods in Go
 A pointer type can also have methods. These are defined like normal methods, but taking care that the receiver ([go-types-and-methods](/wiki/go-types-and-methods/)) is a pointer and thus needs to be dereferenced.
 
 E.g.:

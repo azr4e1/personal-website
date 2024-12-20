@@ -6,7 +6,6 @@ tags = ["samples",  "strata",  "statistics",  "groups",  "randomization",  "stra
 +++
 
 
-# Stratified Randomization
 In statistics, stratified randomization is a method of sampling which first stratifies the whole study population into subgroups with same attributes or characteristics, known as strata, then followed by simple random sampling (SRS - simple random sample) from the stratified groups, where each element within the same subgroup are selected unbiasedly during any stage of the sampling process, randomly and entirely by chance. Stratified randomization is considered a subdivision of stratified sampling, and should be adopted when shared attributes exist partially and vary widely between subgroups of the investigated population, so that they require special considerations or clear distinctions during sampling. Stratified Random Sampling is also known as _quota random sampling_.
 
 ┌───────────────────────────────────────────────────────────┐
@@ -30,7 +29,7 @@ In statistics, stratified randomization is a method of sampling which first stra
 │                                                           │
 └───────────────────────────────────────────────────────────┘
 
-## Steps
+# Steps
 
 1. Define target population
 2. define stratification variables and decide the number of strata. Criteria for defining variables for stratification include age, socioeconomic status, nationality, race, education level etc..

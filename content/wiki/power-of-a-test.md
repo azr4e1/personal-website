@@ -6,7 +6,6 @@ tags = ["statistics",  "test",  "power",  "hypothesis"]
 +++
 
 
-# Power of a test
 
 
 

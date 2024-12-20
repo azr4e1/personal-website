@@ -6,7 +6,6 @@ tags = ["experiment",  "statistics",  "rlang",  "coursera",  "week2",  "design",
 +++
 
 
-# Report the result of a test
 In the case of a chi-square test for one sample proportion ([test-of-proportions](/wiki/test-of-proportions/)), you would write this:
 
 ```latex

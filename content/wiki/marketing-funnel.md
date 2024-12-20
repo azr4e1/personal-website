@@ -6,7 +6,6 @@ tags = ["marketing",  "google",  "analytics",  "sales",  "website",  "ga4",  "me
 +++
 
 
-# Marketing Funnel
 The marketing funnel is an abstraction of what the journey of a typical customer looks like through the different phases of marketing activity:
 - Acquisition: build awareness on your product/service, and acquire user interest
 - Engagement: when the user interacts with your business

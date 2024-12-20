@@ -6,12 +6,9 @@ tags = ["snippets",  "code",  "tricks",  "cache",  "caching",  "python",  "compu
 +++
 
 
-# Cache decorator python
 Memoize (cache) a function in Python by using this decorator:
 
 ```python
-# use this decorator to preserve the
-# name and docstring of the original function
 from functools import wraps
 
 def memoize(func):

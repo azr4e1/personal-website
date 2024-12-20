@@ -6,7 +6,6 @@ tags = ["sales",  "google",  "property",  "tag",  "data_stream",  "data",  "stru
 +++
 
 
-# Use Explore for Advanced Anaytics in GA
 Explore is a collection of advanced analysis techniques that go beyond standard reports to uncover more insights about customer behavior. Explorations, which are the reports you can build within Explore, give you access to data and analytical techniques that aren't available in standard reports, such as funnels and pathing.
 
 You'll have the option to start a new exploration from scratch or a template or open an existing report.

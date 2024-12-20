@@ -6,7 +6,6 @@ tags = ["analytics",  "sales",  "account",  "marketing",  "tag",  "data_stream",
 +++
 
 
-# Advertising Workspace in GA
 Advertising workspace is the fourth section of any GA property. It contains the following sections:
 - Advertising snapshot: helps you better understand customer journeys and conversion performance. Ust it to answer questions like:
   - What roles did prior referrals, searches and ads play in conversions?

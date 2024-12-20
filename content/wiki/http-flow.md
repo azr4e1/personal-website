@@ -6,7 +6,6 @@ tags = ["what",  "HTTP",  "code",  "exchange",  "web",  "protocol",  "hypertext"
 +++
 
 
-# HTTP flow
 When a client wants to communicate with a server, either the final server or an intermediate proxy, performs the following steps:
 
 1. Open a TCP connection

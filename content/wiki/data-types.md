@@ -6,7 +6,6 @@ tags = ["types",  "programming",  "data",  "computer_science",  "boot_dev"]
 +++
 
 
-# Data Types
 
 In computer science and computer programming, a data type (or simply type) is a
 collection or grouping of data values, usually specified by a set of possible

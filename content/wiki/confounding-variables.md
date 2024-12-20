@@ -6,7 +6,6 @@ tags = ["statistics",  "week4",  "designing_running_and_analyzing_experiments", 
 +++
 
 
-# Confounding variables
 Variables that are outside our control but influence the metric that we are measuring.
 They threaten our ability to draw inferences about the effects that we are manipulating,
 because they introduce uncontrolled variations in the experiment.

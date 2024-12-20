@@ -6,7 +6,6 @@ tags = ["programming",  "golang",  "struct",  "for_the_love_of_go",  "map",  "el
 +++
 
 
-# Updating struct elements inside a map in Go
 Go doesn't allow you to modify fields of map elements directly like this:
 ```go
 catalog[1].Title = "For the Love of Go"

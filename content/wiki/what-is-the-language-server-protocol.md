@@ -6,7 +6,6 @@ tags = ["json",  "editor",  "data",  "exchange",  "descriptor",  "coding",  "soc
 +++
 
 
-# What is the Language Server Protocol
 A language server protocol is a software that analysis the current state of a project in terms of error, syntax, format, and will exchange this information to an external program through a json format.
 
 The idea behind the Language Server Protocol (LSP) is to standardize the protocol for how tools and servers communicate, so a single Language Server can be re-used in multiple development tools, and tools can support languages with minimal effort.

@@ -6,7 +6,6 @@ tags = ["programming",  "type",  "golang",  "composite",  "struct",  "github",  
 +++
 
 
-# Composite values and structs in Go
 A data type made up of several values that you can treat as a single unit is called a _composite type_.
 
 A `struct` in Go groups together related pieces of data, called _fields_.

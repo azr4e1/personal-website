@@ -6,13 +6,12 @@ tags = ["bayesian",  "introduction",  "machine_learning",  "probabilistic",  "di
 +++
 
 
-# Bayesian Inference - Discrete Distributions
 
 Let Z be some random variable. Then associated with Z is a probability distribution function that assigns probabilities to the different outcomes Z can take.
 
 If Z is discrete, then its distribution is called a _probability mass function_, which measures the probability Z takes on the value k: P(Z=k). The probability mass function completely describes Z.
 
-## Poisson distribution
+# Poisson distribution
 
 Z is _Poisson-distributed_ if:
 

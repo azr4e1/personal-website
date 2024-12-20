@@ -6,7 +6,6 @@ tags = ["programming",  "computer_science",  "typing"]
 +++
 
 
-# Types
 
 A simple definition for types is
 

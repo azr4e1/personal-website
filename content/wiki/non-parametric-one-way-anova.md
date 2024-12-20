@@ -6,22 +6,16 @@ tags = ["statistics",  "designing_running_and_analyzing_experiments",  "non_para
 +++
 
 
-# Non-parametric One-Way ANOVA
 ```R
 library(coin)
 kruskal_test(Time ~ IDE, data=ide3, distribution="asymptotic") # can't do exact with 3 levels
 kruskal_test(logTime ~ IDE, data=ide3, distribution="asymptotic") # note: same result since based on ranks
 
-#         Asymptotic Kruskal-Wallis Test
 #
-# data:  Time by IDE (Eclipse, PyCharm, VStudio)
-# chi-squared = 12.17, df = 2, p-value = 0.002277
 ```
 
 To follow up on post-hoc test form the omnibus, we execute Mann-Whitneys and then we adjust with Sequential Holm-Bonferroni:
 ```R
-# manual post hoc Mann-Whitney U pairwise comparisons
-# note: wilcox_test we used above doesn't take two data vectors, so use wilcox.test
 vs.ec = wilcox.test(ide3[ide3$IDE == "VStudio",]$Time, ide3[ide3$IDE == "Eclipse",]$Time, exact=FALSE)
 vs.py = wilcox.test(ide3[ide3$IDE == "VStudio",]$Time, ide3[ide3$IDE == "PyCharm",]$Time, exact=FALSE)
 ec.py = wilcox.test(ide3[ide3$IDE == "Eclipse",]$Time, ide3[ide3$IDE == "PyCharm",]$Time, exact=FALSE)

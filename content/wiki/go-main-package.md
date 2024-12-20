@@ -6,7 +6,6 @@ tags = ["golang",  "main",  "control",  "programming",  "executable",  "start", 
 +++
 
 
-# Go main package
 Go is a compiled, statically typed language.
 
 Go uses a compiler to turn a text file containing go code into an executable binary file. The compiler translates Go programs into machine code, producing an executable binary that we can then run.

@@ -6,7 +6,6 @@ tags = ["halting",  "programming",  "turing",  "algorithm",  "computer_science",
 +++
 
 
-# halting problem
 
 In computability theory, the halting problem is the problem of determining, from a description of an arbitrary computer program and an input, whether the program will finish running, or continue to run forever. The halting problem is undecidable, meaning that no general algorithm exists that solves the halting problem for all possible program–input pairs.
 

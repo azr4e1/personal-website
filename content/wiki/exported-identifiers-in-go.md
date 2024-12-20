@@ -6,7 +6,6 @@ tags = ["programming",  "type",  "golang",  "composite",  "struct",  "github",  
 +++
 
 
-# Exported Identifiers in Go
 Names with initial capital letters have a special meaning in Go.
 
 Anything with such a name is available outside the package where it's defined (it's _exported_).

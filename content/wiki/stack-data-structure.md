@@ -6,7 +6,6 @@ tags = ["algorithms",  "computer_science",  "programming",  "data_structure"]
 +++
 
 
-# Stack Data Structure
 The stack is a computer science data structure [data-structures](/wiki/data-structures/) which is like a pile of books:
 you can take thinks on the top of the stack and put things on the top of the
 stack, but you can't access anything for the remainder of the stack. This is

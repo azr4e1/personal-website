@@ -6,7 +6,6 @@ tags = ["code",  "computer_science",  "values",  "zero",  "slice",  "channel",  
 +++
 
 
-# Nil in Go
 In Go, nil is the zero value for pointers, interfaces, maps, slices, channels and function types, representing an uninitialized value.
 
 nil doesn't mean some "undefined" state, it's a proper value in itself. An object in Go is nil simply if and only if its value is nil, which it can only be if it's of one of the aforementioned types.

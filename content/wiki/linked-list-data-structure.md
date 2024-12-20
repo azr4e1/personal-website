@@ -6,7 +6,6 @@ tags = ["structure",  "list",  "linked",  "memory",  "boot_dev",  "computer_scie
 +++
 
 
-# Linked List Data Structure
 
 A linked list is a linear data structure where elements are not stored next to each other in memory. The elements in a linked list are linked using pointers.
 
@@ -18,7 +17,7 @@ item = my_list[1]
 
 In a linked list, there are no indexes. We need to walk each node of the list because the only way to get the location of the second item in a linked list is to look at the pointer of the first item.
 
-## Advantage over arrays
+# Advantage over arrays
 
 The structure of lists means each item has a fixed position, its index.
 Contrast that with linked lists, where the position of each item is not fixed.

@@ -6,7 +6,6 @@ tags = ["integrity",  "confidentiality",  "errors",  "authorisation",  "cryptogr
 +++
 
 
-# Side channel attacks
 
 A side channel is an attack surface on a cryptographic system that is based entirely on the physical implementation; while the algorithm may be sound and correct, the implementation may leak information due to physical phenomena. An attacker can observe timings between operations or differences in power usage to deduce information about the private key or the original message.
 

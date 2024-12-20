@@ -6,7 +6,6 @@ tags = ["money",  "personal",  "safety",  "pension",  "metrics",  "retirement", 
 +++
 
 
-# Good investors
 Investors treat investing like watching paint dry.
 
 Apps for investing and trading gamify an experience that shouldn't be fun.

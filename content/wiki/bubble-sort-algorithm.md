@@ -6,7 +6,6 @@ tags = ["notation",  "boot_dev",  "algorithm",  "computer_science",  "big_o",  "
 +++
 
 
-# bubble sort algorithm
 
 Bubble sort is a sorting algorithm.
 

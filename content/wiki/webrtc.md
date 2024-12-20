@@ -6,7 +6,6 @@ tags = ["computer_science",  "internet",  "network",  "sharing",  "protocol"]
 +++
 
 
-# WebRTC
 
 Web Real-Time Communication.
 

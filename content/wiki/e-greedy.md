@@ -6,14 +6,13 @@ tags = ["medium",  "exploration",  "exploitation",  "greedy",  "statistics",  "s
 +++
 
 
-# e-greedy
 A version of the greedy strategy that introduces exploration:
 
 The idea is to take either the most optimal (known) choice with probability $(1-e)$, or a random choice with probability $e$.
 
 Therefore we can balance how much exploration we want by tuning the $e$ parameter: 0 = full exploitation, 1 = full exploration
 
-## Example
+# Example
 
 In the bernoulli 3-armed bandit example ([greedy-strategy](/wiki/greedy-strategy/)),
 with $e=0.1$ we would pick a random option for 10% of the time. This ensures we don't get stuck in unoptimal choices.

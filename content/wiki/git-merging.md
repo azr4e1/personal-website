@@ -6,7 +6,6 @@ tags = ["boot_dev",  "history",  "commit",  "github",  "git_directory",  "primea
 +++
 
 
-# Git merging
 
 Once you're happy with your changes, you'll want to merge them back into the main branch so that they make their way into the final product.
 
@@ -21,7 +20,6 @@ A - B - C - F    main
     D - E        other_branch
 
 ```bash
-# nice ascii art
 git log --oneline --graph --all
 ```
 

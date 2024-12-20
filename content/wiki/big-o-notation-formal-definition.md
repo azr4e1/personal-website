@@ -6,7 +6,6 @@ tags = ["computer_science",  "algorithm",  "notation",  "programming",  "boot_de
 +++
 
 
-# Big O Notation Formal Definition
 
 Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
 
@@ -14,7 +13,7 @@ In computer science, big O notation is used to classify algorithms according to 
 
 Big O notation characterizes functions according to their growth rates: different functions with the same asymptotic growth rate may be represented using the same O notation. The letter O is used because the growth rate of a function is also referred to as the order of the function. A description of a function in terms of big O notation usually only provides an upper bound on the growth rate of the function.
 
-## Formal Definition
+# Formal Definition
 
 Let f, the function to be estimated, be a real or complex valued function, and
 let g, the comparison function, be a real valued function. Let both functions

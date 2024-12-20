@@ -6,7 +6,6 @@ tags = ["temporary",  "memory",  "computer_science",  "partial",  "concurrency",
 +++
 
 
-# Definition of buffer
 A buffer is a chunk of memory used to hold data. It's usually a single blob of memory that's loaded in one operation, and then emptied in one or more.
 
 In general terms, buffer means _temporary storage_. Buffers are important in computing because interconnected devices and systems are seldom in sync with one another, so when information is sent from one system to another, it has somewhere to wait until the recipient system is ready.

@@ -6,7 +6,6 @@ tags = ["slice",  "structured",  "reference",  "array",  "data",  "golang",  "ty
 +++
 
 
-# Go slices as reference to arrays
 A slice does not store any data, it just describes a section of an underlying array.
 
 Changing the elements of a slice modifies the corresponding elements of its underlying array.

@@ -6,7 +6,6 @@ tags = ["working_tree",  "computer_science",  "repository",  "boot_dev",  "progr
 +++
 
 
-# Git commit history and logs
 
 A Git repo is a (potentially very long) list of commits,
 where each commit represents the full state of the

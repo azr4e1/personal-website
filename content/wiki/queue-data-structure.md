@@ -6,7 +6,6 @@ tags = ["structure",  "data",  "boot_dev",  "queue",  "computer_science",  "prog
 +++
 
 
-# Queue Data Structure
 
 A queue is an abstract data type that serves as an ordered collection of elements. A simple queue typically has several operations:
 

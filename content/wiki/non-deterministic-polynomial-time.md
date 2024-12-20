@@ -6,7 +6,6 @@ tags = ["algorithm",  "boot_dev",  "non",  "deterministic",  "computer_science",
 +++
 
 
-# Non deterministic polynomial time
 
 NP (which stands for nondeterministic polynomial time) is the set of problems whose solutions can be verified in polynomial time, but not necessarily solved in polynomial time.
 
@@ -33,13 +32,13 @@ The above example can be generalized for any decision problem. Given any instanc
 There is no formal proof that P != NP. Sometimes a solution in polynomial time comes along for problems that were thought to be just NP, so we don't know if P and NP are actually distinct.
 
 
-## Verified and Solved
+# Verified and Solved
 
 Let's say we want to sort a list. We know some algorithms like mergesore [merge-sort-algorithm]] or quicksort [[quicksort-algorithm](/wiki/merge-sort-algorithm]] or quicksort [[quicksort-algorithm/) that can get us a sorted list in O(nlogn) time, so in polynomial time. This means they can _solve_ the problem in polynomial time, so sorting is part of P.
 
 We can verify that any given list is sorted in O(n) time (just by iterating over it), so sorting a list is also part of NP.
 
-## Example of NP problem
+# Example of NP problem
 
 One example of a problem that is NP but not P is the **Travelling Salesman Problem**: given a set of cities connected by roads. Each road has a given length. Given starting city S and destination city D, is there a path between S and D of length less than X, with X being a given number.
 

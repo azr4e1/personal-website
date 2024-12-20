@@ -6,7 +6,6 @@ tags = ["network",  "internet",  "sharing",  "files",  "computer_science",  "web
 +++
 
 
-# Usenet
 Usenet (User Network) is one of the oldest computer network communication systems. It was
 created in 1979 to exchange files and messages through the UUC (Unix to Unix) protocol.
 Usenet is similar to an online forum or discussion platform where users can

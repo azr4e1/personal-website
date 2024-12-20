@@ -6,7 +6,6 @@ tags = ["computer_science",  "search",  "function",  "structure",  "boot_dev",  
 +++
 
 
-# Adjacency List for Graphs
 
 An adjacency list is a list of lists used to represent a finite graph.
 

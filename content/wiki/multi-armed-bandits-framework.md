@@ -6,7 +6,6 @@ tags = ["medium",  "exploration",  "exploitation",  "statistics",  "regret",  "m
 +++
 
 
-# Multi-armed bandits framework
 The K-armed problem models a situation where an agent is facing several times in a row the same K options, each leading to a random reward whose distribution is unknown. The goal is to maximize the total reward over a period of time, therefore the agents has to balance at each iteration the need to acquire more information (reward distribution of options K) and the need to optimize reward based on current knowledge.
 
 Let's consider the Bernoulli K-armed bandit (special case of general K-armed) where the K reward distributions:

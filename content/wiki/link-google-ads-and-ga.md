@@ -6,7 +6,6 @@ tags = ["property",  "account",  "marketing",  "customers",  "aggregated",  "pri
 +++
 
 
-# Link Google Ads and GA
 Google Ads is Google's online advertising program, where you can reach new customers as they search for keywords related to your business or browse websites with related themes.
 
 Linking your GA4 property and Google Ads account will import your Google Ads data into your GA4 property. This data automatically generates campaign-related metrics (like clicks and cost) and dimensions (like campaign name) in Google Analytics. These metrics and dimensions are available throughout the reports and explore workspaces.

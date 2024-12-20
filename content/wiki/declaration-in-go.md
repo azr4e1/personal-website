@@ -6,7 +6,6 @@ tags = ["basics",  "assignment",  "programming",  "declaration",  "golang",  "me
 +++
 
 
-# Declaration in Go
 A variable in Go comes to existence via _declaration_:
 ```go
 var b string

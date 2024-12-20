@@ -6,23 +6,17 @@ tags = ["statistics",  "week4",  "designing_running_and_analyzing_experiments", 
 +++
 
 
-# Test the ANOVA assumptions
-## Independence
+# Independence
 This is just guaranteed by sound experiment design
-## Normality
+# Normality
 To test the ANOVA assumption of normality, we can use the _shapiro-wilks_ test on the _residuals_. A significant results indicates departures from normality.
 
 ```R
-# Shapiro-Wilk normality test on response
 shapiro.test(ide2[ide2$IDE == "VStudio",]$Time)
 shapiro.test(ide2[ide2$IDE == "Eclipse",]$Time)
 
-#         Shapiro-Wilk normality test
 #
-# data:  ide2[ide2$IDE == "VStudio", ]$Time
-# W = 0.84372, p-value = 0.004191
 
-# but really what matters most is the residuals
 m = aov(Time ~ IDE, data=ide2) # fit model (linear regression)
 shapiro.test(residuals(m)) # test residuals
 qqnorm(residuals(m)); qqline(residuals(m)) # plot residuals
@@ -30,7 +24,7 @@ qqnorm(residuals(m)); qqline(residuals(m)) # plot residuals
 
 `qqnorm` creates a Q-Q plot (quantile of normal distribution VS quantile of data)
 
-## Homoscedasticity
+# Homoscedasticity
 We can use Levene's test for homogeneity of variance. Again, here stat. sig. mean violation of homoscedasticity.
 
 Brown-Forsythe test does the same as Levene's but uses the median instead of the mean and is considered more robust.

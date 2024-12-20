@@ -6,7 +6,6 @@ tags = ["property",  "account",  "personalization",  "marketing",  "customers", 
 +++
 
 
-# Share your GA data
 You can share your Analytics data for several purposes:
 - Share your Google Analytics data to help improve Google's products and services. Turning on this setting lets Google Analytics provide best-in-class Intelligence and Insights services and maintain critical spam detection services
 - Contribute anonymous data to an aggregate data set to enable features like benchmarking and publications that can help you understand data trends. All identifiable information about your website is removed and combined with other anonymous data before it's shared with others.

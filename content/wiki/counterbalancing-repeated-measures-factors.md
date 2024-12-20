@@ -6,7 +6,6 @@ tags = ["statistics",  "within_subjects",  "designing_running_and_analyzing_expe
 +++
 
 
-# Counterbalancing repeated measures factors
 How do we assign order of presentation of the levels of a factor in a within-subjects experiment?
 
 There are three strategies:

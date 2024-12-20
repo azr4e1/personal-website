@@ -6,7 +6,6 @@ tags = ["bayesian",  "statistics",  "frequentist"]
 +++
 
 
-# Frequentist vs Bayesian
 The main difference between frequentist approach and bayesian approach in Statistics is that in the frequentist approach,
 the value we want to estimate is assumed to be a constant across the population.
 

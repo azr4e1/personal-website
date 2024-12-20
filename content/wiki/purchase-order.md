@@ -6,7 +6,6 @@ tags = ["seller",  "B2B",  "PO",  "buyer",  "retail",  "business",  "finance",  
 +++
 
 
-# Purchase Order
 A purchase order (PO) is a legally binding document created by a buyer and
 presented to a seller. Much like a shopping cart, a PO contains all the items
 the buyer wants to purchase from the seller, laying out the order details,

@@ -6,7 +6,6 @@ tags = ["basics",  "assignment",  "programming",  "golang",  "tuples",  "stateme
 +++
 
 
-# Assigning more than one value in Go
 When you have several assignments to do, Go has a nice feature to help you: the tuple assignment. A tuple is an ordered list of things.
 
 Suppose we have three variables a, b, and c, and we want to assign them the values 1, 2, and 3 respectively.

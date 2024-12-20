@@ -6,7 +6,6 @@ tags = ["programming",  "OOP",  "boot_dev"]
 +++
 
 
-# Constructors in OOP
 
 In class-based, object-oriented programming [object-oriented-programming](/wiki/object-oriented-programming/), a constructor (abbreviation: ctor) is a special type of function called to create an object. It prepares the new object for use, often accepting arguments that the constructor uses to set required member variables.
 

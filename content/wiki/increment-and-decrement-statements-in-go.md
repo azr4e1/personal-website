@@ -6,7 +6,6 @@ tags = ["decrement",  "golang",  "increment",  "programming"]
 +++
 
 
-# Increment and decrement statements in Go
 ```go
 x++
 ```

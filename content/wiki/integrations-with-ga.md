@@ -6,7 +6,6 @@ tags = ["privacy",  "google_ads",  "segment",  "conversions",  "website",  "sequ
 +++
 
 
-# Integrations with GA
 As seen before in [link-google-ads-and-ga](/wiki/link-google-ads-and-ga/), you can integrate GA with Google Ads to export audiences and use conversions for smart bidding.
 
 You can also integrate GA with other tools of the Google Marketing Platform like:

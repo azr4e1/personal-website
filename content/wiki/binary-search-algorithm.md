@@ -6,11 +6,10 @@ tags = ["notation",  "boot_dev",  "computer_science",  "algorithm",  "big_o",  "
 +++
 
 
-# binary search algorithm
 
 A binary search algorithm is a common example of an O(log(n)) algorithm. Binary searches work on a sorted list of elements.
 
-## Pseudocode
+# Pseudocode
 
 Given an array of n elements sorted from least to greatest, and a target value:
 

@@ -6,7 +6,6 @@ tags = ["engineering",  "programming",  "code",  "artificial_intelligence",  "pr
 +++
 
 
-# Flow Engineering
 Flow engineering is a procedure that guides a model's (LLM) problem-solving process by splitting it into well-defined steps.
 
 Implementing a careful pipeline that generates additional data to guide how code is generated and improve the testing process can be more effective than trying to train a large language model from scratch.

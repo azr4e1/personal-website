@@ -6,7 +6,6 @@ tags = ["medium",  "exploration",  "exploitation",  "greedy",  "statistics",  "i
 +++
 
 
-# Optimistic initialization
 
 # References
 - https://towardsdatascience.com/the-exploration-exploitation-dilemma-f5622fbe1e82

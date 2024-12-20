@@ -6,7 +6,6 @@ tags = ["thread",  "computer_science",  "scheduler",  "process",  "golang",  "co
 +++
 
 
-# Channels in Goroutines
 Channels are a typed conduit (a passage, pipe) through which you can send and receive values with the channel operator `<-`
 ```go
 ch <- v  // send v to channel ch.

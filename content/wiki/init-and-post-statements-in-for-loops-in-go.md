@@ -6,7 +6,6 @@ tags = ["programming",  "range",  "statement",  "post",  "infinite",  "golang", 
 +++
 
 
-# Init and Post statements in For loops in Go
 Go has only one looping construct, the for loop.
 
 The basic for loop has three components separated by semicolons:

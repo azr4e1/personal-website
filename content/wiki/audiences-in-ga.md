@@ -6,7 +6,6 @@ tags = ["time",  "sales",  "google",  "property",  "sequence",  "customers",  "t
 +++
 
 
-# Audiences in GA
 Audiences let you segment users in ways that are important to your business. Segment by dimensions, metrics, and events to include nearly any subset of users.
 
 Use audiences in a number of ways:

@@ -6,7 +6,6 @@ tags = ["deterministic",  "reducible",  "notation",  "programming",  "algorithm"
 +++
 
 
-# Decision Problem
 
 A decision problem is a computational problem that can be posed as a yes–no question of the input values.
 
@@ -14,15 +13,15 @@ An example of a decision problem is deciding by means of an algorithm whether a 
 
 A method for solving a decision problem, given in the form of an algorithm, is called a *decision procedure* for that problem.
 
-## Formal definition
+# Formal definition
 
 A decision problem is a yes-or-no question on an infinite set of inputs. It is traditional to define the decision problem as the set of possible inputs together with the set of inputs for which the answer is yes.
 
-## Decidability
+# Decidability
 
 A decision problem is decidable or effectively solvable if the set of inputs (or natural numbers) for which the answer is yes is a recursive set. A problem is partially decidable, semidecidable, solvable, or provable if the set of inputs (or natural numbers) for which the answer is yes is a recursively enumerable set. Problems that are not decidable are undecidable. For those it is not possible to create an algorithm, efficient or otherwise, that solves them.
 
-## Example
+# Example
 
 A classic example of a decidable decision problem is the set of prime numbers. It is possible to effectively decide whether a given natural number is prime by testing every possible nontrivial factor. Although much more efficient methods of primality testing are known, the existence of any effective method is enough to establish decidability.
 

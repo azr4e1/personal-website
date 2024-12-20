@@ -6,7 +6,6 @@ tags = ["cache",  "expensive",  "referential",  "optimal",  "transparent",  "mem
 +++
 
 
-# Currying
 
 Function currying is a specific kind of function transformation where we
 translate a single function that accepts multiple arguments into multiple
@@ -21,16 +20,12 @@ def sum(a):
   return inner_sum
 
 print(sum(1)(2))
-# prints 3
 ```
 
 ```python
-# from this
 final_volume = box_volume(3, 4, 5)
 print(final_volume)
-# 60
 
-# to
 def box_volume(length):
   def box_volume_with_len(width):
     def box_volume_with_len_width(height):
@@ -40,7 +35,6 @@ def box_volume(length):
 
 final_volume = box_volume(3)(4)(5)
 print(final_volume)
-# 60
 ```
 
 The sum function only takes a single input, a. It returns a new function that
@@ -49,7 +43,7 @@ return the sum of a and b.
 
 Currying is a technique in functional programming where a function that takes multiple arguments is transformed into a sequence of functions, each taking a single argument. Instead of taking all arguments at once, a curried function takes the first argument and returns a new function that takes the second argument, and so on, until all arguments are provided.
 
-## Key Concepts of Currying
+# Key Concepts of Currying
 
 - Transformation: Currying transforms a function with multiple parameters into a series of nested functions, each with a single parameter.
 - Partial Application: Currying facilitates partial application, where you can fix a few arguments of the function and get a new function that takes the remaining arguments.

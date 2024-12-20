@@ -6,7 +6,6 @@ tags = ["array",  "data",  "length",  "go",  "golang",  "type",  "structured",  
 +++
 
 
-# Go Arrays
 The type `[n]T` is an array of `n` values of type `T`.
 
 The expression

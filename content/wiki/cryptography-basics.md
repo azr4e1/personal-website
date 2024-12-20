@@ -6,7 +6,6 @@ tags = ["authentication",  "integrity",  "cryptography",  "basics",  "authorisat
 +++
 
 
-# Cryptography basics
 
 The foundation of cryptographic security are the three goals of confidentiality, integrity, and authenticity.
 

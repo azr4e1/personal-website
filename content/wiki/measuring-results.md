@@ -6,7 +6,6 @@ tags = ["statistics",  "week4",  "designing_running_and_analyzing_experiments", 
 +++
 
 
-# Measuring Results
 One way to capture data in interaction design studies when using computational artifacts is to use automatic logging.
 We can write log files or timestamps to measure time or other KPIs.
 

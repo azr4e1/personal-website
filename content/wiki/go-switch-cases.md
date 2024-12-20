@@ -6,7 +6,6 @@ tags = ["golang",  "flow",  "cascade",  "programming",  "break",  "switch",  "fa
 +++
 
 
-# Go Switch cases
 Switch cases is a conditional statement that let's us specify any number of _cases_ (possible conditions), linking each case to a different code path.
 
 ```go

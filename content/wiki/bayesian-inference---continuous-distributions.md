@@ -6,7 +6,6 @@ tags = ["bayesian",  "introduction",  "machine_learning",  "probabilistic",  "di
 +++
 
 
-# Bayesian Inference - Continuous Distributions
 
 Instead of a probability mass function, a continuous random variable has a _probability density function_. This might seem like unnecessary nomenclature, but the density function and the mass function are very different creatures. An example of continuous random variable is a random variable with exponential density. The density function for an exponential random variable looks like this:
 

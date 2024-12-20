@@ -6,7 +6,6 @@ tags = ["wise",  "spit",  "bone",  "life",  "fish",  "advice"]
 +++
 
 
-# Eat the fish, Spit the bones
 Take the good there is to take from anywhere, and leave out the bad
 
 # References

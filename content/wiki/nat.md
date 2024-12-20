@@ -6,7 +6,6 @@ tags = ["computer_science",  "internet",  "network",  "vpn",  "router"]
 +++
 
 
-# NAT
 Network Address Translation is a function built into every router
 which allows computers inside a local network (LAN) to communicate
 with the wider internet.

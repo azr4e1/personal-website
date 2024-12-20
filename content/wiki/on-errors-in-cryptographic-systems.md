@@ -6,7 +6,6 @@ tags = ["security",  "model",  "authentication",  "integrity",  "cryptography", 
 +++
 
 
-# On errors in cryptographic systems
 
 The more information an attacker has about why a cryptographic operation failed, the better the chances that they will be able to break the system.
 

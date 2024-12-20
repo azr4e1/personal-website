@@ -6,7 +6,6 @@ tags = ["non_local",  "golang",  "methods",  "programming",  "types",  "receiver
 +++
 
 
-# Go types and methods
 It’s quite common to deal with things in our programs that represent objects or entities in the real world.
 
 We use Go’s struct keyword to define types to represent objects like this in Go programs.

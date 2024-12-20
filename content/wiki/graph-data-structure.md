@@ -6,13 +6,12 @@ tags = ["computer_science",  "search",  "function",  "structure",  "boot_dev",  
 +++
 
 
-# Graph Data Structure
 
 A graph is an abstract data type that represents a set of vertices and the edges that connect those vertices.
 
 When an algorithm traverses a graph, it typically moves across the edges. For example, the traveling salesman problem [non-deterministic-polynomial-time](/wiki/non-deterministic-polynomial-time/) is best represented using a graph data structure.
 
-## Properties
+# Properties
 
 1. Graphs can have between 0 and n vertices, there's no maximum
 2. Graphs can have between 0 and n(n - 1)/2 edges, where n is the number of vertices

@@ -6,7 +6,6 @@ tags = ["sales",  "workspace",  "google",  "property",  "tag",  "data_stream",  
 +++
 
 
-# Conversion modeling in GA
 As the industry evolves to adapt to a world that prioritizes and upholds the privacy of users, the technologies used to measure and gather insights across the customer journey need to adapt alongside it. With observed data less available because of privacy regulations and restrictions, sophisticated machine learning models can help preserve measurement continuity while respecting user privacy and consent choices.
 
 Google uses modeling to predict online conversions that can’t be observed directly. Modeling allows for accurate conversion attribution without identifying users (for example, due to user privacy, technical limitations, or when users move between devices). Including modeled conversions lets Google offer more accurate reporting, optimize advertising campaigns, and improve automated bidding.

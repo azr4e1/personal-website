@@ -6,13 +6,12 @@ tags = ["boot",  "linux",  "process",  "init",  "targets",  "introduction",  "sy
 +++
 
 
-# Systemd Targets
 Systemd manages all services and processes in Linux. To control and manage
 services and processes, it uses units. A unit represents and manages an
 individual service or process. A target-unit is the logical collection of
 other system units.
 
-## System State
+# System State
 A system state is an environment in which all the required services and processes run to build and provide the necessary functionality.
 
 To define various system states, systemd uses keywords, known as *target-units*.
@@ -22,7 +21,7 @@ were organized in *run-levels*. To guarantee backward compatibility,
 systemd uses symbolic links for each run-level and maps it with the
 equivalent target-unit.
 
-## Run-levels vs Target-units
+# Run-levels vs Target-units
 Here's a description of the seven run-levels with equivalent target-units:
 
 | Run-level | Description                                             | target-unit       |
@@ -58,13 +57,13 @@ To view the list of all available target-units with their status, run
 systemctl list-units --type=target --all
 ```
 
-## Switching between different targets
+# Switching between different targets
 To switch the system into another target or change the current target, use
 ```
 systemctl isolate [target]
 ```
 
-## Viewing and changing the default boot target
+# Viewing and changing the default boot target
 To view the default boot target, use
 ```
 systemctl get-default

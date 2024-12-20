@@ -6,6 +6,5 @@ tags = ["dynamic_languages",  "programming",  "python",  "compiler",  "computer_
 +++
 
 
-# Copy-and-Patch JIT
 
 # References

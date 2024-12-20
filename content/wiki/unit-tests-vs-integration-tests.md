@@ -6,7 +6,6 @@ tags = ["integration",  "external",  "dependencies",  "unit",  "software",  "pro
 +++
 
 
-# Unit tests VS Integration tests
 A __unit test__ tests some _unit_ of your code, such as a function, usually in isolation. Its job is to verify that the function's _logic_ is correct, so it tries to avoid using any external dependencies such as commands.
 
 They need to be fast and lightweight, because we run them very often, and the only time they should fail is when something's wrong with the code.

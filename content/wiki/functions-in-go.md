@@ -6,7 +6,6 @@ tags = ["signature",  "declare",  "variadic",  "parameters",  "body",  "function
 +++
 
 
-# Functions in Go
 A function in Go is declared by specifying name, input parameters, result that it returns, and the body of the function
 
 Functions in Go are declared at _package_ level. Named functions cannot be declared inside other functions.

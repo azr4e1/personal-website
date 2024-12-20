@@ -6,7 +6,6 @@ tags = ["computer_science",  "virtualization"]
 +++
 
 
-# Virtual Machine
 
 A virtual machine (VM) is the virtualization or emulation of a computer system.
 It is an efficient, isolated duplicate of a real computer machine.

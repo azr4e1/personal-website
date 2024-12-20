@@ -6,7 +6,6 @@ tags = ["table",  "for_the_love_of_go",  "programming",  "golang"]
 +++
 
 
-# One behaviour, one test
 Programming tests should be simple.
 
 When what we want to test has multiple behaviours depending on the input, we should follow the following principle:

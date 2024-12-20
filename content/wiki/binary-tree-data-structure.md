@@ -6,7 +6,6 @@ tags = ["memory",  "linked",  "programming",  "bst",  "search",  "data",  "list"
 +++
 
 
-# Binary Tree Data Structure
 
 A tree is a data structure with:
 

@@ -6,7 +6,6 @@ tags = ["programming",  "loops",  "range",  "repeat",  "for",  "infinite",  "sta
 +++
 
 
-# Loops in Go
 A set of statements which can be repeated is called a loop, and in Go loops are introduced by the keyword `for`.
 
 We begin with the for keyword, followed by an (optional) conditional expression, and an opening curly brace. Then follows an (optional) set of statements, and a final closing curly brace.

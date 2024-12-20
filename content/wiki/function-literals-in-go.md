@@ -6,7 +6,6 @@ tags = ["variadic",  "values",  "list",  "signature",  "type",  "golang",  "firs
 +++
 
 
-# Function literals in Go
 We don't need to assign a name to functions in Go. Functions can be written as literals. This is called `function literal`:
 ```go
 function := func(a, b float64) float64 {

@@ -6,10 +6,9 @@ tags = ["medium",  "exploration",  "exploitation",  "greedy",  "statistics",  "s
 +++
 
 
-# Greedy Strategy
 A greedy strategy consists of always taking the decision that seems to be the best with respect to the current knowledge: full exploitation, no exploration. If knowledge is not accurate, we may remain stuck in sub-optimal choices.
 
-## Example
+# Example
 3-armed Bernoulli bandit:
 - $p_1 = 0.3$
 - $p_2 = 0.7$

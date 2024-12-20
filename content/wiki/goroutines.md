@@ -6,7 +6,6 @@ tags = ["thread",  "computer_science",  "process",  "scheduler",  "golang",  "co
 +++
 
 
-# Goroutines
 A _goroutine_ is a lightweight thread managed by the Go runtime.
 
 ```go

@@ -6,7 +6,6 @@ tags = ["boot_dev",  "history",  "commit",  "github",  "git_directory",  "primea
 +++
 
 
-# Git snapshot optimisation
 
 Git stores an entire snapshot of files on a per-commit level.
 

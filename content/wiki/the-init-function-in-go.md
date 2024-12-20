@@ -6,7 +6,6 @@ tags = ["package",  "golang",  "main",  "go_tools",  "programming",  "compiler",
 +++
 
 
-# The init function in Go
 `main` function is not necessarily the first thing run.
 
 If there is a function name `init`, that will run first.

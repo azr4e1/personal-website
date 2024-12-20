@@ -6,7 +6,6 @@ tags = ["article",  "slouch",  "wise",  "bad",  "science",  "posture",  "theconv
 +++
 
 
-# Slouching is not bad
 Scientific evidence from clinical studies in the past two decades overwhelmingly suggests there's no single, ideal or good posture. Differences in spinal postures are not related to pain. In fact, posture naturally varies from person to person.
 
 Whily psycologically, slouching has a negative connotation, "bad postures" like this have no role in damaging spine and causing back pain.

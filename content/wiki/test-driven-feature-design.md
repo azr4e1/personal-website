@@ -6,7 +6,6 @@ tags = ["implementation",  "programming",  "null",  "golang",  "for_the_love_of_
 +++
 
 
-# Test driven feature design
 When designing new features and functions, we start by writing a test for that function.
 
 We then write a _null implementation_ of that function: that is, an implementation that does nothing; for example, it always return 0.

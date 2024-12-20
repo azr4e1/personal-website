@@ -6,7 +6,6 @@ tags = ["for_the_love_of_go",  "programming",  "golang",  "type"]
 +++
 
 
-# Values and Variables in Go
 A value is a piece of data, like 'Hello, World!'. Values have types: the type of 'Hello, World!' is named `string`. So we call this a _string value_.
 
 A variable is a name identifying a particular place in the computer's memory that can store some specific value. A variable (in Go and other programming languages like C and Haskell) also has a type, which determines what values it can hold.

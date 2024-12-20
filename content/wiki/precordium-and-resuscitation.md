@@ -6,7 +6,6 @@ tags = ["muscle",  "ribs",  "heart",  "rhythm",  "science",  "precordium",  "res
 +++
 
 
-# Precordium and resuscitation
 The heart can be stopped following trauma at a very specific point in its cycle. This is called _commotio cordis_.
 
 The body region of interest here is the precordium, the area of the chest wall lying directly above the heart.

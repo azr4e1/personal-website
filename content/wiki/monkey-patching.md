@@ -6,7 +6,6 @@ tags = ["runtime",  "python",  "coding",  "monkey",  "computer_science",  "inter
 +++
 
 
-# Monkey Patching
 Monkey Patching is the dynamic replacement of attributes at runtime.
 
 E.g.:

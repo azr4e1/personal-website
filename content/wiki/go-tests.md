@@ -6,7 +6,6 @@ tags = ["computer_science",  "programming",  "testing",  "golang"]
 +++
 
 
-# Go tests
 Go provides the built-in `testing` package for tests.
 
 Each test in Go is a function, with some special requirements:

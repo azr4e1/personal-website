@@ -6,7 +6,6 @@ tags = ["designing_running_and_analyzing_experiments",  "experiment",  "statisti
 +++
 
 
-# Introduction to Mixed Effects Models
 Generalized Linear Mixed Models can also handle within-subject tests.
 
 GLMM is called `mixed` because we are mixing `fixed` and `random` effects.
@@ -18,12 +17,12 @@ As said, subject is a random effect, which, if included, makes the model a
 Mixed linear model. Including them allows us to correlate measures across the
 same subjects across different rows in the metatable.
 
-## Advantages
+# Advantages
 - we can handle missing data points
 - better handle unbalanced designs
 - no need for sphericity test [one-way-repeated-measures-anova](/wiki/one-way-repeated-measures-anova/)
 
-## Disadvantages
+# Disadvantages
 - computationally more intensive
 - they retain larger DFres (Denominator degrees of freedom)
 

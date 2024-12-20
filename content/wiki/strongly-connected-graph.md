@@ -6,7 +6,6 @@ tags = ["edge",  "statistics",  "graph_theory",  "search",  "aperiodic",  "node"
 +++
 
 
-# Strongly Connected Graph
 
 In the mathematical theory of directed graphs, a graph is said to be strongly connected if every vertex is reachable from every other vertex. The strongly connected components of a directed graph form a partition into subgraphs that are themselves strongly connected. It is possible to test the strong connectivity of a graph, or to find its strongly connected components, in linear time (that is, O(V + E)).
 

@@ -6,7 +6,6 @@ tags = ["article",  "philosophy",  "anarchy",  "wise",  "justice",  "noam",  "au
 +++
 
 
-# What is anarchism
 
 The philosopher Noam Chomsky believes that any authority of any kind, particularly a hierarchical one, has always the crucial job of justifying its own existence.
 

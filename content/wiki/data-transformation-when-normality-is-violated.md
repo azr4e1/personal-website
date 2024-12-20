@@ -6,7 +6,6 @@ tags = ["statistics",  "week4",  "designing_running_and_analyzing_experiments", 
 +++
 
 
-# Data transformation when normality is violated
 If the response data of an ANOVA experiment violates the normality of residuals assumption, we may need to transform the data to fit that requirement.
 
 Let's assume the response is actually log-normally distributed. This means that its log is normally distributed.

@@ -6,7 +6,6 @@ tags = ["google",  "mobile",  "property",  "analytics",  "sales",  "data",  "mar
 +++
 
 
-# GA Account structure
 Let's go over a GA account structure:
 - An _account_ is a collection of properties whose data is owned by a single business entity.
 - A _property_ represents a grouping of user data, like from a website or an app. It's also the level where Google Analytics processes data and where you can create links with other products, like Google Ads.

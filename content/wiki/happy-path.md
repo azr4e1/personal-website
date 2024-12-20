@@ -6,7 +6,6 @@ tags = ["flow",  "basics",  "errors",  "programming",  "if",  "golang",  "normal
 +++
 
 
-# Happy path
 Often, the control flow of a function has a “normal” path, the path it takes if there are no unusual or exceptional circumstances (errors, for example). This is sometimes called the happy path: it’s what happens if everything goes right.
 
 When deciding how to write your if statements, this is a helpful rule:

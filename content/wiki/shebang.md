@@ -6,7 +6,6 @@ tags = ["shebang",  "computer_science",  "boot_dev",  "programming",  "script", 
 +++
 
 
-# Shebang
 
 A "shebang" is a special line at the top of a script that tells your shell which program to use to execute the file.
 

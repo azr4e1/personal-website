@@ -6,15 +6,12 @@ tags = ["programming",  "golang",  "for_the_love_of_go",  "testing",  "command",
 +++
 
 
-# Test coverage in Go
 Test coverage refers to the portion of 'system' code which should be executed - _covered_ - by some test.
 
 Go toolchain provides a command to check this:
 ```bash
 go test -cover
 
-# PASS
-# coverage: 100.0% of statements
 ```
 
 If we want to see what statements are uncovered:

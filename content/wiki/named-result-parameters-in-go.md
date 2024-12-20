@@ -6,7 +6,6 @@ tags = ["parameters",  "body",  "signature",  "functions",  "type",  "result",  
 +++
 
 
-# Named result parameters in Go
 Besides giving name to parameters of a function, we can assign names to the results of a function, in its signature.
 
 One reason to do so is documentation.

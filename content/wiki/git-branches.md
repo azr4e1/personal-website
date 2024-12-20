@@ -6,7 +6,6 @@ tags = ["boot_dev",  "history",  "commit",  "github",  "git_directory",  "primea
 +++
 
 
-# Git branches
 
 A Git branch allows you to keep track of different changes separately.
 
@@ -21,16 +20,12 @@ A branch is just a named pointer to a specific commit. When you create a branch,
 Because a branch is just a pointer to a commit, they're lightweight and "cheap" resource-wise to create. When you create 10 branches, you're not creating 10 copies of your project on your hard drive.
 
 ```bash
-# rename a branch
 git branch -m oldname newname
 
-# new branch
 git branch new_branch
 
-# create and switch
 git switch -c new_branch
 
-# switch from a specific commit
 git switch -c new_branch <HASH>
 ```
 

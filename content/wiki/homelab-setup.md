@@ -6,7 +6,6 @@ tags = ["arr",  "fedora",  "readarr",  "radarr",  "stack",  "sonarr",  "lab",  "
 +++
 
 
-# Homelab setup
 This is a guide to setup your own home server.
 
 We will be installing:
@@ -23,7 +22,7 @@ We will be installing:
 - gluetunn: VPN
 - homepage: dashboard for all these services
 
-## OS installation
+# OS installation
 We will be using Fedora Server for this homelab. Download the ISO from https://fedoraproject.org/en/server/download.
 
 Next -> [fedora-server-setup](/wiki/fedora-server-setup/)
@@ -40,13 +39,12 @@ mkdir audiobooks books incomplete movies music tv
 cd /srv/media
 mkdir audiobooks books movies music tv
 
-# configurations
 cd /srv
 mkdir configs
 mkdir containers
 ```
 
-## Adguard Installation
+# Adguard Installation
 Adguard Home is a network-wide software for blocking ads and tracking. After you set it, it'll cover
 ALL your home devices, without needing any client-side software for that.
 
@@ -57,7 +55,7 @@ We will be using Docker for that
 
 Next -> [adguardhome-setup](/wiki/adguardhome-setup/)
 
-## Prawlarr Installation
+# Prawlarr Installation
 
 # References
 - https://fedoraproject.org/en/server/download

@@ -6,7 +6,6 @@ tags = ["bayesian",  "introduction",  "machine_learning",  "probabilistic",  "di
 +++
 
 
-# Bayesian Inference - Estimating the Parameter
 
 Assuming we observe events that follow a particular distribution, like exponential [bayesian-inference-continuous-distributions](/wiki/bayesian-inference-continuous-distributions/), how do we determine $\lambda$, its parameter?
 

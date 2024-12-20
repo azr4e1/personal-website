@@ -6,7 +6,6 @@ tags = ["golang",  "computer_science",  "pattern",  "concurrency",  "yield",  "g
 +++
 
 
-# Yield pattern in Go
 
 ```go
 func YieldFunction() <-chan int {

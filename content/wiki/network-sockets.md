@@ -6,7 +6,6 @@ tags = ["internet",  "computer_science",  "programming",  "socket",  "address", 
 +++
 
 
-# Network Sockets
 A network socket is a software structure within a network node of a computer network that serves as an endpoint for sending and receiving data across the network.
 
 The API for the network protocol stack creates a `handle` for each socket created by an application, known as `socket descriptor`. In Unix, this descriptor is a type of [file-descriptors](/wiki/file-descriptors/). It is stored by the process for use with every read and write operation on the communication channel.

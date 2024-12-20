@@ -6,7 +6,6 @@ tags = ["integrity",  "errors",  "authentication",  "PKI",  "basics",  "auditing
 +++
 
 
-# Symmetric Cryptography
 
 In Symmetric Cryptography, all parties share the same key. This is the easiest and fastest form of cryptography.
 

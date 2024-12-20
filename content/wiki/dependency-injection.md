@@ -6,12 +6,11 @@ tags = ["computer_science",  "injection",  "programming",  "dependency"]
 +++
 
 
-# Dependency Injection
 
 **Definition**:
 Dependency Injection (DI) is a design pattern used in object-oriented programming where an object's dependencies (i.e., the objects it relies on to function) are injected into it, rather than the object creating these dependencies itself. This promotes loose coupling, enhances testability, and makes it easier to manage and maintain the code.
 
-### Example in Python
+## Example in Python
 
 Consider a scenario where you have a service that sends notifications. This service can send notifications via email or SMS.
 
@@ -37,7 +36,6 @@ class NotificationService:
         elif method == "sms":
             self.sms_service.send_sms(message)
 
-# Usage
 notification_service = NotificationService()
 notification_service.notify("Hello, World!", "email")
 notification_service.notify("Hello, World!", "sms")
@@ -67,7 +65,6 @@ class NotificationService:
         elif method == "sms":
             self.sms_service.send_sms(message)
 
-# Usage
 email_service = EmailService()
 sms_service = SMSService()
 notification_service = NotificationService(email_service, sms_service)
@@ -81,7 +78,7 @@ In this version, the `NotificationService` class no longer creates instances of 
 - **Easier Testing**: You can easily replace `EmailService` and `SMSService` with mock objects when testing `NotificationService`.
 - **Flexibility**: You can change the implementations of `EmailService` and `SMSService` without modifying `NotificationService`.
 
-### Summary
+## Summary
 
 Dependency Injection helps in creating more modular, testable, and maintainable code by decoupling the dependencies from the class that uses them. This is achieved by injecting the dependencies from outside rather than letting the class create them internally.
 

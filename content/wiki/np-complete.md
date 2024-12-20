@@ -6,7 +6,6 @@ tags = ["deterministic",  "decision",  "notation",  "polynomial",  "hard",  "com
 +++
 
 
-# NP complete
 
 A problem in NP is also NP-complete if every other problem in NP can be reduced into it in polynomial time.
 
@@ -17,7 +16,7 @@ A problem is NP-complete when:
 3. The correctness of each solution can be verified quickly (namely, in polynomial time) and a brute-force search algorithm can find a solution by trying all possible solutions.
 4. The problem can be used to simulate every other problem for which we can verify quickly that a solution is correct. In this sense, NP-complete problems are the hardest of the problems to which solutions can be verified quickly. If we could find solutions of some NP-complete problem quickly, we could quickly find the solutions of every other problem to which a given solution can be easily verified.
 
-## Formal definition
+# Formal definition
 
 A decision problem C is NP-complete if:
 
@@ -28,7 +27,7 @@ A problem satisfying condition 2 is said to be NP-hard, whether or not it satisf
 
 A consequence of this definition is that if we had a polynomial time algorithm for C, we could solve all problems in NP in polynomial time.
 
-## Reducible
+# Reducible
 
 Any problem, let's call it Problem A, can be reduced to a different problem, Problem B, if there is an algorithm (called a reducer) that changes an algorithm that solves Problem B into an algorithm that solves Problem A.
 
@@ -36,7 +35,7 @@ Algorithm to solve B -> reducer -> Algorithm to solve A
 
 We say that "Problem A is reducible to problem B" if the reducer from the above can be run in polynomial time.
 
-### Formal definition
+## Formal definition
 
 Suppose A and B are formal languages over the alphabets Σ and Γ, respectively. A many-one reduction from A to B is a total computable function f : Σ ∗ → Γ ∗ that has the property that each word w is in A if and only if f(w) is in B.
 

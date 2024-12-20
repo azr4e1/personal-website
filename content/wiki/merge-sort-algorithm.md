@@ -6,7 +6,6 @@ tags = ["sorting",  "boot_dev",  "programming",  "binary_search",  "divide_and_c
 +++
 
 
-# merge sort algorithm
 
 Merge sort is a recursive sorting algorithm and it's quite a bit faster than bubble sort.
 
@@ -24,7 +23,7 @@ Divide:
 Conquer:
 1. Merge the two halves to form a sorted array
 
-## Algorithm
+# Algorithm
 
 The algorithm consists of two separate functions, merge_sort and merge.
 
@@ -32,7 +31,7 @@ merge_sort() divides the input array into two halves, calls itself for the two h
 
 The merge() function is used for merging two sorted lists back into a single sorted list. At the lowest level of recursion, the two "sorted" lists will each have a length of 1. Those single element lists will be merged into a sorted list of length two, and we can build from there.
 
-### merge_sort() implementation
+## merge_sort() implementation
 
 Input: A, a list of integers
 
@@ -41,7 +40,7 @@ Input: A, a list of integers
 3. Call merge_sort() twice, once on each half
 4. Return the result of calling merge(sorted_left_side, sorted_right_side) on the results of the merge_sort() calls
 
-### merge() implementation
+## merge() implementation
 
 Inputs: A, B. Two lists of integers
 

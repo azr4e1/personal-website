@@ -6,7 +6,6 @@ tags = ["switch",  "flow",  "golang",  "cascade",  "path",  "break",  "value",  
 +++
 
 
-# Switch expressions
 If we want to take conditional actions on the value of some variable, `switch` gives us a handy shortcut: the _switch expression_:
 ```go
 switch x {

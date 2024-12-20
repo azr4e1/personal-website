@@ -6,7 +6,6 @@ tags = ["programming",  "golang",  "for_the_love_of_go",  "snippet",  "tests",  
 +++
 
 
-# Writing tests
 One way to improve our confidence in the program’s correctness is to write tests for it.
 
 A test is also a program, but it’s a program specifically designed to run another program with various different inputs, and check its result. The test verifies that the program actually behaves the way it’s supposed to.

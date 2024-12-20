@@ -6,7 +6,6 @@ tags = ["router",  "network",  "vpn",  "computer_science",  "internet"]
 +++
 
 
-# Port Forwarding
 Port forwarding is a way for connection attempts from outside your local
 network to be established with a device inside the local network.
 

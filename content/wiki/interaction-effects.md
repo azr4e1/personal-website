@@ -6,7 +6,6 @@ tags = ["statistics",  "designing_running_and_analyzing_experiments",  "test",  
 +++
 
 
-# Interaction effects
 When dealing with factorial experiments, we can ask two questions:
 - is there a main effect?
 - what is the interaction?

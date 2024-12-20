@@ -6,7 +6,6 @@ tags = ["expression",  "golang",  "body",  "variadic",  "parameters",  "bubble",
 +++
 
 
-# The defer keyword in Go
 Sometimes we need to clean up resources, like when we open a file: we need to close the handle before we exit. We could do something like:
 ```go
 f, err := os.Open("testdata/somefile.txt")

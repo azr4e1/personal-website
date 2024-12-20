@@ -6,7 +6,6 @@ tags = ["structure",  "boot_dev",  "data",  "computer_science",  "programming"]
 +++
 
 
-# Data structures
 
 A data structure is a data organization, management, and storage format that
 enables efficient access and modification. More precisely, a data structure is

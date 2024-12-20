@@ -6,7 +6,6 @@ tags = ["statistics",  "designing_running_and_analyzing_experiments",  "week3", 
 +++
 
 
-# Variable types
 Variables have types. In [test-of-proportions](/wiki/test-of-proportions/) we had to re-encode the variables as `factors`, which is R speech
 for categorical/nominal types.
 
