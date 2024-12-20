@@ -1,112 +1,103 @@
-baseURL = 'https://azr4e1.github.io/quidest/'
-languageCode = 'en-us'
-title = 'Quidest?'
-author = "Lorenzo Drumond"
-theme = 'risotto'
-# copyright = "© [Joe Roe](https://joeroe.io) & [risotto contributors](https://github.com/joeroe/risotto/graphs/contributors)."
-paginate = 3
-DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
-ignoreErrors = ["error-remote-getjson"]
+# Basic config
+baseURL = "https://azr4e1.github.io/quidest"
+theme = "hugo-bearcub"
+copyright = "Lorenzo Drumond (CC BY 4.0)"
+defaultContentLanguage = "en"
 
-# Automatically add content sections to main menu
-sectionPagesMenu = "main"
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
+
+# Setup syntax highlighting without inline styles. For more information about
+# why you'd want to avoid inline styles, see
+# https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src#unsafe_inline_styles
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    # This allows Bear Cub to use a variation of Dracula that is more accessible
+    # to people with poor eyesight. For more information about color contrast
+    # and accessibility, see https://web.dev/color-and-contrast-accessibility/
+    noClasses = false
+
+# Multilingual mode config. More for information about how to setup translation,
+# see https://gohugo.io/content-management/multilingual/
+[languages]
+  [languages.en]
+    title = "Quidest?"
+    languageName = "en-US 🇺🇸"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "Made with Hugo"
+  # [languages.pt]
+  #   title = "Bear Cub"
+  #   languageName = "pt-BR 🇧🇷"
+  #   LanguageCode = "pt-BR"
+  #   contentDir = "content.pt"
+  #   [languages.pt.params]
+  #     madeWith = "Feito com [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 [params]
-math = true
-noindex = false
+  # The description of your website
+  description = "quidest"
 
-[params.theme]
-palette = "base16-dark"
+  # The path to your favicon
+  favicon = "images/favicon.png"
 
-# Sidebar: about/bio
-[params.about]
-title = "quidest"
-description = "What's up?"
-# unicode/emoji logo:
-logo = "🍚"
-# or use an image:
-#logo_image = "images/rice.svg"
+  # These images will show up when services want to generate a preview of a link
+  # to your site. Ignored if `generateSocialCard = true`. For more information
+  # about previews, see https://gohugo.io/templates/internal#twitter-cards and
+  # https://gohugo.io/templates/internal#open-graph
+  images = ["images/share.webp"]
 
-# Sidebar: social links
-# Available icon sets:
-# * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
-# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
+  # This title is used as the site_name on the Hugo's internal opengraph
+  # structured data template
+  title = "Quidest?"
 
-[[params.socialLinks]]
-icon = "fa-brands fa-github"
-title = "GitHub"
-url = "https://github.com/azr4e1"
+  # Dates are displayed following the format below. For more information about
+  # formatting, see https://gohugo.io/functions/format/
+  dateFormat = "2006-01-02"
 
-[[params.socialLinks]]
-icon = "fa-solid fa-envelope"
-title = "Email"
-url = "mailto:drumondlorenzo@gmail.com"
+  # If your blog is multilingual but you haven't translated a page, this theme
+  # will create a disabled link. By setting `hideUntranslated` to true, you can
+  # have the theme simply not show any link
+  hideUntranslated = false
 
-[menu]
+  # (EXPERIMENTAL) This theme has two options for its CSS styles: "original" and
+  # "herman". The former is what you see on Bear Cub's demo (an optimized
+  # version of Hugo Bear Blog), while the latter has a more modern look based on
+  # Herman Martinus's version of the Blogster Minimal theme for Astro.
+  themeStyle = "original"
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+  # (EXPERIMENTAL) This theme is capable of dynamically generating social cards
+  # for posts that don't have `images` defined in their front matter; By setting
+  # `generateSocialCard` to false, you can prevent this behavior. For more
+  # information see layouts/partials/social_card.html
+  generateSocialCard = false
+
+  # Social media. Delete any item you aren't using to make sure it won't show up
+  # in your website's metadata.
+  [params.social]
+    twitter = "example" # Twitter handle (without '@')
+    facebook_admin = "0000000000" # Facebook Page Admin ID
+
+  # Author metadata. This is mostly used for the RSS feed of your site, but the
+  # email is also added to the footer of each post. You can hide the "reply to"
+  # link by using a `hideReply` param in front matter.
+  [params.author]
+    name = "Lorenzo Drumond" # Your name as shown in the RSS feed metadata
+    email = "drumondlorenzo@gmail.com" # Added to the footer so readers can reply to posts
+
+  [menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
     weight = 10
-
-  [[menu.main]]
-    identifier = "wiki"
-    name = "Wiki"
-    url = "/wiki/"
-    weight = 10
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-
-# For hugo >= 0.60.0, enable inline HTML
-[markup.goldmark.renderer]
-unsafe = true
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)'], ['$', '$']]
-
-  # Table of contents
-  # Add toc = true to content front matter to enable
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel   = 3
-    ordered    = true
-
-[privacy]
-
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true
+  [[menus.main]]
+    name = 'Wiki'
+    pageRef = '/wiki'
+    weight = 20
+  [[menus.main]]
+    name = 'Projects'
+    pageRef = '/projects'
+    weight = 30
