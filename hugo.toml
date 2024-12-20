@@ -11,6 +11,13 @@ enableRobotsTXT = true
 # why you'd want to avoid inline styles, see
 # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src#unsafe_inline_styles
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
   [markup.highlight]
     lineNos = true
     lineNumbersInTable = false
@@ -38,6 +45,7 @@ enableRobotsTXT = true
   #     madeWith = "Feito com [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 [params]
+  math = true
   # The description of your website
   description = "quidest"
 
@@ -88,11 +96,15 @@ enableRobotsTXT = true
     name = "Lorenzo Drumond" # Your name as shown in the RSS feed metadata
     email = "drumondlorenzo@gmail.com" # Added to the footer so readers can reply to posts
 
-  [menus]
+[menus]
   [[menus.main]]
     name = 'Home'
     pageRef = '/'
     weight = 10
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 12
   [[menus.main]]
     name = 'Wiki'
     pageRef = '/wiki'
@@ -100,4 +112,4 @@ enableRobotsTXT = true
   [[menus.main]]
     name = 'Projects'
     pageRef = '/projects'
-    weight = 30
+    weight = 15
