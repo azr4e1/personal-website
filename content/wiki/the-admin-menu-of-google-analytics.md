@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "The Admin Menu of Google Analytics"
 author = "Lorenzo Drumond"
 date = "2024-01-15T15:29:07"
@@ -38,6 +39,6 @@ before being permanently deleted.
 
 You can view changes you or others have made to the account in the account change history.
 
-# References
+## References
 
 Next -> [power-your-reports-with-dimensions-and-metrics](/wiki/power-your-reports-with-dimensions-and-metrics/)

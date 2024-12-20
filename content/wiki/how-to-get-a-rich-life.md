@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "How to get a rich life"
 author = "Lorenzo Drumond"
 date = "2024-01-02T23:54:53"
@@ -12,7 +13,7 @@ In order to craft your rich life, you need to track your [key-metrics-for-person
 
 A goal without a plan is just a fantasy.
 
-# References
+## References
 
 Next -> [target-date-fund](/wiki/target-date-fund/)
 

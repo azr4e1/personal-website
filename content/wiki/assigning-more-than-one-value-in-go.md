@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Assigning more than one value in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T14:52:07"
@@ -17,5 +18,5 @@ a, b, c := 1, 2, 3
 
 `var x, y = 2, 3` is slightly safer to use than `x, y := 2, 3`. The former ensures that both `x` and `y` do not already exist in the _current_ scope.
 
-# References
+## References
 - [declaration-in-go](/wiki/declaration-in-go/)

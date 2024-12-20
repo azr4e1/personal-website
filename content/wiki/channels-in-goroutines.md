@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Channels in Goroutines"
 author = "Lorenzo Drumond"
 date = "2024-02-27T20:24:33"
@@ -51,4 +52,4 @@ func main() {
 // -5 17 12
 ```
 
-# References
+## References

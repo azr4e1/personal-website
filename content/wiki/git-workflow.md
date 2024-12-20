@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Git workflow"
 author = "Lorenzo Drumond"
 date = "2024-07-24T22:49:22"
@@ -23,7 +24,7 @@ modified and was added to the staging area, it is staged.
 And if it was changed since it was checked
 out but has not been staged, it is modified.
 
-# References
+## References
 - progit
 
 Next -> [git-porcelain-and-plumbing](/wiki/git-porcelain-and-plumbing/)

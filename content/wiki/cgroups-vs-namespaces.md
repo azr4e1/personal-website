@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "cgroups VS namespaces"
 author = "Lorenzo Drumond"
 date = "2023-12-25T17:54:54"
@@ -29,5 +30,5 @@ In other words, if you want to create two containers, each with limited amount o
 
 Namespaces and cgroups are the key technologies behind containers like Docker and Podman.
 
-# References
+## References
 - https://stackoverflow.com/questions/34820558/difference-between-cgroups-and-namespaces

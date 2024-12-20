@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Manage your Google Analytics Conversions"
 author = "Lorenzo Drumond"
 date = "2024-01-15T17:45:57"
@@ -20,6 +21,6 @@ conversion on the events page. Turning off a conversion doesn't affect the data
 you've already collected. Past events will still show in reports as
 conversions, but it'll prevent future events from showing up.
 
-# References
+## References
 
 Next -> [understand-google-analytics-reports](/wiki/understand-google-analytics-reports/)

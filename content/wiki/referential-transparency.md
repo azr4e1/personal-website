@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Referential transparency"
 author = "Lorenzo Drumond"
 date = "2024-07-29T01:34:01"
@@ -15,7 +16,7 @@ Pure functions are always referentially transparent.
 
 The great thing about pure functions is that they can always be safely memoized. Impure functions can't be because they might do something in addition to returning a static value, or they might return different values given the same arguments.
 
-# References
+## References
 
 - https://www.baeldung.com/cs/referential-transparency#referential-transparency
 - boot.dev

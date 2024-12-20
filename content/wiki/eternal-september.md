@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Eternal September"
 author = "Lorenzo Drumond"
 date = "2024-02-13T11:00:14"
@@ -14,5 +15,5 @@ The only exception was in September's, when batches of new students would join U
 
 In the 80s ISP started providing much wider Internet access to new users. This caused Usenet to be flooded with new, inexperienced users every month, making it seem like it was "always September"
 
-# References
+## References
 - https://en.wikipedia.org/wiki/Eternal_September?ref=platformer.news

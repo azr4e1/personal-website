@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Functions in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T10:03:41"
@@ -69,7 +70,7 @@ if err != nil {
 
 If the function declares some results, we can't use return on its now, but we must return the values declared.
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [functions-as-values-in-go](/wiki/functions-as-values-in-go/)

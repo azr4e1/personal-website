@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Generic type parameters in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T15:20:01"
@@ -46,6 +47,6 @@ func main() {
 // -1
 ```
 
-# References
+## References
 
 Next -> [generic-types-in-go](/wiki/generic-types-in-go/)

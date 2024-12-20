@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Data structures"
 author = "Lorenzo Drumond"
 date = "2024-08-18T22:34:03"
@@ -19,7 +20,7 @@ In other words, a data structure:
 3. Implements algorithmic functions that expose the ability to read and modify the data
 
 
-# References
+## References
 
 - boot.dev
 

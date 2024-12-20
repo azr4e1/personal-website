@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Marshalling"
 author = "Lorenzo Drumond"
 date = "2024-02-20T22:43:58"
@@ -14,6 +15,6 @@ More formally (from Wikipedia):
 
   Marshalling simplifies complex communications, because it allows using composite objects instead of being restricted to primitive objects.
 
-# References
+## References
 - John Arundel, The Power of Go: Tools
 - https://en.wikipedia.org/wiki/Marshalling_(computer_science)

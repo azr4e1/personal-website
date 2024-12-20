@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Happy path"
 author = "Lorenzo Drumond"
 date = "2024-01-28T16:36:34"
@@ -12,5 +13,5 @@ When deciding how to write your if statements, this is a helpful rule:
 
   Left-align the happy path. It minimises indentation and provides a clear visual guide to the reader about how you expect the program to proceed.
 
-# References
+## References
 - John Arundel, For the Love of Go

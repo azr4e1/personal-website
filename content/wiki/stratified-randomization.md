@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Stratified Randomization"
 author = "Lorenzo Drumond"
 date = "2024-03-14T14:57:16"
@@ -29,7 +30,7 @@ In statistics, stratified randomization is a method of sampling which first stra
 │                                                           │
 └───────────────────────────────────────────────────────────┘
 
-# Steps
+## Steps
 
 1. Define target population
 2. define stratification variables and decide the number of strata. Criteria for defining variables for stratification include age, socioeconomic status, nationality, race, education level etc..
@@ -40,5 +41,5 @@ In statistics, stratified randomization is a method of sampling which first stra
 7. Review the size of each stratum and numerical distribution of all elements in every strata. Determine the type of sampling, either proportional or disproportional stratified sampling.
 8. Carry out the selected random sampling as defined in step 5. At minimum, one element must be chosen from each stratum so that the final sample includes representatives from every stratum. If two or more elements from each stratum are selected, error margins of the collected data can be calculated.
 
-# References
+## References
 - https://en.wikipedia.org/wiki/Stratified_randomization

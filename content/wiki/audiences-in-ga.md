@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Audiences in GA"
 author = "Lorenzo Drumond"
 date = "2024-01-22T13:03:43"
@@ -37,6 +38,6 @@ _Predictive audiences_: Google Analytics uses machine learning to predict the fu
 
 You can set audience triggers: these are trigger events based on criteria that exist withing the audience builder tool. E.g.:  if the condition for your audience "high-value customers" defines members as users whose lifetime value is greater than 100, each time a user meets that condition and becomes an audience member, you can trigger an event like new_high_value_customer.
 
-# References
+## References
 
 Next -> [link-google-ads-and-ga](/wiki/link-google-ads-and-ga/)

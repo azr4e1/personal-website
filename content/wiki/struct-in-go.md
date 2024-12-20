@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Struct in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-19T13:29:34"
@@ -71,7 +72,7 @@ func main() {
 }
 ```
 
-# References
+## References
 - https://go.dev/tour/moretypes/2
 
 Next -> [go-slices](/wiki/go-slices/)

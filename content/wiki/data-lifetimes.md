@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Data lifetimes"
 author = "Lorenzo Drumond"
 date = "2024-07-03T12:51:33"
@@ -11,7 +12,7 @@ Normally when we send encrypted messages, we prefer to do so using ephemeral mes
 
 There’s also the transition between data storage and message traffic: message traffic is encrypted with ephemeral keys that are never stored, while stored data needs to be encrypted with a long-term key. The system architecture should account for these different types of cryptography, and ensure that stored data is protected appropriately.
 
-# References
+## References
 - [how-does-tls-work](/wiki/how-does-tls-work/)
 
 Next -> [cryptographic-agility](/wiki/cryptographic-agility/)

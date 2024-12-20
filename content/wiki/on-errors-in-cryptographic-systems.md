@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "On errors in cryptographic systems"
 author = "Lorenzo Drumond"
 date = "2024-07-03T11:54:07"
@@ -13,6 +14,6 @@ There are attacks, for example, that operate by distinguishing between decryptio
 
 One approach to mitigate this is to either signal an error using a bool or with a generic error value such as "encryption failed".
 
-# References
+## References
 
 Next -> [input-sanitisation](/wiki/input-sanitisation/)

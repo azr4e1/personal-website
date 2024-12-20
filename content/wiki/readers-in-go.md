@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Readers in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T14:46:17"
@@ -44,7 +45,7 @@ func main() {
 }
 ```
 
-# References
+## References
 - [interface-values-in-go](/wiki/interface-values-in-go/)
 - [errors-in-go](/wiki/errors-in-go/)
 - [go-types-and-methods](/wiki/go-types-and-methods/)

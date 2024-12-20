@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Shorthand assignment in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-20T17:47:09"
@@ -13,5 +14,5 @@ x := 1
 
 will both declare a variable `x` with the type of the value on the right-hand side, and assign the value to 1.
 
-# References
+## References
 - [values-and-variables-in-go](/wiki/values-and-variables-in-go/)

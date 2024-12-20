@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Hash Map Data Structure"
 author = "Lorenzo Drumond"
 date = "2024-08-21T15:22:10"
@@ -20,7 +21,7 @@ Python has a built-in hashmap called _dictionary_:
 - Each entry in the table is actually a combination of the three values: hash, key, value
 - New dictionaries start with 8 slots and grow when they become 2/3 full
 
-# References
+## References
 
 - boot.dev
 

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Nondeterministic Turing Machine"
 author = "Lorenzo Drumond"
 date = "2024-08-17T00:36:10"
@@ -9,11 +10,11 @@ tags = ["turing",  "machine",  "nondeterministic",  "programming"]
 
 a nondeterministic Turing machine (NTM) is a theoretical model of computation whose governing rules specify more than one possible action when in some given situations. That is, an NTM's next state is not completely determined by its action and the current symbol it sees, unlike a deterministic Turing machine [deterministic-turing-machine](/wiki/deterministic-turing-machine/).
 
-# Turing Machine
+## Turing Machine
 
 In essence, a Turing machine is imagined to be a simple computer that reads and writes symbols one at a time on an endless tape by strictly following a set of rules. It determines what action it should perform next according to its internal state and what symbol it currently sees. An example of one of a Turing Machine's rules might thus be: "If you are in state 2 and you see an 'A', then change it to 'B', move left, and switch to state 3."
 
-# Deterministic
+## Deterministic
 
 In a deterministic Turing machine (DTM), the set of rules prescribes at most one action to be performed for any given situation.
 
@@ -25,7 +26,7 @@ A deterministic Turing machine has a transition function that, for a given state
 
 For example, an X on the tape in state 3 might make the DTM write a Y on the tape, move the head one position to the right, and switch to state 5.
 
-# Nondeterministic
+## Nondeterministic
 
 In contrast to a deterministic Turing machine, in a nondeterministic Turing
 machine (NTM) the set of rules may prescribe more than one action to be
@@ -47,7 +48,7 @@ transitions. Whereas a DTM has a single "computation path" that it follows, an
 NTM has a "computation tree". If at least one branch of the tree halts with an
 "accept" condition, the NTM accepts the input.
 
-# References
+## References
 
 - https://en.wikipedia.org/wiki/Nondeterministic_Turing_machine
 

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Analysis of a Linear Mixed Model"
 author = "Lorenzo Drumond"
 date = "2023-12-05T16:14:35"
@@ -20,7 +21,7 @@ where the random effect is Subject, and Trial is nested in Keyboard and Posture.
 |       1 |   iPhone |     Sit |             1 |      5| 22.58 |        0.05|
 
 ```R
-# Linear Mixed Model (LMM) on WPM
+## Linear Mixed Model (LMM) on WPM
 
 mbltxttrials = read.csv("mbltxttrials.csv")
 View(mbltxttrials)
@@ -69,7 +70,7 @@ summary(glht(m, emm(pairwise ~ Keyboard * Posture)), test=adjusted(type="holm"))
 with(mbltxttrials, interaction.plot(Posture, Keyboard, WPM, ylim=c(0, max(mbltxttrials$WPM)))) # for convenience
 ```
 
-# References
+## References
 - [one-way-repeated-measures-anova](/wiki/one-way-repeated-measures-anova/)
 - [anova-assumptions](/wiki/anova-assumptions/)
 - [example-analysis-of-an-ab-test](/wiki/example-analysis-of-an-ab-test/)

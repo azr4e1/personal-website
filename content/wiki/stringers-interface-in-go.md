@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Stringers interface in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T14:23:13"
@@ -40,6 +41,6 @@ func main() {
 // Arthur Dent (42 years) Zaphod Beeblebrox (9001 years)
 ```
 
-# References
+## References
 - [interface-values-in-go](/wiki/interface-values-in-go/)
 - [go-types-and-methods](/wiki/go-types-and-methods/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "GA Account structure"
 author = "Lorenzo Drumond"
 date = "2023-12-06T12:25:54"
@@ -15,6 +16,6 @@ In most cases, you should use a single web data stream to measure the web user j
 
 When creating your Google Analytics account, you should map the account and properties you set up back to your business structure. In general, it's a best practice to set up your account structure with one account per company and one property per brand or business unit.
 
-# References
+## References
 
 Next -> [setup-data-streams-in-ga](/wiki/setup-data-streams-in-ga/)

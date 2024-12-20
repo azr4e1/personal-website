@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Choosing a value or pointer receiver in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T13:20:29"
@@ -19,7 +20,7 @@ There are two reasons to use a pointer receiver:
 In general, all methods on a given type should have either value or pointer receiver, but not a mixture of both
 
 
-# References
+## References
 - [go-types-and-methods](/wiki/go-types-and-methods/)
 
 Next -> [interfaces-in-go](/wiki/interfaces-in-go/)

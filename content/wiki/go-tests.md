@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go tests"
 author = "Lorenzo Drumond"
 date = "2024-01-18T14:41:06"
@@ -16,4 +17,4 @@ Each test in Go is a function, with some special requirements:
 
 When all this requirements are satisfied, you can run the tests from the terminal with: `go test`
 
-# References
+## References

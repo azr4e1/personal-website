@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Investment fund"
 author = "Lorenzo Drumond"
 date = "2024-01-03T00:19:00"
@@ -14,4 +15,4 @@ Brokers that offer funds are (among many): Vanguard, Fidelity, Schwab.
 
 A key when looking for funds is a low-cost brokerage firm.
 
-# References
+## References

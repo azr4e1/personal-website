@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "One-Way ANOVA"
 author = "Lorenzo Drumond"
 date = "2023-11-20T04:31:26"
@@ -10,7 +11,7 @@ Assuming we have three levels of a factor, and we want to perform ANOVA. We can'
 
 We can use a One-Way ANOVA test however, using the F statistics
 ```R
-# One-way ANOVA
+## One-way ANOVA
 
 ide3 = read.csv("ide3.csv")
 View(ide3)
@@ -63,14 +64,14 @@ summary(glht(m, mcp(IDE="Tukey")), test=adjusted(type="holm")) # Tukey means com
 #
 ```
 
-# Report the results
+## Report the results
 
 ```latex
 F(2, 57) = 8.80, p<.001
 ```
 In parentheses we have the two degrees of freedom. The first one is called _numerator_, the second is called the _denominator_.
 
-# References
+## References
 - [independent-samples-t-test](/wiki/independent-samples-t-test/)
 - [variable-types](/wiki/variable-types/)
 - [data-transformation-when-normality-is-violated](/wiki/data-transformation-when-normality-is-violated/)

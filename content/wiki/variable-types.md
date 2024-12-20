@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Variable types"
 author = "Lorenzo Drumond"
 date = "2023-11-17T16:19:57"
@@ -17,6 +18,6 @@ There are numeric/continuos/scalar types, and ordinal types
 
 
 
-# References
+## References
 - [measurement-errors](/wiki/measurement-errors/)
 - [test-of-proportions](/wiki/test-of-proportions/)

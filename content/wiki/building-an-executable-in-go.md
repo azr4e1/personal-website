@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Building an executable in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T11:10:17"
@@ -16,6 +17,6 @@ If we want to produce executable for different operating system, we can use the 
 
 If we want to produce executable for different CPU architecture, we can use the `GOARCH` environment variable to set it to a different architecture, and run `go build` (e.g.: `GOARCH=arm go build`)
 
-# References
+## References
 - John Arundel, For the Love of Go
 - [the-init-function-in-go](/wiki/the-init-function-in-go/)

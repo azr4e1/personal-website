@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Elm Architecture"
 author = "Lorenzo Drumond"
 date = "2024-03-22T00:22:13"
@@ -8,7 +9,7 @@ tags = ["computer_science",  "paradigm",  "architecture",  "programming",  "game
 
 The Elm Architecture is a pattern for architecting interactive programs, like webapps and games.
 
-# Basic Pattern
+## Basic Pattern
 
 Elm programs always look something like:
 
@@ -44,5 +45,5 @@ Elm starts by rendering the initial value on screen. From there you enter into t
 5. Show the new HTML on screen
 6. Repeat
 
-# References
+## References
 - https://guide.elm-lang.org/architecture/

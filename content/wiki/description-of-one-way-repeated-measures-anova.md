@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Description of One-Way Repeated Measures ANOVA"
 author = "Lorenzo Drumond"
 date = "2023-11-20T05:41:54"
@@ -14,7 +15,7 @@ One big challenge with this type of variables is __Carryover Effects__: we need 
 
 To test for order effect, we need to encode another variable in our table: the presentation order of the conditions, and then perform a test.
 
-# Example
+## Example
 1. 20 subjects
 1. they need to find a set number of contact in a phone
 1. two methods: using search, and scrolling
@@ -26,7 +27,7 @@ To test for order effect, we need to encode another variable in our table: the p
 - errors is a numeric variable
 - effort is a ordinal variable
 
-# References
+## References
 - [anova-assumptions](/wiki/anova-assumptions/)
 - [variable-types](/wiki/variable-types/)
 - [one-way-anova](/wiki/one-way-anova/)

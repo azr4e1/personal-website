@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Generalized Linear Models"
 author = "Lorenzo Drumond"
 date = "2023-12-04T14:35:58"
@@ -11,7 +12,7 @@ A few facts about GLM:
 - Ordinal Logistic regression for Likert responses has a multinomial distribution with cumulative logit link function
 - Poisson regression for count responses uses a Poisson distribution with Log link function.
 
-# References
+## References
 - [example-analysis-of-an-ab-test](/wiki/example-analysis-of-an-ab-test/)
 - [factorial-anova](/wiki/factorial-anova/)
 - [anova-assumptions](/wiki/anova-assumptions/)

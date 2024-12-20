@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Values and Variables in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-20T16:46:16"
@@ -20,7 +21,7 @@ var copies int
 
 The Go compiler will use the type information you've provided to check whether you accidentally assigned a value to the wrong type of variable.
 
-# References
+## References
 - John Arundel, For the love of Go
 
 Next -> [zero-values-and-default-values-in-go](/wiki/zero-values-and-default-values-in-go/)

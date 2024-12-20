@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Bayesian Inference - Continuous Distributions"
 author = "Lorenzo Drumond"
 date = "2024-10-03T10:10:15"
@@ -19,6 +20,6 @@ When a random variable Z has a exponential distribution, we say it's exponential
 
 Its expected value is $E[Z|\lambda] = \frac{1}{\lambda}$
 
-# References
+## References
 
 Next -> [bayesian-inference---estimating-the-parameter](/wiki/bayesian-inference---estimating-the-parameter/)

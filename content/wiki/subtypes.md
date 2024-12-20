@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Subtypes"
 author = "Lorenzo Drumond"
 date = "2023-11-07T01:38:06"
@@ -17,6 +18,6 @@ This relation is thus called a subtype relation: `second_type` is a subtype of `
 
 Example: integers are subtypes of real numbers. Integers are of course real numbers, but there are less of them. Also, every function that works on real numbers, works on integers, but integers support more operations, like _bitwise shifts_.
 
-# References
+## References
 - https://peps.python.org/pep-0483/
 - [types](/wiki/types/)

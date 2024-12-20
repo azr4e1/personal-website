@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Python Storage VS Memory"
 author = "Lorenzo Drumond"
 date = "2024-08-20T08:40:34"
@@ -22,4 +23,4 @@ with open("data.txt", "r+b") as f:
 
 Memory-mapped files allow you to treat disk storage as if it were memory, speeding up access times for large files.
 
-# References
+## References

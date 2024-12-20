@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Test of Proportions"
 author = "Lorenzo Drumond"
 date = "2023-11-14T13:49:32"
@@ -24,7 +25,7 @@ What does it mean to get a significant result? p-value is below 0.05, traditiona
 
 Degree of freedom is a parameter that depends on the test. This parameter needs to be reported.
 
-# References
+## References
 - https://www.coursera.org/learn/designexperiments
 
 Next -> [report-the-result-of-a-test](/wiki/report-the-result-of-a-test/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "MDE"
 author = "Lorenzo Drumond"
 date = "2024-08-20T09:31:43"
@@ -18,6 +19,6 @@ MDE is computed by examining two distributions, one produced by the null hypothe
 3. It uses that value along with the specified power level (which represents the area under the alternate hypothesis distribution curve located beyond the value found in (2)) to shift the alternate hypothesis distribution curve closer to or further away from the null hypothesis distribution curve.
 4. Once the two distributions are in place, the MDE is simply the difference between two points on those two curves (usually the difference in means)
 
-# References
+## References
 
 - https://stats.stackexchange.com/questions/469564/mde-minimal-detectable-effect

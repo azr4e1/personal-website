@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "insertion sort algorithm"
 author = "Lorenzo Drumond"
 date = "2024-08-15T00:33:38"
@@ -9,7 +10,7 @@ tags = ["big_o",  "programming",  "computer_science",  "notation",  "algorithm",
 
 Insertion sort builds a final sorted list one item at a time. It's much less efficient on large lists than more advanced algorithms like quicksort or merge sort.
 
-# Pseudocode
+## Pseudocode
 
 - For each index in the input list:
   - Set a j variable to the current index
@@ -20,7 +21,7 @@ Insertion sort builds a final sorted list one item at a time. It's much less eff
 
 It has O(n^2) in worst case scenario, O(n) in best case.
 
-# Why use insertion sort
+## Why use insertion sort
 
 - Simple implementation, easy to write
 - Fast for very small data sets
@@ -37,7 +38,7 @@ Some production sorting implementations use insertion sort for very small inputs
 - It's a stable sort.
 
 
-# References
+## References
 
 - boot.dev
 

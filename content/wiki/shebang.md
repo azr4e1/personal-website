@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Shebang"
 author = "Lorenzo Drumond"
 date = "2024-07-24T14:32:54"
@@ -13,4 +14,4 @@ A "shebang" is a special line at the top of a script that tells your shell which
 #! interpreter [optional-arg]
 ```
 
-# References
+## References

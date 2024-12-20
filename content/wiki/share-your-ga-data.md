@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Share your GA data"
 author = "Lorenzo Drumond"
 date = "2024-01-23T10:07:24"
@@ -12,6 +13,6 @@ You can share your Analytics data for several purposes:
 - Let Google technical support representatives access your Google Analytics data and account when necessary to provide service and find solutions to technical issues.
 - Give Google marketing and sales specialists access to your Google Analytics data and account so they can find ways to improve your configuration and analysis and share optimization tips with you.
 
-# References
+## References
 
 Next -> [combine-business-data-in-ga](/wiki/combine-business-data-in-ga/)

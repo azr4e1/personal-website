@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Pointer methods in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-27T00:55:15"
@@ -53,7 +54,7 @@ func (b *Book) SetPriceCents(price int) error {
 
 This is called automatic dereferencing, and since most methods on structs are pointer methods, it’s very helpful.
 
-# References
+## References
 - John Arundel, For the Love of Go
 - https://go.dev/tour/methods/6
 

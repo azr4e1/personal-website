@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Navigate your Google Analytics account"
 author = "Lorenzo Drumond"
 date = "2024-01-15T16:31:11"
@@ -25,6 +26,6 @@ The search bar will help you navigate the account and answer analytics questions
 
 You can also compare time periods using the selector on the top right.
 
-# References
+## References
 
 Next -> [manage-your-google-analytics-events](/wiki/manage-your-google-analytics-events/)

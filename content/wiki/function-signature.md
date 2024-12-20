@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Function signature"
 author = "Lorenzo Drumond"
 date = "2024-07-28T14:30:39"
@@ -11,6 +12,6 @@ A function signature (or method signature) includes the name, inputs, and output
 
 If you change the function signature of a parent class when overriding a method, it could be a disaster. The whole point of overriding a method is so that the caller of your code doesn't have to worry about what different things are going on inside the methods of different object types.
 
-# References
+## References
 
 - boot.dev

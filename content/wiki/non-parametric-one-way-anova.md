@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Non-parametric One-Way ANOVA"
 author = "Lorenzo Drumond"
 date = "2023-11-20T05:19:15"
@@ -22,7 +23,7 @@ ec.py = wilcox.test(ide3[ide3$IDE == "Eclipse",]$Time, ide3[ide3$IDE == "PyCharm
 p.adjust(c(vs.ec$p.value, vs.py$p.value, ec.py$p.value), method="holm")
 ```
 
-# References
+## References
 - [designing-for-experimental-control](/wiki/designing-for-experimental-control/)
 - [variable-types](/wiki/variable-types/)
 - [anova-assumptions](/wiki/anova-assumptions/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Functions as values in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T10:20:59"
@@ -19,7 +20,7 @@ var function func(float64, float64) float64
 
 We've declared a variable named `function` whose type is `func(float64, float64) float64`
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [function-literals-in-go](/wiki/function-literals-in-go/)

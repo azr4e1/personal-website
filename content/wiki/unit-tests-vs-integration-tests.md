@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Unit tests VS Integration tests"
 author = "Lorenzo Drumond"
 date = "2024-02-09T15:08:39"
@@ -17,5 +18,5 @@ Integration tests are not run as often as unit tests, because the only way they 
 
 Unit tests check a program's behavior given certain assumptions about external dependencies. Integration tests check those assumptions are still correct.
 
-# References
+## References
 - John Arundel, The Power of Go: Tools

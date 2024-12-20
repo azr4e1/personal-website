@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Git rebase"
 author = "Lorenzo Drumond"
 date = "2024-07-24T23:03:42"
@@ -27,7 +28,7 @@ the command to rebase is
 git rebase <branch>
 ```
 
-# References
+## References
 
 - boot.dev
 

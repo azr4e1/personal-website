@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Linked List Data Structure"
 author = "Lorenzo Drumond"
 date = "2024-08-18T23:17:24"
@@ -17,7 +18,7 @@ item = my_list[1]
 
 In a linked list, there are no indexes. We need to walk each node of the list because the only way to get the location of the second item in a linked list is to look at the pointer of the first item.
 
-# Advantage over arrays
+## Advantage over arrays
 
 The structure of lists means each item has a fixed position, its index.
 Contrast that with linked lists, where the position of each item is not fixed.
@@ -29,7 +30,7 @@ O(1) by adjusting those pointers as needed.
 
 For this reason, linked lists have a performance advantage over normal lists when implementing a queue (FIFO), in which elements are continuously inserted at the end and removed at the beginning of the list. But they perform similarly to a list when implementing a stack (LIFO), in which elements are inserted and removed at the end of the list.
 
-# References
+## References
 
 - boot.dev
 

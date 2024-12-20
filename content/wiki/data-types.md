@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Data Types"
 author = "Lorenzo Drumond"
 date = "2024-07-22T14:11:27"
@@ -15,5 +16,5 @@ constrains the possible values that an expression, such as a variable or a
 function call, might take. On literal data, it tells the compiler or
 interpreter how the programmer intends to use the data.
 
-# References
+## References
 - https://en.wikipedia.org/wiki/Data_type

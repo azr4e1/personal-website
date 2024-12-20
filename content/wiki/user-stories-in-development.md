@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "User stories in development"
 author = "Lorenzo Drumond"
 date = "2024-01-21T04:07:21"
@@ -10,5 +11,5 @@ A good way to approach software development is to think in the shoes of our futu
 
 There are many stories we could think about. However, when starting out a project, we need to think about the stories we __couldn't__ possibly leave out: these are the _core_ stories of our project.
 
-# References
+## References
 - John Arundel, For the Love of Go

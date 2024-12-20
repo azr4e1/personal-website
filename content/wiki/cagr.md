@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "CAGR"
 author = "Lorenzo Drumond"
 date = "2024-08-15T16:11:00"
@@ -15,7 +16,7 @@ The compound annual growth rate is the rate of return that an investment would n
 - CAGR is thus a good way to evaluate how different investments have performed over time, or against a benchmark.
 - The CAGR does not, however, reflect investment risk.
 
-# Formula
+## Formula
 
 ```
 CAGR = ((EV/BV)^(1/n) - 1) * 100
@@ -23,6 +24,6 @@ CAGR = ((EV/BV)^(1/n) - 1) * 100
 
 where EV = "Ending Value", BV = "Beginning Value", n = "Number of years"
 
-# References
+## References
 
 - https://www.investopedia.com/terms/c/cagr.asp

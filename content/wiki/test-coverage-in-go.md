@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Test coverage in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-21T13:01:56"
@@ -24,5 +25,5 @@ This will generate an HTML output that will open the browser automatically. The 
 
 Definitions, constants and so on are just instructions to the compiler, and don't result in any generated object code in your program binary, so the coverage tool ignores them.
 
-# References
+## References
 - John Arundel, For the Love of Go

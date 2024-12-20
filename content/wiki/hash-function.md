@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Hash Function"
 author = "Lorenzo Drumond"
 date = "2024-08-21T15:23:49"
@@ -19,7 +20,7 @@ Three main purposes of a hash function are:
 - To accept an input of arbitrary length and output a fixed-length result
 - To manipulate data irreversibly. The input cannot be derived from the output
 
-# References
+## References
 
 - https://en.wikipedia.org/wiki/Hash_function
 - https://blog.boot.dev/cryptography/how-sha-2-works-step-by-step-sha-256/

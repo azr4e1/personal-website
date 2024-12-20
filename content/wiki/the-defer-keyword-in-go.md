@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "The defer keyword in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T10:37:06"
@@ -35,7 +36,7 @@ A defer statement defers the execution of a function until the surrounding funct
 The deferred call's arguments are evaluated immediately, but the function call is not executed until the surrounding function returns.
 
 
-# References
+## References
 - John Arundel, For the Love of Go
 - https://go.dev/tour/flowcontrol/12
 - https://go.dev/tour/flowcontrol/13

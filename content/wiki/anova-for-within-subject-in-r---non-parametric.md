@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "ANOVA for within-subject in R - non-parametric"
 author = "Lorenzo Drumond"
 date = "2023-11-20T07:45:45"
@@ -40,7 +41,7 @@ library(coin)
 wilcoxsign_test(Effort ~ Technique | Subject, data=srchscrl, distribution="exact")
 ```
 
-# References
+## References
 - [One Way Anova](/wiki/one-way-anova)
 - [wide-vs-long-format-tables](/wiki/wide-vs-long-format-tables/)
 - [variable-types](/wiki/variable-types/)

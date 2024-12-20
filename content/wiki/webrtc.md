@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "WebRTC"
 author = "Lorenzo Drumond"
 date = "2023-12-21T16:57:35"
@@ -16,6 +17,6 @@ peer-to-peer communication.
 A side effect of this technology is that the real IP of a user is at risk
 of being exposed.
 
-# References
+## References
 - https://en.wikipedia.org/wiki/WebRTC
 - https://mullvad.net/en/help/webrtc

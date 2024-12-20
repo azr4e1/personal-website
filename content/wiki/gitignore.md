@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "gitignore"
 author = "Lorenzo Drumond"
 date = "2024-07-25T00:26:01"
@@ -31,7 +32,7 @@ It's fairly common to have multiple .gitignore files in different directories
 throughout a project. A nested .gitignore file only applies to the directory
 it's in and its subdirectories.
 
-# Patterns
+## Patterns
 
 gitignore supports patterns.
 
@@ -50,6 +51,6 @@ You can negate a pattern by prefixing it with an exclamation mark (!). For examp
 
 You can add comments to your .gitignore file by starting a line with a #.
 
-# References
+## References
 
 - boot.dev

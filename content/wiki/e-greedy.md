@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "e-greedy"
 author = "Lorenzo Drumond"
 date = "2023-11-27T16:09:10"
@@ -12,7 +13,7 @@ The idea is to take either the most optimal (known) choice with probability $(1-
 
 Therefore we can balance how much exploration we want by tuning the $e$ parameter: 0 = full exploitation, 1 = full exploration
 
-# Example
+## Example
 
 In the bernoulli 3-armed bandit example ([greedy-strategy](/wiki/greedy-strategy/)),
 with $e=0.1$ we would pick a random option for 10% of the time. This ensures we don't get stuck in unoptimal choices.
@@ -29,7 +30,7 @@ Therefore we would have 0 loss with 0.9 probability, and 0.2 loss with 0.1 proba
 (1-e) * 0 + e * 0.2 = 0.02
 ```
 
-# References
+## References
 - [exploration-vs-exploitation](/wiki/exploration-vs-exploitation/)
 - [greedy-strategy](/wiki/greedy-strategy/)
 - https://towardsdatascience.com/the-exploration-exploitation-dilemma-f5622fbe1e82

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Zero values and default values in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-20T17:44:43"
@@ -16,7 +17,7 @@ Zero value for `string` is the empty string "".
 
 Booleans default to `false`.
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [shorthand-assignment-in-go](/wiki/shorthand-assignment-in-go/)

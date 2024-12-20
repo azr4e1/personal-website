@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go slices length and capacity"
 author = "Lorenzo Drumond"
 date = "2024-02-23T14:01:29"
@@ -53,7 +54,7 @@ func printSlice(s []int) {
 // len=2 cap=4 [5 7]
 ```
 
-# References
+## References
 - https://go.dev/tour/moretypes/11
 
 Next -> [slice-zero-value](/wiki/slice-zero-value/)

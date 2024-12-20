@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "TLS handshake"
 author = "Lorenzo Drumond"
 date = "2024-03-22T00:15:56"
@@ -42,7 +43,7 @@ The basic steps of a TLS 1.3 handshake are:
 
 
 
-# References
+## References
 - [tls-certificate](/wiki/tls-certificate/)
 - [what-is-http](/wiki/what-is-http/)
 - [tls-certificate](/wiki/tls-certificate/)

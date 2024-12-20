@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "bubble sort algorithm"
 author = "Lorenzo Drumond"
 date = "2024-08-14T00:01:00"
@@ -36,7 +37,7 @@ n + (n-1) + (n-2) + ... + 1 = n * (n-1) / 2 = O(n^2)
 
 Best case scenario is O(n) (list is already sorted).
 
-# References
+## References
 
 - boot.dev
 

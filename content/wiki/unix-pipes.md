@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Unix Pipes"
 author = "Lorenzo Drumond"
 date = "2024-03-12T00:54:29"
@@ -12,5 +13,5 @@ In an anonymous pipeline, data written by one process is buffered by the OS unti
 
 In a named pipe, messages are passed to or from a pipe that is named by making it a file, and remains after the processes are completed.
 
-# References
+## References
 - https://en.wikipedia.org/wiki/Pipeline_(Unix)

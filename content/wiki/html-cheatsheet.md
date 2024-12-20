@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "html cheatsheet"
 author = "Lorenzo Drumond"
 date = "2024-07-30T13:17:17"
@@ -7,7 +8,7 @@ tags = ["cheatsheet",  "html",  "programming"]
 
 
 
-# Headings
+## Headings
 
 ```html
 <h1>Heading 1</h1>
@@ -18,37 +19,37 @@ tags = ["cheatsheet",  "html",  "programming"]
 <h6>Heading 6</h6>
 ```
 
-# Paragraphs
+## Paragraphs
 
 ```html
 <p>This is a paragraph of text.</p>
 ```
 
-# Bold
+## Bold
 
 ```html
 <p>This is a <b>bold</b> word.</p>
 ```
 
-# Italics
+## Italics
 
 ```html
 <p>This is an <i>italic</i> word.</p>
 ```
 
-# Links
+## Links
 
 ```html
 This is a paragraph with a <a href="https://www.google.com">link</a>.
 ```
 
-# Images
+## Images
 
 ```html
 <img src="url/of/image.jpg" alt="Description of image">
 ```
 
-# Unordered lists
+## Unordered lists
 
 ```html
 <ul>
@@ -58,7 +59,7 @@ This is a paragraph with a <a href="https://www.google.com">link</a>.
 </ul>
 ```
 
-# Ordered lists
+## Ordered lists
 
 ```html
 <ol>
@@ -68,7 +69,7 @@ This is a paragraph with a <a href="https://www.google.com">link</a>.
 </ol>
 ```
 
-# Quotes
+## Quotes
 
 ```html
 <blockquote>
@@ -76,10 +77,10 @@ This is a paragraph with a <a href="https://www.google.com">link</a>.
 </blockquote>
 ```
 
-# Code
+## Code
 
 ```html
 <code>This is code</code>
 ```
 
-# References
+## References

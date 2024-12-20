@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Binary Tree Data Structure"
 author = "Lorenzo Drumond"
 date = "2024-08-19T21:40:21"
@@ -29,7 +30,7 @@ By ordering the tree this way now, we can add, remove, and find nodes very quick
 We just need to linearly visit the levels of a tree once to perform any of the above operations. In general, a tree of
 n elements has at most log(n) levels.
 
-# References
+## References
 
 - boot.dev
 

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "merge sort algorithm"
 author = "Lorenzo Drumond"
 date = "2024-08-14T00:14:46"
@@ -23,7 +24,7 @@ Divide:
 Conquer:
 1. Merge the two halves to form a sorted array
 
-# Algorithm
+## Algorithm
 
 The algorithm consists of two separate functions, merge_sort and merge.
 
@@ -31,7 +32,7 @@ merge_sort() divides the input array into two halves, calls itself for the two h
 
 The merge() function is used for merging two sorted lists back into a single sorted list. At the lowest level of recursion, the two "sorted" lists will each have a length of 1. Those single element lists will be merged into a sorted list of length two, and we can build from there.
 
-## merge_sort() implementation
+### merge_sort() implementation
 
 Input: A, a list of integers
 
@@ -40,7 +41,7 @@ Input: A, a list of integers
 3. Call merge_sort() twice, once on each half
 4. Return the result of calling merge(sorted_left_side, sorted_right_side) on the results of the merge_sort() calls
 
-## merge() implementation
+### merge() implementation
 
 Inputs: A, B. Two lists of integers
 
@@ -67,6 +68,6 @@ T(n) = 2^i * T(n/(2^i)) + i * n
 
 For a list of length n, the algorithm will perform at most `log(n)` recursions, so worst case time complexity is O(n * log(n))
 
-# References
+## References
 
 Next -> [insertion-sort-algorithm](/wiki/insertion-sort-algorithm/)

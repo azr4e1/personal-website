@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Controlling nested loops with labels in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T18:00:20"
@@ -28,5 +29,5 @@ If we wanted to continue the outer loop instead of exiting it, we could have wri
 
 The `goto` keyword will simply jump directly to the specified label.
 
-# References
+## References
 - John Arundel, For the Love of Go

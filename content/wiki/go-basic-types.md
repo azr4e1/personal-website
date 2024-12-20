@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go basic types"
 author = "Lorenzo Drumond"
 date = "2024-02-23T10:21:02"
@@ -52,5 +53,5 @@ func main() {
 
 The int, uint, and uintptr types are usually 32 bits wide on 32-bit systems and 64 bits wide on 64-bit systems. When you need an integer value you should use int unless you have a specific reason to use a sized or unsigned integer type.
 
-# References
+## References
 - https://go.dev/tour/basics/11

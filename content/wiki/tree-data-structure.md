@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Tree Data Structure"
 author = "Lorenzo Drumond"
 date = "2024-08-19T21:38:33"
@@ -18,7 +19,7 @@ A generic tree structure has the following rules:
 - Duplicate values are allowed, multiple nodes can have the same value
 
 
-# References
+## References
 
 - boot.dev
 

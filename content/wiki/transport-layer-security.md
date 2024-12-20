@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Transport Layer Security"
 author = "Lorenzo Drumond"
 date = "2024-03-21T23:59:53"
@@ -18,7 +19,7 @@ TLS guarantees:
 2. Authentication: ensures that the parties exchanging the information are who they claim to be
 3. Integrity: verifies that the data has not been forged.
 
-# References
+## References
 - [what-is-http](/wiki/what-is-http/)
 - https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/
 

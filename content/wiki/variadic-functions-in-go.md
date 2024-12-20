@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Variadic Functions in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T10:57:51"
@@ -24,7 +25,7 @@ func AddMany(inputs ...float64) float64 {
 
 Inside the function body, `inputs` acts like a slice.
 
-# References
+## References
 - [multiple-values-in-go-functions](/wiki/multiple-values-in-go-functions/)
 - [functions-as-values-in-go](/wiki/functions-as-values-in-go/)
 - [named-result-parameters-in-go](/wiki/named-result-parameters-in-go/)

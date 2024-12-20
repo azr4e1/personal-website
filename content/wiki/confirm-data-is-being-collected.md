@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Confirm Data is being collected"
 author = "Lorenzo Drumond"
 date = "2024-01-15T14:22:44"
@@ -29,6 +30,6 @@ Companion, to determine whether your tag is implemented correctly.
 Tag Assistant is a debugging tool, and the optional (but recommended) extension
 provides additional debugging information when using Tag Assistant.
 
-# References
+## References
 
 Next -> [the-admin-menu-of-google-analytics](/wiki/the-admin-menu-of-google-analytics/)

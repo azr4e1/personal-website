@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Assignment statement in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T14:34:22"
@@ -14,7 +15,7 @@ is an _assignment statement_: it assigns a literal value of the Book struct to a
 
 We can think of this as assigning labels to values; from now own, we can refer to that `Book` value via the name b, and everytime the name b occurs in the code, it will be translated to that `Book` value.
 
-# Short Variable Declaration
+## Short Variable Declaration
 It’s so common in Go to want to declare a variable and then assign a value to it that there’s actually a special syntax form to do just this: the short variable declaration.
 
 It looks like this:
@@ -41,7 +42,7 @@ var b Book = Book{Title: "The Making of a Butterfly"}
 var c float64 = 2
 ```
 
-# References
+## References
 - https://groups.google.com/g/golang-nuts/c/VHusi510LIg?pli=1
 
 Next -> [declaration-in-go](/wiki/declaration-in-go/)

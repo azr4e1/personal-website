@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go slices as reference to arrays"
 author = "Lorenzo Drumond"
 date = "2024-02-23T13:52:54"
@@ -42,7 +43,7 @@ func main() {
 // [John XXX George Ringo]
 ```
 
-# References
+## References
 - https://go.dev/tour/moretypes/8
 Next -> [go-slices](/wiki/go-slices/)
 

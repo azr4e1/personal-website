@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go slices"
 author = "Lorenzo Drumond"
 date = "2024-01-19T13:32:18"
@@ -66,7 +67,7 @@ a[:]
 
 are all equivalent.
 
-# References
+## References
 - John Arundel, For the Love of Go
 - https://go.dev/tour/moretypes/7
 - https://go.dev/tour/moretypes/10

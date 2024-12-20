@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Simple subtyping"
 author = "Lorenzo Drumond"
 date = "2023-11-07T01:28:42"

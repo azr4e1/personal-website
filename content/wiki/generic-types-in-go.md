@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Generic Types in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T15:26:31"
@@ -19,4 +20,4 @@ type List[T any] struct {
 }
 ```
 
-# References
+## References

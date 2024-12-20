@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Monkey Patching"
 author = "Lorenzo Drumond"
 date = "2024-03-18T01:56:01"
@@ -27,5 +28,5 @@ Use caution when monkeypatching:
 1. If anything else besides your test logic calls `get_data` as well, it will also call your monkey-patched replacement rather than the original.
 2. If some variable or attributes exists that also points to the `get_data` function by the time it gets replaces, this alias will not change its meaning and will continue to point to the original `get_data`.
 
-# References
+## References
 - https://stackoverflow.com/questions/5626193/what-is-monkey-patching

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Unix Domain Sockets in Golang"
 author = "Lorenzo Drumond"
 date = "2024-03-12T00:13:48"
@@ -30,7 +31,7 @@ Network sockets, on the other hand, are used for communication between processes
 - Reading from UDS is significantly faster than reading from a network socket.
 
 
-# References
+## References
 - https://dev.to/douglasmakey/understanding-unix-domain-sockets-in-golang-32n8
 - [network-sockets](/wiki/network-sockets/)
 - [unix-domain-sockets](/wiki/unix-domain-sockets/)

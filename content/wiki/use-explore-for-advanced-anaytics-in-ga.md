@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Use Explore for Advanced Anaytics in GA"
 author = "Lorenzo Drumond"
 date = "2024-01-22T11:59:58"
@@ -34,7 +35,7 @@ If someone else shares an exploration with you, you have access to view it but c
 
 Duplicating an exploration creates a private copy that you can modify as needed.
 
-# References
+## References
 
 Next -> [why-data-might-look-different-between-reports-and-explore-in-ga](/wiki/why-data-might-look-different-between-reports-and-explore-in-ga/)
 

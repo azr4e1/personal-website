@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Factorial ANOVA"
 author = "Lorenzo Drumond"
 date = "2023-11-20T10:22:34"
@@ -8,7 +9,7 @@ tags = ["experiment",  "anova",  "week7",  "coursera",  "designing_running_and_a
 
 These are studies that have mulitple factors at one time.
 
-# Example
+## Example
 - 24 subjects
 - they use either Apple Iphone or Samsung Galaxy keyboard on phone
 - they use it when they are either sitting, standing or walking
@@ -28,7 +29,7 @@ In an experiment of this kind, we would record every entry, with one entry being
 
 We can fully counterbalance the postures factor since it is just 6 combinations.
 
-# References
+## References
 - [anova-assumptions](/wiki/anova-assumptions/)
 - [one-way-anova](/wiki/one-way-anova/)
 - [interaction-effects](/wiki/interaction-effects/)

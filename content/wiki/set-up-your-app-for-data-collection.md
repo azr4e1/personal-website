@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Set up your App for Data Collection"
 author = "Lorenzo Drumond"
 date = "2024-01-15T14:17:03"
@@ -22,6 +23,6 @@ Once Firebase is configured for your app, a number of events are automatically c
 
 You'll use the log event method in your app's code to define and collect up to 500 different event names with no limit on total volume.
 
-# References
+## References
 
 Next -> [confirm-data-is-being-collected](/wiki/confirm-data-is-being-collected/)

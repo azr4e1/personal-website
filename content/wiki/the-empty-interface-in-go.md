@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "The empty interface in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T14:00:56"
@@ -15,7 +16,7 @@ An empty interface may hold values of any type. (Every type implements at least 
 
 Empty interfaces are used by code that handles values of unknown type. For example, `fmt.Print` takes any number of arguments of type `interface{}`
 
-# References
+## References
 - [go-types-and-methods](/wiki/go-types-and-methods/)
 
 Next -> [type-assertions-in-go](/wiki/type-assertions-in-go/)

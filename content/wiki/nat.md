@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "NAT"
 author = "Lorenzo Drumond"
 date = "2023-12-31T15:35:23"
@@ -46,5 +47,5 @@ forth between networks, with the router transparently changing the addresses so
 that it works. When the connection is terminated, the router just removes it
 from the NAT table.
 
-# References
+## References
 - https://superuser.com/questions/284051/what-is-port-forwarding-and-what-is-it-used-for

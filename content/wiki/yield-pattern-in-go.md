@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Yield pattern in Go"
 author = "Lorenzo Drumond"
 date = "2024-07-09T11:01:16"
@@ -28,5 +29,5 @@ func main() {
 }
 ```
 
-# References
+## References
 - https://www.codingexplorations.com/blog/harnessing-the-power-of-the-yield-function-in-go#:~:text=The%20concept%20behind%20the%20%27yield,goroutine%20reads%20from%20that%20channel.

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Network Sockets"
 author = "Lorenzo Drumond"
 date = "2024-03-12T00:18:01"
@@ -14,6 +15,6 @@ At the time of creation with the API, a network socket is bound to the combinati
 
 An application can communicate with a remote process by exchanging data with TCP/IP by knowing the combination of protocol type, IP address and port number. This combination is often known as a `socket address`. The remote process establishes a network socket in its own instance of the protocol stack and uses the networking API to connect to the application, presenting its own socket address for use by the application.
 
-# References
+## References
 - https://en.wikipedia.org/wiki/Network_socket
 - [differences-between-unix-domain-sockets-and-network-sockets](/wiki/differences-between-unix-domain-sockets-and-network-sockets/)

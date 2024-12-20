@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "HTTP status codes"
 author = "Lorenzo Drumond"
 date = "2024-03-18T01:18:08"
@@ -14,14 +15,14 @@ HTTP response status codes indicate whether a specific HTTP request has been suc
 4. Client error responses (400 - 499)
 5. Server error responses (500 - 599)
 
-# Informational responses
+## Informational responses
 
 - 100 -> Continue
 - 101 -> Switching Protocols
 - 102 -> Processing
 - 103 -> Early Hints
 
-# Successful responses
+## Successful responses
 
 - 200 -> Ok
 - 201 -> Created
@@ -34,7 +35,7 @@ HTTP response status codes indicate whether a specific HTTP request has been suc
 - 208 -> Already Reported
 - 226 -> IM Used
 
-# Redirection messages
+## Redirection messages
 
 - 300 -> Multiple Choices
 - 301 -> Moved Permanently
@@ -46,7 +47,7 @@ HTTP response status codes indicate whether a specific HTTP request has been suc
 - 307 -> Temporary Redirect
 - 308 -> Permanent Redirect
 
-# Client error responses
+## Client error responses
 
 - 400 -> Bad Request
 - 401 -> Unauthorized
@@ -78,7 +79,7 @@ HTTP response status codes indicate whether a specific HTTP request has been suc
 - 431 -> Request Header Fields Too Large
 - 451 -> Unavailable For Legal Reasons
 
-# Server Error Responses
+## Server Error Responses
 
 - 500 -> Internal Server Error
 - 501 -> Not Implemented
@@ -93,6 +94,6 @@ HTTP response status codes indicate whether a specific HTTP request has been suc
 - 511 -> Network Authentication Required
 
 
-# References
+## References
 - [http-flow](/wiki/http-flow/)
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Status

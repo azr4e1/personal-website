@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Git configuration"
 author = "Lorenzo Drumond"
 date = "2024-07-24T22:58:02"
@@ -31,7 +32,7 @@ git config --remove-section <section>
 
 git configuration allows for duplicate keys. To operate on all duplicate keys, you can use the variants `get-all` and `unset-all`
 
-## Locations
+### Locations
 
 There are several locations where Git can be configured. From more general to more specific, they are:
 
@@ -44,7 +45,7 @@ If you set a configuration in a more specific location, it will override the sam
 
 
 
-# References
+## References
 
 - boot.dev
 

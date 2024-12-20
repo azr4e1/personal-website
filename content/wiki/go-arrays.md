@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go Arrays"
 author = "Lorenzo Drumond"
 date = "2024-02-23T13:48:15"
@@ -23,7 +24,7 @@ An array literal is declared as:
 names := [4]string{"John", "Paul", "George", "Ringo"}
 ```
 
-# References
+## References
 - https://go.dev/tour/moretypes/6
 
 Next -> [go-slices](/wiki/go-slices/)

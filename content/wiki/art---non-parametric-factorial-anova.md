@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "ART - non-parametric factorial ANOVA"
 author = "Lorenzo Drumond"
 date = "2023-11-28T11:03:24"
@@ -16,9 +17,9 @@ Aligned means that only the effect of interest is left in the data because we su
 ART uses a Linear Mixed Model in the background
 
 ```R
-# Nonparametric approach to factorial ANOVA
-# The Aligned Rank Transform (ART) procedure
-# http://depts.washington.edu/acelab/proj/art/
+## Nonparametric approach to factorial ANOVA
+## The Aligned Rank Transform (ART) procedure
+## http://depts.washington.edu/acelab/proj/art/
 
 library(plyr)
 ddply(mbltxt, ~ Keyboard * Posture, function(data) summary(data$Error_Rate))
@@ -51,7 +52,7 @@ testInteractions(artlm(m, "Keyboard:Posture"), pairwise=c("Keyboard", "Posture")
 art.con(m, ~ Keyboard * Posture, adjust="holm")
 ```
 
-# References
+## References
 - [anova-assumptions](/wiki/anova-assumptions/)
 - [one-way-repeated-measures-anova](/wiki/one-way-repeated-measures-anova/)
 - [one-way-anova](/wiki/one-way-anova/)

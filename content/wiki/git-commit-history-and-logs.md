@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Git commit history and logs"
 author = "Lorenzo Drumond"
 date = "2024-07-24T22:52:37"
@@ -41,6 +42,6 @@ Each commit points to its previous commit, so that is's
 always possible to reconstruct the whole commit history of
 a single commit.
 
-# References
+## References
 
 Next -> [git-basic-plumbing](/wiki/git-basic-plumbing/)

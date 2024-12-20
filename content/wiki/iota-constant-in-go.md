@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Iota constant in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T14:16:34"
@@ -18,5 +19,5 @@ const (
 )
 ```
 
-# References
+## References
 - John Arundel, For the Love of Go

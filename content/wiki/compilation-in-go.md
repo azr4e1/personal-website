@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Compilation in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T11:04:09"
@@ -14,7 +15,7 @@ Since you can't have more than one package in the same folder (except for test p
 
 The `main` package also needs to contain the `main` function, which is where the program will start.
 
-# References
+## References
 
 Next -> [the-init-function-in-go](/wiki/the-init-function-in-go/)
 

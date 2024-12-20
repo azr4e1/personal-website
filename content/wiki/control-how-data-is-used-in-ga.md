@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Control how data is used in GA"
 author = "Lorenzo Drumond"
 date = "2024-01-23T09:35:35"
@@ -19,7 +20,7 @@ You can also remove data from GA at any time:
 
 The Analytics User Deletion API will allow to delete data in bulk.
 
-# References
+## References
 - https://skillshop.exceedlms.com/uploads/resource_courses/targets/1473975/original/index.html?_courseId=457646#/page/6495656df555fe070f48cc11
 
 Next -> [use-ga-data-for-ads-personalization](/wiki/use-ga-data-for-ads-personalization/)

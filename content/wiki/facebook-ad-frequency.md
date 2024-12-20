@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Facebook Ad Frequency"
 author = "Lorenzo Drumond"
 date = "2024-02-27T10:06:43"
@@ -12,5 +13,5 @@ Facebook ads are interactive: users can sumbit ad feedback, and negative feedbac
 
 As a rule of thumb, high frequency means lower relevance score. It is generally recommended to keep frequency between 2 and 4.
 
-# References
+## References
 - https://www.socialmediaexaminer.com/how-to-manage-your-facebook-ad-frequency/

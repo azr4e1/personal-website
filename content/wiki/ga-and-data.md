@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "GA and data"
 author = "Lorenzo Drumond"
 date = "2023-12-06T12:15:04"
@@ -6,7 +7,7 @@ tags = ["google",  "collection",  "sales",  "analytics",  "data",  "GA_tag",  "m
 +++
 
 
-# Website
+## Website
 To connect a website to GA, you need to add a tag to the site.
 
 A __tag__ is a small piece of code added to each page of your website in order to measure users.
@@ -27,10 +28,10 @@ As events are collected, they are processed and turned into information you can 
 You can also create custom events for specific actions you want to analyse.
 
 
-# Mobile app
+## Mobile app
 To connect GA to an app, you need to add the _Firebase SDK_ to the app.
 
-# References
+## References
 - [marketing-funnel](/wiki/marketing-funnel/)
 
 Next -> [ga-account-structure](/wiki/ga-account-structure/)

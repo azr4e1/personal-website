@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Git snapshot optimisation"
 author = "Lorenzo Drumond"
 date = "2024-07-24T22:56:31"
@@ -17,7 +18,7 @@ While it's true that Git stores entire snapshots, it does have some performance 
 - Git deduplicates files that are the same across different commits. If a file doesn't change between commits, Git will only store it once.
 
 
-# References
+## References
 
 - boot.dev
 

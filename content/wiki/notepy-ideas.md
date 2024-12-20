@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Notepy ideas"
 author = "Lorenzo Drumond"
 date = "2023-12-12T17:27:39"
@@ -31,7 +32,7 @@ tags = ["notepy",  "python",  "todo",  "development"]
 - [x] Add a star when creating _next_ note to indicate the link to the next note
 - [x] support filename reference and full title reference for links
 
-# Plugins
+## Plugins
 - [ ] AI for categorisation and grouping of notes
 - [ ] AI for tag creation
 - [ ] AI for summarisation of notes
@@ -41,4 +42,4 @@ tags = ["notepy",  "python",  "todo",  "development"]
 - [ ] Daily/Weekly/Monthly knowledge summarization (using git/langchain)
 
 
-# References
+## References

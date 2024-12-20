@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "One-way repeated measures ANOVA"
 author = "Lorenzo Drumond"
 date = "2023-11-20T07:57:22"
@@ -52,7 +53,7 @@ sc.vc = t.test(srchscrlvce.wide.tech$Scroll, srchscrlvce.wide.tech$Voice, paired
 p.adjust(c(se.sc$p.value, se.vc$p.value, sc.vc$p.value), method="holm")
 ```
 
-# References
+## References
 - [one-way-anova](/wiki/one-way-anova/)
 - [anova-assumptions](/wiki/anova-assumptions/)
 - [variable-types](/wiki/variable-types/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Manage and Filter the Data you collect"
 author = "Lorenzo Drumond"
 date = "2024-01-15T17:28:56"
@@ -19,7 +20,7 @@ To set up cross-domain measurement:
 Admin -> Data Streams -> Select your stream -> Configure Tag Settings -> Configure your domains -> enter information on the the domains to include.
 
 
-# Unwanted referrals
+## Unwanted referrals
 Google Analytics automatically recognizes what website a customer visited
 immediately before arriving on your site. It will display the domain names of
 those sites as referral traffic sources in your reports. You can make sure that
@@ -33,7 +34,7 @@ Admin -> Data Stream -> Select your stream -> Configure Tag Settings -> List Unw
 
 Filter conditions are evaluated for every webpage on which you have a Google Analytics tag. By default, Analytics will not identify traffic as a referral from your domain or other domains that you own that are set up as part of cross-domain measurement. Keep in mind, you can only configure a maximum of 50 unwanted referrals per data stream.
 
-# Data Filters
+## Data Filters
  A data filter lets you filter out data so that it isn't processed by Google
 Analytics and won't show up in your reports. There are two main reasons to use
 these filters. The first is to exclude internal traffic coming from you or your
@@ -42,6 +43,6 @@ employees. It lets you specify a range of IP addresses to exclude.
 The second is to use a data filter to exclude developer traffic when
 developers are using tools to debug or troubleshoot issues in DEBUG mode.
 
-# References
+## References
 
 Next -> [manage-your-google-analytics-conversions](/wiki/manage-your-google-analytics-conversions/)

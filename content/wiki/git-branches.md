@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Git branches"
 author = "Lorenzo Drumond"
 date = "2024-07-24T22:58:33"
@@ -38,7 +39,7 @@ Git stores all its information in files in the .git subdirectory at the root of 
 refs are pointers to commits. All branches are refs, but not all refs are branches.
 
 
-# References
+## References
 
 - boot.dev
 

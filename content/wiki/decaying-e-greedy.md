@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Decaying e-greedy"
 author = "Lorenzo Drumond"
 date = "2023-11-27T16:28:53"
@@ -17,7 +18,7 @@ An alternative solution is to progressively reduce the $e$ parameter - i.e. the 
 
 It is not easy to find an optimal decay schedule however. Also, this approach holds only for problems that are stationary.
 
-# References
+## References
 - https://towardsdatascience.com/the-exploration-exploitation-dilemma-f5622fbe1e82
 - [comparing-stategies](/wiki/comparing-stategies/)
 - [greedy-strategy](/wiki/greedy-strategy/)

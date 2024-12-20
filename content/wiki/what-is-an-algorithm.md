@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "What is an algorithm"
 author = "Lorenzo Drumond"
 date = "2024-08-10T23:17:03"
@@ -16,7 +17,7 @@ An algorithm is:
 - Implementable: it can be performed in code or using hardware
 
 
-# References
+## References
 
 - boot.dev
 

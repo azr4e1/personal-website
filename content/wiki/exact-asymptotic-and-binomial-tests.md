@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Exact, Asymptotic and Binomial Tests"
 author = "Lorenzo Drumond"
 date = "2023-11-14T13:57:34"
@@ -12,7 +13,7 @@ We can use an exact test, more computational heavy, like the binomial. It still 
 
 With more than two response categories, we can still use the chi-square test, but the binomial test works only with two, so we need to use the multinomial test (still an exact test)
 
-# References
+## References
 - [test-of-proportions](/wiki/test-of-proportions/)
 - https://www.coursera.org/learn/designexperiments
 

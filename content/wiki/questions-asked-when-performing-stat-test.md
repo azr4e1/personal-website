@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Questions asked when performing stat. test"
 author = "Lorenzo Drumond"
 date = "2023-11-07T11:55:48"
@@ -21,6 +22,6 @@ Main questions asked by stakeholders about a product AB test:
 Both frequentist and bayesian approach can answer the first, but only
 Bayesian can answer the rest.
 
-# References
+## References
 - https://towardsdatascience.com/bayesian-experimentation-methods-for-products-636514951e43
 - [frequentist-vs-bayesian](/wiki/frequentist-vs-bayesian/)

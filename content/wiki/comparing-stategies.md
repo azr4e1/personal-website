@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Comparing stategies"
 author = "Lorenzo Drumond"
 date = "2023-11-27T16:22:52"
@@ -15,7 +16,7 @@ For well defined problems with known true probabilities, a common approach is to
 
 However, these kind of comparisons only hold for specific problems, and strategies are almost impossible to compare in general.
 
-# References
+## References
 - https://towardsdatascience.com/the-exploration-exploitation-dilemma-f5622fbe1e82
 - [exploration-vs-exploitation](/wiki/exploration-vs-exploitation/)
 - [greedy-strategy](/wiki/greedy-strategy/)

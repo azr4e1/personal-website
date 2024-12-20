@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Port Forwarding"
 author = "Lorenzo Drumond"
 date = "2023-12-31T15:21:25"
@@ -29,5 +30,5 @@ won't be able to tell which computer it is destined to.
 Port forwarding allows us to say to the router: if a request for port X
 arrives, route it the local IP xxxx.xxxx.xxxx
 
-# References
+## References
 - https://superuser.com/questions/284051/what-is-port-forwarding-and-what-is-it-used-for

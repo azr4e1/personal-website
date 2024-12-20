@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Edmund Burke and the role of parliament in popular complaints"
 author = "Lorenzo Drumond"
 date = "2024-02-25T15:20:18"
@@ -12,5 +13,5 @@ However, parliaments should never disregard protests as unreasoned, unenlightene
 
 The consequences of that disregarding can be disastrous. Even while it looks like people can "do nothing else", they "will always be able to annihilate you". Governments rest ultimately on popular opinion: if the people decide in large numbers to withhold their assent to obey, then something closer to a revolution could result.
 
-# References
+## References
 - https://theconversation.com/modern-democracies-are-in-crisis-could-18th-century-political-theorist-edmund-burke-help-us-find-a-way-out-220341

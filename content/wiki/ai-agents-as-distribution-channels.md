@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "AI agents as distribution channels"
 author = "Lorenzo Drumond"
 date = "2024-02-12T14:47:33"
@@ -36,5 +37,5 @@ This means that in the future:
 
 Outsourcing purchasing power to agents is a natural evolution from how we discover and buy new products today.
 
-# References
+## References
 - https://kojo.blog/agent-driven-commerce

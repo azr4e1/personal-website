@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Introduction to Generalized Linear Models"
 author = "Lorenzo Drumond"
 date = "2023-11-29T10:16:38"
@@ -30,7 +31,7 @@ http://en.wikipedia.org/wiki/Generalized_linear_model
 
 Each distribution in a GLM has a canonical link function associated with it.
 
-# References
+## References
 - [anova-assumptions](/wiki/anova-assumptions/)
 - [one-way-repeated-measures-anova](/wiki/one-way-repeated-measures-anova/)
 - [factorial-anova](/wiki/factorial-anova/)

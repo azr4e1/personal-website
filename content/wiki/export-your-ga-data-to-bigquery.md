@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Export your GA data to BigQuery"
 author = "Lorenzo Drumond"
 date = "2024-01-23T10:56:42"
@@ -16,7 +17,7 @@ You can export data to BQ either daily or in stream (continuously).
 
 You can use BQ to export your GA data to external storage: first export your GA data to BQ, and from there export the data to local csv.
 
-# References
+## References
 - [link-google-ads-and-ga](/wiki/link-google-ads-and-ga/)
 
 Next -> [analytics-360](/wiki/analytics-360/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Polynomial VS Exponential time"
 author = "Lorenzo Drumond"
 date = "2024-08-15T11:18:23"
@@ -18,7 +19,7 @@ An algorithm runs in "Polynomial time" if its runtime does not grow faster than 
 
 To put it simply, polynomial time algorithms can be useful. Exponential time algorithms are almost always too slow to ever be practical.
 
-# References
+## References
 - [binary-search-algorithm](/wiki/binary-search-algorithm/)
 
 Next -> [p-algorithms](/wiki/p-algorithms/)

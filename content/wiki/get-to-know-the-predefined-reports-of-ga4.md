@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Get to know the Predefined Reports of GA4"
 author = "Lorenzo Drumond"
 date = "2024-01-15T18:45:10"
@@ -34,7 +35,7 @@ Google Signals are session data from sites and apps that Google associates with 
 
 For mobile app activity only, analytics derives demographic and interest data from the Android advertising ID and the iOS identifier for advertisers. When the device advertising ID is not present, analytics can't provide this data. This means that demographic and interest data may only be available for a subset of your users and may not represent all of your traffic.
 
-# References
+## References
 - https://skillshop.exceedlms.com/uploads/resource_courses/targets/1739979/original/index.html?_courseId=998025#/page/64f853619349747f7f108b0e
 
 Next -> [filters-and-comparisons-in-ga-reports](/wiki/filters-and-comparisons-in-ga-reports/)

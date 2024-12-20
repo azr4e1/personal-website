@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "TLS certificate"
 author = "Lorenzo Drumond"
 date = "2024-03-22T00:03:50"
@@ -18,6 +19,6 @@ The S in "HTTPS" stands for "secure." HTTPS is just HTTP with SSL/TLS. A website
 
 To encourage the Internet as a whole to move to the more secure HTTPS, many web browsers have started to mark HTTP websites as "not secure" or "unsafe." Thus, not only is HTTPS essential for keeping users safe and user data secure, it has also become essential for building trust with users.
 
-# References
+## References
 - https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/
 - https://www.cloudflare.com/en-gb/learning/ssl/how-does-ssl-work/

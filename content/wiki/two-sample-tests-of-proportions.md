@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Two-sample tests of proportions"
 author = "Lorenzo Drumond"
 date = "2023-11-14T14:00:43"
@@ -46,7 +47,7 @@ fc = binom.test(sum(prefsABCsex[prefsABCsex$Sex == "F",]$Pref == "C"), nrow(pref
 p.adjust(c(fa$p.value, fb$p.value, fc$p.value), method="holm") # correct for multiple comparisons
 ```
 
-# References
+## References
 - [test-of-proportions](/wiki/test-of-proportions/)
 - https://www.coursera.org/learn/designexperiments
 

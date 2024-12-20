@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Cryptographic glossary"
 author = "Lorenzo Drumond"
 date = "2024-07-03T11:15:24"
@@ -18,7 +19,7 @@ tags = ["glossary",  "cryptography"]
 - ciphersuite: a selection of algorithms that we’ll use to provide security.
 - nonce: a nonce is an arbitrary number that can be used just once in a cryptographic communication. It is often a random or pseudo-random number issued in an authentication protocol to ensure that old communications cannot be reused in replay attacks. They can also be useful as initialization vectors and in cryptographic hash functions.
 
-# References
+## References
 - https://leanpub.com/gocrypto/read#leanpub-auto-chapter-1-introduction
 
 Next -> [cryptography-basics](/wiki/cryptography-basics/)

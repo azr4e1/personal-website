@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Multiple categories test of proportions"
 author = "Lorenzo Drumond"
 date = "2023-11-14T13:59:30"
@@ -35,7 +36,7 @@ p.adjust(c(aa$p.value, bb$p.value, cc$p.value), method="holm")
 
 So everytime we want to do multiple tests, we need to correct with the Bonferroni method.
 
-# References
+## References
 - https://www.coursera.org/learn/designexperiments
 - [test-of-proportions](/wiki/test-of-proportions/)
 

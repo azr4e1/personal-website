@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Anova assumptions"
 author = "Lorenzo Drumond"
 date = "2023-11-20T03:18:59"
@@ -21,7 +22,7 @@ If the residuals are normal, it means there is no systematic effects going on no
 
 If the response is normally distributed, often the residuals will follow the same distribution.
 
-# References
+## References
 - [confounding-variables](/wiki/confounding-variables/)
 - [designing-for-experimental-control](/wiki/designing-for-experimental-control/)
 - [variable-types](/wiki/variable-types/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Modifying result parameters after exit in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T10:48:13"
@@ -40,5 +41,5 @@ defer func() {
 
 This will modify the function's result _after_ it exited, but before it returned
 
-# References
+## References
 - John Arundel, For the Love of Go

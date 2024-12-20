@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Marketing Funnel"
 author = "Lorenzo Drumond"
 date = "2023-12-06T11:41:02"
@@ -23,4 +24,4 @@ it from one stage to the other reduces at each step - losing customers because o
 
 With analytics, you can see which channels perform better at each stage, and optimize your marketing activity accordingly.
 
-# References
+## References

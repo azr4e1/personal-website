@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Unexported fields and cmp.Equal in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T14:05:07"
@@ -41,6 +42,6 @@ if !cmp.Equal(want, got,
 
 This tells `cmp.Equal` to ignore any unexported fields on the `bookstore.Book` struct, preventing the unpleasant panic message.
 
-# References
+## References
 - [exported-identifiers-in-go](/wiki/exported-identifiers-in-go/)
 - John Arundel, For the Love of Go

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "The Big Tech enshittification process"
 author = "Lorenzo Drumond"
 date = "2024-02-25T15:38:45"
@@ -14,5 +15,5 @@ Enshittification is a three stage process:
 
 Big tech often suffers from flaky UIs, poor development experiences and bugs. Quality is not a hard sell in big tech because it doesn't make the stock value jump up a week later, superficial features does.
 
-# References
+## References
 - https://pcloadletter.dev/blog/big-tech-quality/

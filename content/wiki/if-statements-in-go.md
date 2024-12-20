@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "If statements in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T16:33:28"
@@ -14,7 +15,7 @@ if x > 0 {
 }
 ```
 
-# Else statements
+## Else statements
 Whereas an if statement on its own just does or doesn’t do something based on the condition, an if ... else statement does one thing or another (but never both).
 
 ```go
@@ -40,7 +41,7 @@ if x < 0 {
 fmt.Println("Well, that clears that up!")
 ```
 
-# References
+## References
 
 Next -> [happy-path](/wiki/happy-path/)
 

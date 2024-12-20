@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Caching"
 author = "Lorenzo Drumond"
 date = "2024-01-04T11:55:31"
@@ -14,6 +15,6 @@ The primary goal is to increase data retrieval performance by reducing the under
 slower storage layer. It involves keeping a subset of data - the most frequently accessed -
 in a faster storage system.
 
-# References
+## References
 - https://www.swequiz.com/learn/caching-fundamentals?utm_source=tldrwebdev
 - https://cachemon.github.io/SIEVE-website/blog/2023/12/17/sieve-is-simpler-than-lru/?utm_source=tldrnewsletter

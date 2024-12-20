@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Gross Rating Point"
 author = "Lorenzo Drumond"
 date = "2024-03-22T14:17:57"
@@ -21,5 +22,5 @@ GRPs(\%) = 100 * Reach (\%) / Average frequency (#)
 
 Example: If 100,000 ad impressions are displayed on multiple episodes or TV stations for a defined population of 100,000 people, the total is 100 GRPs. However, total reach is not always 100%.
 
-# References
+## References
 - https://en.wikipedia.org/wiki/Gross_rating_point

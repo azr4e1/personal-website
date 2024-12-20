@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Blank identifier in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-19T16:02:02"
@@ -15,4 +16,4 @@ For example, if we're only interested into knowing whether a key is present in a
 _, ok := menu["eggs"]
 ```
 
-# References
+## References

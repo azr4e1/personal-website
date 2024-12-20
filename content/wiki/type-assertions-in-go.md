@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Type assertions in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T14:07:26"
@@ -26,7 +27,7 @@ If `i` holds a `T`, then `t` will be the underlying value and `ok` will be `true
 
 If not, `ok` will be `false` and `t` will be the zero value of type `T`, and no panic occurs.
 
-# References
+## References
 - [go-types-and-methods](/wiki/go-types-and-methods/)
 
 Next -> [type-switches-in-go](/wiki/type-switches-in-go/)

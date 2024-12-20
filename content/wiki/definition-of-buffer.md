@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Definition of buffer"
 author = "Lorenzo Drumond"
 date = "2024-02-27T20:34:10"
@@ -20,5 +21,5 @@ Analogy:
   Buffers are required when producers and consumers operate at different rates. Candy is made in large batches but consumed in smaller quantities - the entire supply chain from manufacturer to mouth is a series of buffers.
 
 
-# References
+## References
 - https://stackoverflow.com/questions/648309/what-does-it-mean-by-buffer

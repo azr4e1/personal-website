@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Git basic plumbing"
 author = "Lorenzo Drumond"
 date = "2024-07-24T22:53:16"
@@ -57,7 +58,7 @@ However, we cannot see the contents of the contents.md file itself! That's becau
 Also, normally a commit would also have one or more _parents_, which are the commits this commit directly follows. However this is the first commit of the repo, so it doesn't have parents.
 
 
-# References
+## References
 
 - boot.dev
 

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Errors in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T14:29:34"
@@ -25,6 +26,6 @@ if err != nil {
 fmt.Println("Converted integer:", i)
 ```
 
-# References
+## References
 - [interface-values-in-go](/wiki/interface-values-in-go/)
 - [stringers-interface-in-go](/wiki/stringers-interface-in-go/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Why data might look different between Reports and Explore in GA"
 author = "Lorenzo Drumond"
 date = "2024-01-22T12:16:41"
@@ -12,4 +13,4 @@ Usually, you should find the same data in both Reports and Explorations. But som
 - Processing time differences: If you set your date range to include data from the past 48 hours, you may notice slightly different results depending on when the data is processed.
 - Sampling differences: Reports are unsampled, meaning they're based on 100% of the available data. Explorations, on the other hand, may be based on sampled data if the dataset is very large. If you do encounter sampling in Explore, try shortening the date range to reduce the impact.
 
-# References
+## References

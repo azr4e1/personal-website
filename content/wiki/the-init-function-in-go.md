@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "The init function in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T11:08:05"
@@ -14,5 +15,5 @@ If your `main` package imports other packages, and they have `init` functions, t
 
 `init` is a bit of black magic, and there are other ways to initialise resource that are more clear to the control flow. Like declaring variable at package scope with functions.
 
-# References
+## References
 - John Arundel, For the Love of Go

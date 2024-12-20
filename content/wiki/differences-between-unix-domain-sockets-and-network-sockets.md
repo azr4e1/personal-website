@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Differences between Unix Domain Sockets and Network Sockets"
 author = "Lorenzo Drumond"
 date = "2024-03-12T00:18:39"
@@ -12,5 +13,5 @@ A unix domain socket (sometimes shortened to unix socket) on the other hand oper
 
 Furthermore a process accepting a connection on a Unix socket can determine the user ID of the process that connects. This can avoid the need for an authentication step. Rather than generating a password for your database server and including a copy of it in your webapp's code you can just tell the database server that the user running the webapp has access to the corresponding user account in the database.
 
-# References
+## References
 - https://serverfault.com/questions/124517/what-is-the-difference-between-unix-sockets-and-tcp-ip-sockets

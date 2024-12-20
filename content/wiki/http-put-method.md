@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "HTTP PUT method"
 author = "Lorenzo Drumond"
 date = "2024-03-18T01:46:43"
@@ -24,7 +25,7 @@ If the target resource does not have a current representation and the PUT reques
 
 If the target resource does have a current representation and that representation is successfully modified in accordance with the state of the enclosed representation, then the origin server must send either a 200 (OK) or a 204 (No Content) response to indicate successful completion of the request.
 
-# References
+## References
 - [http-status-codes](/wiki/http-status-codes/)
 - [http-flow](/wiki/http-flow/)
 - [http-post-method](/wiki/http-post-method/)

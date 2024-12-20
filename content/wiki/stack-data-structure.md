@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Stack Data Structure"
 author = "Lorenzo Drumond"
 date = "2023-12-21T17:53:54"
@@ -22,6 +23,6 @@ does not contain enough space to accept another element, the stack is in a
 state of [stack-overflow](/wiki/stack-overflow/).
 
 
-# References
+## References
 
 Next -> [stack-overflow](/wiki/stack-overflow/)

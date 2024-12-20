@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Understand Google Analytics Reports"
 author = "Lorenzo Drumond"
 date = "2024-01-15T18:14:22"
@@ -15,7 +16,7 @@ user, which contains reports on technology and demographic information.
 
 Google Analytics has two main types of reports: an overview report, which summarizes information about a topic into several cards, each focusing on a different objective, and a details report that lets you drill into one or two dimensions to investigate data in greater detail in a table format.
 
-# Acquisition
+## Acquisition
 The first report in acquisition is an acquisition overview report, and the other reports focus on insights around user and traffic acquisition.
 
 On the overview report, you'll see cards that provide a snapshot of your acquisition data. Each of the cards have icons at the top. The first is a data quality icon, which indicates how much data is being represented in the card.
@@ -45,6 +46,6 @@ property. Once in Reports, at the bottom of the navigation panel, select
 Library. From there, add pre-created collections or create a new collection.
 Each property can have up to seven collections.
 
-# References
+## References
 
 Next -> [get-to-know-the-predefined-reports-of-ga4](/wiki/get-to-know-the-predefined-reports-of-ga4/)

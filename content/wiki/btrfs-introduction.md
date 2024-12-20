@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Btrfs introduction"
 author = "Lorenzo Drumond"
 date = "2024-04-22T18:05:58"
@@ -7,7 +8,7 @@ tags = ["introduction",  "linux",  "fs",  "filesystem",  "btrfs",  "cow",  "on",
 
 
 
-# What is a filesystem
+## What is a filesystem
 
 A filesystem allows your PC to find the data that is stores on disk.
 
@@ -24,7 +25,7 @@ to the blocks containing the file actual data.
 
 The structure of inodes is vital to every filesystem.
 
-# Copy-on-Write Filesystems
+## Copy-on-Write Filesystems
 
 Btrfs is a CoW (copy-on-write) filesystem. When a file is changed and
 written back to disk, it is not written back where it was before. Instead,
@@ -51,7 +52,7 @@ If there are no more unused blocks to write new content to, Btrfs will
 reclaim space from data blocks occupied by old file versions (unless part
 of a snapshot).
 
-# Copy-on-Write for folders
+## Copy-on-Write for folders
 
 A folder is a special type of file: the filesystem interprets the
 underlying content directly. A folder has some metadata associated with it
@@ -67,5 +68,5 @@ This is a recursive process, since a folder is itself a file with an
 inode, that occurs all the way up the filesystem tree, until root.
 Therefore the filesystem tree can be traversed in its previous state.
 
-# References
+## References
 - https://fedoramagazine.org/working-with-btrfs-general-concepts/

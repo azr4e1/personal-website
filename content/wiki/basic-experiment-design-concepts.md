@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Basic Experiment Design Concepts"
 author = "Lorenzo Drumond"
 date = "2023-11-14T13:47:29"
@@ -19,7 +20,7 @@ Experiments can be:
 Statistical analysis is about creating confidence from evidence
 
 
-# Size of experiment
+## Size of experiment
 
 For most experiments, more is better.
 
@@ -33,7 +34,7 @@ Every experiment has 4 main considerations:
 - Experiment Procedure
 - Design and Analysis
 
-# Partecipants
+## Partecipants
 Sampling: how to select subjects for our study from broader population, from which we want to draw conclusions (inferences).
 
 There are two main types of sampling: probability/non probability sampling.
@@ -43,7 +44,7 @@ There are two main types of sampling: probability/non probability sampling.
 What criteria do we use for our study to select partecipants? Exclusion criteria, etc
 
 
-# Apparatus
+## Apparatus
 
 what do we need in terms of equipment and resources to run the test?
 
@@ -53,19 +54,19 @@ How will data be captured?
 - video recoding
 
 
-# Procedure
+## Procedure
 
 what do partecipants do? Do they perform tasks? How many? Do they get to practice?
 
 
-# Design and Analysis
+## Design and Analysis
 what is the formal design that we are using?
 
 
-# Considerations
+## Considerations
 Informed consent is vital. Set clear expectations. Debrief partecipants at end of study.
 
-# References
+## References
 - https://www.coursera.org/learn/designexperiments
 
 Next -> [test-of-proportions](/wiki/test-of-proportions/)

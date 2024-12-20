@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Conversion modeling in GA"
 author = "Lorenzo Drumond"
 date = "2024-01-22T12:50:28"
@@ -23,6 +24,6 @@ Conversion modelling could happen:
 - App platforms can require that developers obtain permission to use certain information from other apps and websites.
 
 
-# References
+## References
 
 Next -> [attribution-modeling-in-ga](/wiki/attribution-modeling-in-ga/)

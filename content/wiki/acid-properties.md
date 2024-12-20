@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "ACID properties"
 author = "Lorenzo Drumond"
 date = "2024-10-07T11:45:57"
@@ -14,6 +15,6 @@ ACID is an acronym that refers to the set of 4 key properties that define a tran
 3. Isolation - when multiple users are reading and writing from the same table all at once, isolation of their transactions ensures that the concurrent transactions don't interfere with or affect one another. Each request can occur as though they were occurring one by one, even though they're actually occurring simultaneously.
 4. Durability - ensures that changes to your data made by successfully executed transactions will be saved, even in the event of system failure.
 
-# References
+## References
 
 - https://www.databricks.com/glossary/acid-transactions#:~:text=properties%3A%20Atomicity%2C%20Consistency%2C%20Isolation,Consistency%2C%20Isolation%2C%20and%20Durability.

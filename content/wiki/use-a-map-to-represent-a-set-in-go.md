@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Use a map to represent a set in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T14:09:28"
@@ -27,5 +28,5 @@ if myMap[obj] {
 
 in fact, if the object doesn't exist, by default Go returns the empty value ([non-existent-keys-in-go-maps]]), which for booleans is `false` ([[zero-values-and-default-values-in-go](/wiki/non-existent-keys-in-go-maps]]), which for booleans is `false` ([[zero-values-and-default-values-in-go/))
 
-# References
+## References
 - John Arundel, For the Love of Go

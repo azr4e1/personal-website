@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go Switch cases"
 author = "Lorenzo Drumond"
 date = "2024-01-28T17:16:46"
@@ -45,7 +46,7 @@ case 1:
 }
 ```
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [switch-expressions](/wiki/switch-expressions/)

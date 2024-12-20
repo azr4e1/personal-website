@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Adjacency List for Graphs"
 author = "Lorenzo Drumond"
 date = "2024-08-22T23:37:13"
@@ -19,7 +20,7 @@ An adjacency list stores a list of vertices for each vertex that indicates where
 4 connects with 0, 1, 3
 ```
 
-# References
+## References
 
 - boot.dev
 

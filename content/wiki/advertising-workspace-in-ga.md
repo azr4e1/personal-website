@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Advertising Workspace in GA"
 author = "Lorenzo Drumond"
 date = "2024-01-22T12:22:46"
@@ -21,6 +22,6 @@ Advertising workspace is the fourth section of any GA property. It contains the 
 
 
 
-# References
+## References
 
 Next -> [conversion-modeling-in-ga](/wiki/conversion-modeling-in-ga/)

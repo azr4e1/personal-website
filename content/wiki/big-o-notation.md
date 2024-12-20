@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Big O Notation"
 author = "Lorenzo Drumond"
 date = "2024-08-13T22:27:11"
@@ -26,7 +27,7 @@ Where formula describes how an algorithm's run time or space requirements grow a
 5. O(n!) - factorial
 
 
-# References
+## References
 
 Next -> [big-o-notation-formal-definition](/wiki/big-o-notation-formal-definition/)
 

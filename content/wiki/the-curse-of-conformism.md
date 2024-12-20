@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "The curse of conformism"
 author = "Lorenzo Drumond"
 date = "2024-02-25T14:53:02"
@@ -19,5 +20,5 @@ These people want to limit and prohibit ideas. Having ideas in a world where som
 
 Enlightenment provided us with a set of tool to limit conformism: free thinkning, openness to discuss everything. If the customs of free enquiry are weakened in the service of conformists' "greater good", and discussion of "bad ideas" is shut down, we are setting up a very dangerous precedent.
 
-# References
+## References
 - https://coffeeandjunk.substack.com/p/naughtism

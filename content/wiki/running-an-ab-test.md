@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Running an A/B test"
 author = "Lorenzo Drumond"
 date = "2023-11-20T03:09:11"
@@ -16,7 +17,7 @@ Considerations when running an experiment like in [designing-for-experimental-co
 
 Experiments are not just about recording numbers. We need to observe the data qualitatively and make conclusions from that.
 
-# Example
+## Example
 Going back to the experiment in [designing-for-experimental-control](/wiki/designing-for-experimental-control/), the formal setup is as follows:
 
 - 40 students
@@ -26,7 +27,7 @@ Going back to the experiment in [designing-for-experimental-control](/wiki/desig
 - 2 levels: Visual Studio (C#), Eclipse (Java)
 - this is a between-subject factor.
 
-# References
+## References
 - [confounding-variables](/wiki/confounding-variables/)
 - [variable-types](/wiki/variable-types/)
 - [measurement-errors](/wiki/measurement-errors/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Memoization"
 author = "Lorenzo Drumond"
 date = "2024-03-01T13:12:11"
@@ -10,7 +11,7 @@ Memoization or memoisation is an optimization technique used primarily to speed 
 
 At its core, memoization is just caching (storing a copy of) the result of a computation so that we don't have to compute it again in the future.
 
-# References
+## References
 - https://en.wikipedia.org/wiki/Memoization
 
 Next -> [referential-transparency](/wiki/referential-transparency/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "quicksort algorithm"
 author = "Lorenzo Drumond"
 date = "2024-08-15T10:18:25"
@@ -9,23 +10,23 @@ tags = ["computer_science",  "divide_and_conquer",  "algorithm",  "notation",  "
 
 Quick sort is an efficient sorting algorithm that's widely used in production sorting implementations. Like merge sort, quick sort is a divide and conquer algorithm.
 
-# Divide
+## Divide
 
 - Select a pivot element that will preferably end up close to the center of the sorted pack
 - Move everything onto the "greater than" or "less than" side of the pivot
 - The pivot is now in its final position
 - Recursively repeat the operation on both sides of the pivot
 
-# Conquer
+## Conquer
 
 - The array is sorted after all elements have been through the pivot operation
 
 
-# Pseudocode
+## Pseudocode
 
 The process is started with quick_sort(A, 0, len(A)-1)
 
-## quick_sort(nums, low, high)
+### quick_sort(nums, low, high)
 
 If low is less than high:
 
@@ -33,7 +34,7 @@ If low is less than high:
 2. Recursively call quick_sort on the left side of the partition
 3. Recursively call quick_sort on the right side of the partition
 
-## partition(nums, low, high)
+### partition(nums, low, high)
 
 1. Set pivot to the element at index high
 2. Set i to low
@@ -44,7 +45,7 @@ If low is less than high:
 4. Swap the element at index i with the element at index high
 5. Return the index i
 
-# Time Complexity
+## Time Complexity
 
 On average, quicksort has a Big O of O(n*log(n)). In the worst case, and assuming we don't take any steps to protect ourselves, it can break down to O(n^2).
 
@@ -64,7 +65,7 @@ The shuffling scenario is easy to implement and works all the times. It is very 
 
 This approach has the advantage that it can't break down to O(n^2) time because we are guaranteed to never use the worst item in the partition as the pivot. That said, it can still be slower because a true median isn't used.
 
-# References
+## References
 
 - boot.dev
 

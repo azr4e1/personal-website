@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Currying"
 author = "Lorenzo Drumond"
 date = "2024-07-29T21:35:23"
@@ -43,9 +44,9 @@ return the sum of a and b.
 
 Currying is a technique in functional programming where a function that takes multiple arguments is transformed into a sequence of functions, each taking a single argument. Instead of taking all arguments at once, a curried function takes the first argument and returns a new function that takes the second argument, and so on, until all arguments are provided.
 
-# Key Concepts of Currying
+## Key Concepts of Currying
 
 - Transformation: Currying transforms a function with multiple parameters into a series of nested functions, each with a single parameter.
 - Partial Application: Currying facilitates partial application, where you can fix a few arguments of the function and get a new function that takes the remaining arguments.
 
-# References
+## References

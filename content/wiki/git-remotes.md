@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Git remotes"
 author = "Lorenzo Drumond"
 date = "2024-07-24T23:51:08"
@@ -31,7 +32,7 @@ You can look at the look of a remote you fetched with
 git log remote/branch
 ```
 
-## Merge
+### Merge
 
 In order to bring the data from the remote into our local repo, we need to merge what we fetched.
 
@@ -41,7 +42,7 @@ Just as we can merge branches within a single local repo, we can also merge bran
 git merge remote/branch
 ```
 
-## Push
+### Push
 
 The git push command pushes (sends) local changes to any "remote". For example, to push our local main branch's commits to the remote origin's main branch we would run:
 
@@ -61,7 +62,7 @@ You can also delete a remote branch by pushing an empty branch to it:
 git push origin :<remotebranch>
 ```
 
-## Pull
+### Pull
 
 You can do fetch and merge in a single command:
 
@@ -69,7 +70,7 @@ You can do fetch and merge in a single command:
 git pull [<remote>/<branch>]
 ```
 
-# References
+## References
 
 - boot.dev
 

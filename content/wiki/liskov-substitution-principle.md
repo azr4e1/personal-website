@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Liskov substitution principle"
 author = "Lorenzo Drumond"
 date = "2024-02-05T17:39:01"
@@ -12,6 +13,6 @@ A subclass can stand in for its parent class.
 
 This makes the code more maintanable and scalable.
 
-# References
+## References
 - https://www.youtube.com/watch?v=gV4P-fewa9M
 - https://stackoverflow.com/questions/66551300/better-design-in-order-to-avoid-violating-liskov-substitution-principle

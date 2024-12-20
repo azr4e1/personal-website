@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Interface Values in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T13:45:46"
@@ -65,7 +66,7 @@ A nil interface value holds neither value nor concrete type.
 
 Calling a method on a nil interface is a run-time error because there is no type inside the interface tuple to indicate which concrete method to call.
 
-# References
+## References
 - [go-types-and-methods](/wiki/go-types-and-methods/)
 
 Next -> [interface-values-with-nil-underlying-values-in-go](/wiki/interface-values-with-nil-underlying-values-in-go/)

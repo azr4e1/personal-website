@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go struct wrappers"
 author = "Lorenzo Drumond"
 date = "2024-01-22T17:44:41"
@@ -12,5 +13,5 @@ What we can do instead is a technique called _wrapping_: we create a `struct` wh
 
 This means that that field will have all the methods of the old type. Moreover, since this struct is local, we can define methods on top of it.
 
-# References
+## References
 - John Arundel, For the Love of Go

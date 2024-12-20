@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Attribution modeling in GA"
 author = "Lorenzo Drumond"
 date = "2024-01-22T12:55:34"
@@ -17,6 +18,6 @@ Cross-channel models:
 Users with the Editor role on the property can select an attribution model and lookback window at the property level to apply to a number of reports. To access this setting, go to Admin and select Attribution Settings.
 
 
-# References
+## References
 
 Next -> [audiences-in-ga](/wiki/audiences-in-ga/)

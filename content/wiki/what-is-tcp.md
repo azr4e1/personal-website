@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "What is TCP"
 author = "Lorenzo Drumond"
 date = "2024-03-17T23:22:56"
@@ -16,7 +17,7 @@ TCP protocol operations may be divided into three phases. Connection establishme
 
 A TCP connection is managed by an operating system through a resource that represents the local end-point for communications, the Internet socket [network-sockets](/wiki/network-sockets/).
 
-# Connection establishment
+## Connection establishment
 Before a client attempts to connect with a server, the server must first bind to and listen at a port to open it up for connections: this is called a passive open. Once the passive open is established, a client may establish a connection by initiating an active open using the three-way (or 3-step) handshake:
 
 1. SYN: The active open is performed by the client sending a SYN to the server. The client sets the segment's sequence number to a random value A.
@@ -25,7 +26,7 @@ Before a client attempts to connect with a server, the server must first bind to
 
 Steps 1 and 2 establish and acknowledge the sequence number for one direction (client to server). Steps 2 and 3 establish and acknowledge the sequence number for the other direction (server to client). Following the completion of these steps, both the client and server have received acknowledgments and a full-duplex communication is established.
 
-# References
+## References
 - https://developer.mozilla.org/en-US/docs/Glossary/TCP
 - https://en.wikipedia.org/wiki/Transmission_Control_Protocol
 

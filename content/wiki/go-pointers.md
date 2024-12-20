@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go pointers"
 author = "Lorenzo Drumond"
 date = "2024-01-22T17:59:45"
@@ -43,7 +44,7 @@ The default value of a pointer is `nil`.
 
 If you try to dereference `nil`, you'll get panic.
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [pointer-methods-in-go](/wiki/pointer-methods-in-go/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "AI design patterns"
 author = "Lorenzo Drumond"
 date = "2024-02-07T10:39:13"
@@ -8,7 +9,7 @@ tags = ["training",  "design",  "proxy",  "adversarial",  "language",  "testing"
 
 Designing AI applications that are scalable is difficult and in its early stages. Some design patterns have emerged for efficient handling of resources and scalability.
 
-# AI Query Router
+## AI Query Router
                  ┌─────────┐
                  │ Query   │
                  └────┬────┘
@@ -30,7 +31,7 @@ A user inputs a query, which is sent to the _router_. The router is a classifier
 - If the query is recognized, it is sent to the small language model, faster and cheaper.
 - If it is not, a LLM handles it.
 
-# AI Training Design Pattern
+## AI Training Design Pattern
 ┌────────┐    ┌──────────┐
 │ Model  │    │   Data   │
 └────┬───┘    └─────┬────┘
@@ -62,7 +63,7 @@ The outputs can also be quite variable, a result of the non-determinism and chao
 
 Adversarial models will be used to test and evaluate AI. Adversarial models can suggest billions of tests to stress the model. They can be trained to have strengths different to the target model. Just as great teammates and competitors improve our performance, adversarial models play will play that role for AI.
 
-# AI Security Design Pattern
+## AI Security Design Pattern
               ┌─────────┐
               │  User   │
               └───────┬─┘
@@ -95,7 +96,7 @@ The firewall protects the model and the infrastructure it uses. We have a minima
 Other security layers will exist within the stack, but in terms of the query path, these are the most important.
 
 
-# AI Deployment and Evaluation Design Pattern
+## AI Deployment and Evaluation Design Pattern
            ┌───────────────────┐
            │                   │
            │ ┌───────────┐     │
@@ -139,5 +140,5 @@ Also, the large language model will be subjected to a testing harness (a series 
 
 Once those tests pass, the model is pushed to production.
 
-# References
+## References
 - https://tomtunguz.com/ai-design-patterns/

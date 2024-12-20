@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "TCP handshake"
 author = "Lorenzo Drumond"
 date = "2024-03-21T23:53:44"
@@ -14,6 +15,6 @@ The host, generally the browser, sends a TCP SYNchronize packet to the server. T
 
 This handshake step happens after a DNS lookup and before the TLS handshake, when creating a secure connection. The connection can be terminated independently by each side of the connection via a four-way handshake.
 
-# References
+## References
 - [network-sockets](/wiki/network-sockets/)
 - https://developer.mozilla.org/en-US/docs/Glossary/TCP_handshake

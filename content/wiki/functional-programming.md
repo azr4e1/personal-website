@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Functional programming"
 author = "Lorenzo Drumond"
 date = "2024-07-28T14:57:03"
@@ -23,27 +24,27 @@ Functional programming (FP) is a programming paradigm where programs are constru
 
 7. **Avoiding Side Effects**: FP strives to minimize or avoid side effects (changes in state or interactions with outside systems), which makes reasoning about and debugging programs easier.
 
-## Advantages of Functional Programming
+### Advantages of Functional Programming
 - **Modularity**: Code can be more modular and easier to test.
 - **Concurrency**: Easier to write concurrent and parallel programs because there are no side effects and mutable state to manage.
 - **Predictability**: Pure functions and immutability make the code more predictable and easier to debug.
 
-## Examples of Functional Programming Languages
+### Examples of Functional Programming Languages
 - **Haskell**: A purely functional programming language with strong static typing.
 - **Erlang**: Designed for concurrent and distributed systems.
 - **Lisp**: One of the oldest programming languages, supporting functional programming.
 - **Scala**: Combines functional and object-oriented programming features.
 - **F#**: A functional-first language on the .NET platform.
 
-## Functional Programming in Other Languages
+### Functional Programming in Other Languages
 Languages like JavaScript, Python, and Java also support functional programming principles, even though they are not purely functional languages. They provide features like first-class functions, higher-order functions, and libraries or modules that support FP practices.
 
-# Cahracteristics of OOP that fit into FP
+## Cahracteristics of OOP that fit into FP
 
 Functional programming is not at odd with [object-oriented-programming](/wiki/object-oriented-programming/). Of the four main pillars of OOP, only inheritance doesn't fit into functional programming.
 
 Encapsulation, abstraction and polymorphism are all part of FP.
 
-# References
+## References
 
 Next -> [pure-functions](/wiki/pure-functions/)

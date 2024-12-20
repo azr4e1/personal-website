@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Types"
 author = "Lorenzo Drumond"
 date = "2023-11-07T01:35:20"

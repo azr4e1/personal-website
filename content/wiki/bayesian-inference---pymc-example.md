@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Bayesian Inference - PyMC example"
 author = "Lorenzo Drumond"
 date = "2024-10-03T13:28:22"
@@ -77,5 +78,5 @@ tau_samples = trace['tau']
 
 Recall that Bayesian methodology returns a *distribution*. Hence we now have distributions to describe the unknown $\lambda$s and $\tau$. What have we gained? Immediately, we can see the uncertainty in our estimates: the wider the distribution, the less certain our posterior belief should be. We can also see what the plausible values for the parameters are: $\lambda_1$ is around 18 and $\lambda_2$ is around 23. The posterior distributions of the two $\lambda$s are clearly distinct, indicating that it is indeed likely that there was a change in the user's text-message behaviour.
 
-# References
+## References
 - [bayesian-inference-continuous-distributions](/wiki/bayesian-inference-continuous-distributions/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Creating a slice with make"
 author = "Lorenzo Drumond"
 date = "2024-02-23T14:16:12"
@@ -21,7 +22,7 @@ b = b[:cap(b)] // len(b)=5, cap(b)=5
 b = b[1:] // len(b)=4, cap(b)=4
 ```
 
-# References
+## References
 - [go-slices-length-and-capacity](/wiki/go-slices-length-and-capacity/)
 - [slice-zero-value](/wiki/slice-zero-value/)
 - [go-slices](/wiki/go-slices/)

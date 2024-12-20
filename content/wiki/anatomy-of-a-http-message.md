@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Anatomy of a HTTP message"
 author = "Lorenzo Drumond"
 date = "2024-03-18T01:00:46"
@@ -10,7 +11,7 @@ HTTP messages, as defined in HTTP/1.1 and earlier, are human-readable. In HTTP/2
 
 There are two types of HTTP messages, requests and responses, each with its own format.
 
-# Requests
+## Requests
 
 ```curl
 GET / HTTP/1.1
@@ -26,7 +27,7 @@ It consists of:
 4. Optional headers that convey additional information to the servers
 5. A body for some methods like POST, similar to those in responses
 
-# Responses
+## Responses
 
 ```curl
 HTTP/1.1 200 OK
@@ -47,5 +48,5 @@ It consists of:
 4. HTTP headers, like those for requests
 5. Optionally, a body containing the fetched resources
 
-# References
+## References
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview

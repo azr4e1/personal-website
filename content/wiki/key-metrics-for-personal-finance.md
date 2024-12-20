@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Key metrics for personal finance"
 author = "Lorenzo Drumond"
 date = "2024-01-02T23:45:15"
@@ -15,6 +16,6 @@ In order to be able to speak the "language of money" and be able to stay on top 
 
 Tracking these numbers will allow you to benchmarks how you are faring economically.
 
-# References
+## References
 
 Next -> [good-investors](/wiki/good-investors/)

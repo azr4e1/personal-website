@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Init and Post statements in For loops in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T17:48:29"
@@ -40,7 +41,7 @@ func main() {
 }
 ```
 
-# References
+## References
 - https://go.dev/tour/flowcontrol/2
 
 Next -> [continue-and-break-in-for-loops-in-go](/wiki/continue-and-break-in-for-loops-in-go/)

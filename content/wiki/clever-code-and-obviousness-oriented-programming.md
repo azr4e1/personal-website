@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Clever code and obviousness-oriented programming"
 author = "Lorenzo Drumond"
 date = "2024-02-18T23:25:23"
@@ -22,5 +23,5 @@ We call this approach _obviousness-oriented programming_. (the only kind of wort
 
 When we can't see clever code, is because we are looking at clever design.
 
-# References
+## References
 - John Arundel, The Power of Go: Tools

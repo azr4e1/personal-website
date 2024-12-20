@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "The Unix philosophy"
 author = "Lorenzo Drumond"
 date = "2024-07-24T15:14:31"
@@ -13,4 +14,4 @@ The Unix Philosophy is a simple set of principles that have guided the developme
 2. Write programs to work together.
 3. Write programs to handle text streams, because that is a universal interface.
 
-# References
+## References

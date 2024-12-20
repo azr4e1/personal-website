@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Compound if statements in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T17:10:25"
@@ -19,6 +20,6 @@ You’re telling the reader that the ok variable is only needed within this one 
 
 Any variables declared in this statement are available in the current and all subsequent branches, like `else if` and `else`
 
-# References
+## References
 - [early-return](/wiki/early-return/)
 - [happy-path](/wiki/happy-path/)

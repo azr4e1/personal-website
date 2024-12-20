@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "ANOVA for within-subjects in R"
 author = "Lorenzo Drumond"
 date = "2023-11-20T07:40:10"
@@ -45,7 +46,7 @@ t.test(srchscrl.wide.tech$Search, srchscrl.wide.tech$Scroll, paired=TRUE)
 plot(Time ~ Technique, data=srchscrl) # confirm
 ```
 
-# References
+## References
 - [one-way-anova](/wiki/one-way-anova/)
 - [example-analysis-of-an-ab-test](/wiki/example-analysis-of-an-ab-test/)
 - [counterbalancing-repeated-measures-factors](/wiki/counterbalancing-repeated-measures-factors/)

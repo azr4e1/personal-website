@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Git tips and uses"
 author = "Lorenzo Drumond"
 date = "2024-07-24T15:27:48"
@@ -15,7 +16,7 @@ Git is the distributed version control system (VCS). Nearly every developer in t
 - Make backups of their code
 - And much more
 
-# Basics
+## Basics
 
 The major difference between Git and any other VCS (Subversion and friends included) is the way
 Git thinks about its data. Conceptually, most other systems store information as a list of file-based
@@ -36,7 +37,7 @@ information in transit or get file corruption without Git being able to detect i
 Git stores everything in its database not by file name but by the hash value of its contents.
 
 
-# References
+## References
 
 - boot.dev
 - progit

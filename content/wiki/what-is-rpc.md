@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "What is RPC"
 author = "Lorenzo Drumond"
 date = "2024-03-16T15:10:35"
@@ -24,7 +25,7 @@ During an RPC, the following steps take place:
 8. The client stub unmarshalls the return parameters, and execution returns to the caller.
 
 
-# References
+## References
 - https://www.techtarget.com/searchapparchitecture/definition/Remote-Procedure-Call-RPC
 - https://en.wikipedia.org/wiki/Remote_procedure_call
 

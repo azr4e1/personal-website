@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Linear Time Majority Algorithm"
 author = "Lorenzo Drumond"
 date = "2024-03-12T22:55:56"
@@ -44,5 +45,5 @@ func MajorityElement(nums []int) int {
 }
 ```
 
-# References
+## References
 - https://www.cs.utexas.edu/~moore/best-ideas/mjrty/example.html

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Analysis of a Generalized Linear Mixed Model"
 author = "Lorenzo Drumond"
 date = "2023-12-05T16:20:46"
@@ -12,7 +13,7 @@ can use a generalized model to model the error rate. It's a count variable, so
 we need Poisson distribution for the regression.
 
 ```R
-# Generalized Linear Mixed Model (GLMM) on Error_Rate
+## Generalized Linear Mixed Model (GLMM) on Error_Rate
 
 mbltxttrials$Errors = mbltxttrials$Error_Rate * 100
 View(mbltxttrials) # verify
@@ -64,7 +65,7 @@ library(emmeans) # for emm
 summary(glht(m, emm(pairwise ~ Keyboard * Posture)), test=adjusted(type="holm"))
 ```
 
-# References
+## References
 - [one-way-repeated-measures-anova](/wiki/one-way-repeated-measures-anova/)
 - [anova-assumptions](/wiki/anova-assumptions/)
 - [example-analysis-of-an-ab-test](/wiki/example-analysis-of-an-ab-test/)

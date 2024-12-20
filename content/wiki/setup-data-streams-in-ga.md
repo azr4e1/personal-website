@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Setup data streams in GA"
 author = "Lorenzo Drumond"
 date = "2023-12-06T12:54:37"
@@ -14,7 +15,7 @@ A GA Account is made of properties and data streams.
 
 Let's assume we've already created an account and a property in GA.
 
-# Web data stream
+## Web data stream
 To tag your website you'll first navigate to the data stream's creation screen,
 choose web, and then enter your website URL. This will generate a measurement
 ID and website tags specifically for your website.
@@ -24,13 +25,13 @@ To add this tag to your website's code, you have a few options:
 - Manually add your Google tag to your website's code
 - Provide your measurement ID or Google tag to your website builder
 
-## Website builder
+### Website builder
 If you are using a website
 builder or a CMS system, you should copy the measurement ID and paste it into
 your website builder account. You can select your website builder to view
 instructions on how to add the measurement ID to your website.
 
-## Google Tag Manager
+### Google Tag Manager
 If you do not use a website builder, you'll need to install the Google tag on
 your website. There are two options to choose from. The first option is to use
 Google Tag Manager to install the tag. Google Tag Manager allows you to install
@@ -39,7 +40,7 @@ account's interface instead of having to go back and edit the code itself. In
 addition, Tag Manager serves as a central place to manage and update all of
 your marketing and website tags.
 
-## Manual
+### Manual
 The second option is to manually install the tag on each page of your site.
 When you choose this option, you'll see the new website tag listed in the UI.
 This tag will need to be installed on every page of your website immediately
@@ -48,6 +49,6 @@ start collecting many points of data automatically to the Google Analytics
 property. With a bit more implementation, you can even enhance your data
 collection with recommended and custom events, which we'll cover later.
 
-# References
+## References
 
 Next -> [set-up-your-app-for-data-collection](/wiki/set-up-your-app-for-data-collection/)

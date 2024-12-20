@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Python Variable Packing"
 author = "Lorenzo Drumond"
 date = "2024-08-20T08:39:15"
@@ -21,4 +22,4 @@ a, b = struct.unpack('ii', packed_data)
 
 In this example, using the struct module packs integers into a compact binary format, making data processing more efficient.
 
-# References
+## References

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "File Descriptors"
 author = "Lorenzo Drumond"
 date = "2024-03-12T00:39:59"
@@ -21,6 +22,6 @@ When a file is closed, the descriptor associated gets freed and is available for
 Remember that FD are bound to a process ID.
 
 
-# References
+## References
 - https://en.wikipedia.org/wiki/File_descriptor
 - https://stackoverflow.com/questions/5256599/what-are-file-descriptors-explained-in-simple-terms

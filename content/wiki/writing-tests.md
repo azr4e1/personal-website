@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Writing tests"
 author = "Lorenzo Drumond"
 date = "2024-01-18T13:56:08"
@@ -14,5 +15,5 @@ It’s a good idea to write the test even before you start writing the function 
 
 Writing tests is not just about gaining confidence that your code is correct, although that’s definitely useful. It’s also a powerful process for designing well-structured programs with good APIs. A phrase I like that describes this process is “development, guided by tests”.
 
-# References
+## References
 - John Arundel, For the Love of Go

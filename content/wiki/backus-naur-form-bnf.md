@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Backus Naur Form (BNF)"
 author = "Lorenzo Drumond"
 date = "2024-02-13T10:10:44"
@@ -23,6 +24,6 @@ where:
 3. `__expression__` consists of one or more sequences of either terminal or nonterminal symbols where each sequence is separated by a vertical bar `|` indicating a choice, the whole being a possible substitution for the symbol on the left.
 4. terminal symbols are characters enclosed in `""` and are meant to be used literally
 
-# References
+## References
 - https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form
 - https://realpython.com/preview/python-bnf-notation/

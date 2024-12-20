@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Garbage collectors"
 author = "Lorenzo Drumond"
 date = "2023-12-21T18:17:58"
@@ -19,4 +20,4 @@ that's gone, the actual value is left unreferenced in the heap, occupying space.
 The garbage collector will go through the heap and find values that aren't being used
 anymore and clean them up.
 
-# References
+## References

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Test cases"
 author = "Lorenzo Drumond"
 date = "2024-01-19T13:19:54"
@@ -14,7 +15,7 @@ Test cases allow us to test for many inputs as a single test: we define a list o
 
 These are also called _table tests_, because they represent the test data as a table of inputs and outputs.
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [one-behaviour-one-test](/wiki/one-behaviour-one-test/)

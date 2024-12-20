@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Exerting control"
 author = "Lorenzo Drumond"
 date = "2023-11-20T03:03:00"
@@ -14,7 +15,7 @@ If something in a study threatens to change the results, we can
 3. __Record/measure it__: at least we can evaluate in some ways if it had an impact and in what measure.
 4. __Hidden effect__: maybe we aren't even aware of its presence.
 
-# References
+## References
 - [measurement-errors](/wiki/measurement-errors/)
 - [variable-types](/wiki/variable-types/)
 - [confounding-variables](/wiki/confounding-variables/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Big O summary"
 author = "Lorenzo Drumond"
 date = "2024-08-15T13:44:57"
@@ -18,7 +19,7 @@ tags = ["boot_dev",  "big_o",  "programming",  "algorithm",  "computer_science",
 | O(2^n) | exponential | *Horrible* We want to avoid this kind of algorithm at all costs. Adding one to the input doubles the amount of steps. Example: Brute-force guessing results of a sequence of n coin flips. |
 | O(n!) | factorial | *Even More Horrible* The algorithm becomes so slow so fast, that is practically unusable. Example: Generating all the permutations of a list |
 
-# References
+## References
 - [big-o-notation-formal-definition](/wiki/big-o-notation-formal-definition/)
 
 Next -> [non-deterministic-polynomial-time](/wiki/non-deterministic-polynomial-time/)

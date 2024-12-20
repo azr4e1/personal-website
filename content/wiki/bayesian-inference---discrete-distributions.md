@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Bayesian Inference - Discrete Distributions"
 author = "Lorenzo Drumond"
 date = "2024-10-03T09:39:48"
@@ -11,7 +12,7 @@ Let Z be some random variable. Then associated with Z is a probability distribut
 
 If Z is discrete, then its distribution is called a _probability mass function_, which measures the probability Z takes on the value k: P(Z=k). The probability mass function completely describes Z.
 
-# Poisson distribution
+## Poisson distribution
 
 Z is _Poisson-distributed_ if:
 
@@ -25,6 +26,6 @@ A Z with distribution Poisson is denoted as $Z ~ Poi(\lambda)$
 
 Its expected value is equal to its parameter: $E[Z | \lambda] = \lambda$.
 
-# References
+## References
 
 Next -> [bayesian-inference---continuous-distributions](/wiki/bayesian-inference---continuous-distributions/)

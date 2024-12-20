@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Recursive Sets"
 author = "Lorenzo Drumond"
 date = "2024-08-17T16:12:22"
@@ -11,11 +12,11 @@ A set of natural numbers is called computable, recursive, or decidable if there 
 
 A set which is not computable is called noncomputable or undecidable.
 
-# Formal definition
+## Formal definition
 
 A subset S of the natural numbers is called computable if there exists a total computable function (algorithm) f such that f(x) = 1 if x in S, and f(x) = 0 if x not in S.
 
-# References
+## References
 - [nondeterministic-turing-machine](/wiki/nondeterministic-turing-machine/)
 - [merge-sort-algorithm](/wiki/merge-sort-algorithm/)
 - [big-o-notation-formal-definition](/wiki/big-o-notation-formal-definition/)

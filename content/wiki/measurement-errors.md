@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Measurement errors"
 author = "Lorenzo Drumond"
 date = "2023-11-17T16:19:00"
@@ -12,5 +13,5 @@ that happen naturally.
 
 This is why we need to have confidence in the sample size of our experiment.
 
-# References
+## References
 - [test-of-proportions](/wiki/test-of-proportions/)

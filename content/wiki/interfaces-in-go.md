@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Interfaces in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T13:23:47"
@@ -60,7 +61,7 @@ func main() {
 }
 ```
 
-# References
+## References
 - [go-types-and-methods](/wiki/go-types-and-methods/)
 
 Next -> [interface-values-in-go](/wiki/interface-values-in-go/)

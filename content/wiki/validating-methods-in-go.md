@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Validating methods in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T13:54:07"
@@ -12,7 +13,7 @@ One option is to make that field unexported (lowercase initial, [exported-identi
 
 Another option is to make the whole struct unexported. This will make it impossible for users of our library to interact directly with the object. Then we can export a set of constructor functions and methods that will allow the user to interact with th eobject in a controlled manner, because these functions and methods will contain validation.
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [unexported-fields-and-cmpequal-in-go](/wiki/unexported-fields-and-cmpequal-in-go/)

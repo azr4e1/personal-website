@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Pointers to struct"
 author = "Lorenzo Drumond"
 date = "2024-02-23T13:44:08"
@@ -12,6 +13,6 @@ To access the field `X` of a struct when we have the struct pointer `p` we could
 
 That is called `automatic dereference` [pointer-methods-in-go](/wiki/pointer-methods-in-go/)
 
-# References
+## References
 - https://go.dev/tour/moretypes/4
 - [pointer-methods-in-go](/wiki/pointer-methods-in-go/)

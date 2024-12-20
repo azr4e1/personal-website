@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Trie Data Structure"
 author = "Lorenzo Drumond"
 date = "2024-08-22T09:48:52"
@@ -39,6 +40,6 @@ Remember, a hashtable is only good for exact matches. A trie allows you to look 
 
 Tries are super efficient when it comes to finding substrings in a large document of text.
 
-# References
+## References
 
 Next -> [graph-data-structure](/wiki/graph-data-structure/)

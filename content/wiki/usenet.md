@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Usenet"
 author = "Lorenzo Drumond"
 date = "2023-12-31T22:04:50"
@@ -26,7 +27,7 @@ To access Usenet’s content – including binary downloads – you’ll require
 - a Usenet indexer (a search engine to search for content or find NZB files),
 - a Usenet client or newsreader (which allows you to view Usenet content and/or download binary files);
 
-# References
+## References
 - https://vpnmentora.pages.dev/posts/what-is-usenet-complete-guide-to-usenet-how-to-use-it-in-2023/
 - https://www.reddit.com/r/usenet/comments/8yfve6/how_usenet_works_from_a_noobie_perspective/
 - https://nordvpn.com/blog/what-is-usenet/

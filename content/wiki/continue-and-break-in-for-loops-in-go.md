@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Continue and Break in For loops in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T17:54:14"
@@ -29,6 +30,6 @@ for _, e := range employees {
 
 As soon as Go encounters a break statement, it immediately stops the loop and jumps to the code immediately following the closing brace at the end of the for statement.
 
-# References
+## References
 
 Next -> [controlling-nested-loops-with-labels-in-go](/wiki/controlling-nested-loops-with-labels-in-go/)

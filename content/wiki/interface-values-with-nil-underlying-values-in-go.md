@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Interface values with nil underlying values in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T13:49:42"
@@ -58,7 +59,7 @@ func describe(i I) {
 // hello
 ```
 
-# References
+## References
 - [go-types-and-methods](/wiki/go-types-and-methods/)
 
 Next -> [the-empty-interface-in-go](/wiki/the-empty-interface-in-go/)

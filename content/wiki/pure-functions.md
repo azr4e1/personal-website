@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Pure Functions"
 author = "Lorenzo Drumond"
 date = "2024-07-29T01:06:16"
@@ -22,7 +23,7 @@ Pure functions have a lot of benefits. Whenever possible, good developers try to
 
 These properties result in pure functions being easier to test, debug, and think about.
 
-# References
+## References
 - [object-oriented-programming](/wiki/object-oriented-programming/)
 
 Next -> [memoization](/wiki/memoization/)

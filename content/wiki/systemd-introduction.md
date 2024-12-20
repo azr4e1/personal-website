@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Systemd introduction"
 author = "Lorenzo Drumond"
 date = "2024-04-22T18:11:10"
@@ -14,7 +15,7 @@ It also provides replacements for various daemons and utilities, including devic
 
 The name systemd adheres to the Unix convention of naming daemons by appending the letter d.
 
-# References
+## References
 - https://en.wikipedia.org/wiki/Systemd
 
 Next -> [systemd-services](/wiki/systemd-services/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Good investors"
 author = "Lorenzo Drumond"
 date = "2024-01-03T00:22:42"
@@ -14,6 +15,6 @@ Investing should be boring and automatic.
 
 You should check your investments every three to six months. No tweaking.
 
-# References
+## References
 - [target-date-fund](/wiki/target-date-fund/)
 - [key-metrics-for-personal-finance](/wiki/key-metrics-for-personal-finance/)

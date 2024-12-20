@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Confounding variables"
 author = "Lorenzo Drumond"
 date = "2023-11-20T02:56:55"
@@ -10,7 +11,7 @@ Variables that are outside our control but influence the metric that we are meas
 They threaten our ability to draw inferences about the effects that we are manipulating,
 because they introduce uncontrolled variations in the experiment.
 
-# References
+## References
 - [test-of-proportions](/wiki/test-of-proportions/)
 - [variable-types](/wiki/variable-types/)
 - [measurement-errors](/wiki/measurement-errors/)

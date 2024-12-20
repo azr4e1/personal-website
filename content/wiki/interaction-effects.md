@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Interaction effects"
 author = "Lorenzo Drumond"
 date = "2023-11-20T10:38:29"
@@ -14,7 +15,7 @@ Going back to the keyboard example ([factorial-anova](/wiki/factorial-anova/)), 
 
 
 
-# References
+## References
 - [anova-assumptions](/wiki/anova-assumptions/)
 - [one-way-anova](/wiki/one-way-anova/)
 - [analyzing-a-factorial-anova](/wiki/analyzing-a-factorial-anova/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "What is web analytics"
 author = "Lorenzo Drumond"
 date = "2023-12-06T11:38:09"
@@ -21,7 +22,7 @@ profit by focusing on promoting his most profitable shoes. To help achieve
 this, he wants to see how many visitors make purchases, which sneakers they
 buy, and which sales are the most profitable.
 
-# References
+## References
 - https://skillshop.exceedlms.com/uploads/resource_courses/targets/1657691/original/index.html?_courseId=997993#/page/64e2fe4cc08da51563d805d2
 - [marketing-funnel](/wiki/marketing-funnel/)
 

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Virtual Machine"
 author = "Lorenzo Drumond"
 date = "2023-12-24T23:39:31"
@@ -21,7 +22,7 @@ The benefit can include:
 - running different kernels (windows on Linux) to run non-native applications (like games)
 - they can be moved between local or remote virtualized servers
 
-# References
+## References
 - https://en.wikipedia.org/wiki/Virtual_machine
 
 Next -> [hypervisors](/wiki/hypervisors/)

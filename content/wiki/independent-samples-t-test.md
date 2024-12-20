@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Independent Samples T-Test"
 author = "Lorenzo Drumond"
 date = "2023-11-17T16:30:25"
@@ -19,7 +20,7 @@ t.test(Pages ~ Site, data=pgviews, var.equal=TRUE)
 
 This is a parametric test.
 
-# Report the test
+## Report the test
 How do we report this test?
 
 ```latex
@@ -28,7 +29,7 @@ pgviews: t(498) = -7.21, p<.0001
 
 where 498 is the degrees of freedom, t is the t-statistics, and p is the p-value.
 
-# References
+## References
 - [variable-types](/wiki/variable-types/)
 - [measurement-errors](/wiki/measurement-errors/)
 - [test-of-proportions](/wiki/test-of-proportions/)

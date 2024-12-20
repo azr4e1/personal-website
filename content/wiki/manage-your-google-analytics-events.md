@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Manage your Google Analytics Events"
 author = "Lorenzo Drumond"
 date = "2024-01-15T17:01:55"
@@ -34,6 +35,6 @@ have not yet registered as custom dimensions, will show up in this list.
 Creating a custom metric follows the same process, but a custom metric always
 has an event scope, so no need to define the scope for these.
 
-# References
+## References
 
 Next -> [manage-and-filter-the-data-you-collect](/wiki/manage-and-filter-the-data-you-collect/)

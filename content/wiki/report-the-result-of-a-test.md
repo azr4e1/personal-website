@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Report the result of a test"
 author = "Lorenzo Drumond"
 date = "2023-11-14T13:54:33"
@@ -27,7 +28,7 @@ For p-values > .05 (non stat. sig.), we don't report the exact p-value. We just 
 
 Sig. results tell us there is a statistically significant difference between things we are comparing. A non sig. one does NOT tell use that there is no difference, but there is no _detectable_ difference in the data we are analysing.
 
-# References
+## References
 - https://www.coursera.org/learn/designexperiments
 - [test-of-proportions](/wiki/test-of-proportions/)
 

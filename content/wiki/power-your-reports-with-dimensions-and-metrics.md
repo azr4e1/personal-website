@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Power your Reports with Dimensions and Metrics"
 author = "Lorenzo Drumond"
 date = "2024-01-15T15:36:46"
@@ -22,6 +23,6 @@ To visually represent this data in reports, analytics uses dimensions and metric
 
 Dimensions answer the question "who, what, or where?", while metrics answer the question "how many?"
 
-# References
+## References
 
 Next -> [navigate-your-google-analytics-account](/wiki/navigate-your-google-analytics-account/)

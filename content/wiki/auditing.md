@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Auditing"
 author = "Lorenzo Drumond"
 date = "2024-07-03T11:33:23"
@@ -11,7 +12,7 @@ Security efforts are for nought if no one is auditing the system to ensure it is
 
 An attacker that successfully authenticates may not leave any indication that the system is compromised. The only way to identify the compromise is through positive auditing: that is, auditing the record of events that succeeded. Whether the risk of such a compromise outweighs the need to maintain usage privacy needs to be considered.
 
-# References
+## References
 - [cryptographic-glossary](/wiki/cryptographic-glossary/)
 - [authentication](/wiki/authentication/)
 - [authorisation](/wiki/authorisation/)

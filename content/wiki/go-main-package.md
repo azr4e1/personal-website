@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go main package"
 author = "Lorenzo Drumond"
 date = "2024-01-19T15:46:44"
@@ -20,7 +21,7 @@ A program needs to start somewhere. The way we tell it is by defining a special 
 
 The flow of control in a go program begins at the beginning of the `main` function, and works through it in statement order. When it reaches the end (if) of the `main` function, the program stops.
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [compilation-in-go](/wiki/compilation-in-go/)

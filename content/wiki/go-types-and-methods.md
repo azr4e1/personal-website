@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go types and methods"
 author = "Lorenzo Drumond"
 date = "2024-01-22T16:47:27"
@@ -65,7 +66,7 @@ func main() {
 }
 ```
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [go-struct-wrappers](/wiki/go-struct-wrappers/)

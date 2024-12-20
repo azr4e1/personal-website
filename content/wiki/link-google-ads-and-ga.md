@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Link Google Ads and GA"
 author = "Lorenzo Drumond"
 date = "2024-01-22T14:29:51"
@@ -25,6 +26,6 @@ When you import Analytics conversions to Google Ads, Smart Bidding automatically
 
 Audiences in Analytics let you segment users in ways that are important to your business and explore your data based on those user sets. When you link your GA4 property to a Google Ads account, your GA4 audiences are automatically imported to Google Ads and can be used to target advertising campaigns to those audiences. Additionally, you can create similar audiences in Google Ads and target prospective new customers.
 
-# References
+## References
 
 Next -> [control-how-data-is-used-in-ga](/wiki/control-how-data-is-used-in-ga/)

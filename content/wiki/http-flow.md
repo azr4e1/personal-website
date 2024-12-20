@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "HTTP flow"
 author = "Lorenzo Drumond"
 date = "2024-03-18T00:56:34"
@@ -15,7 +16,7 @@ When a client wants to communicate with a server, either the final server or an 
 
 If HTTP pipelining is activated, several requests can be sent without waiting for the first response to be fully received.
 
-# References
+## References
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
 
 Next -> [example-of-http1-messages](/wiki/example-of-http1-messages/)

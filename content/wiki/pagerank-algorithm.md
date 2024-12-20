@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "PageRank algorithm"
 author = "Lorenzo Drumond"
 date = "2024-08-20T14:40:21"
@@ -9,7 +10,7 @@ tags = ["statistics",  "search",  "math",  "pagerank",  "machine_learning",  "pr
 
 The PageRank algorithm, originally developed by Larry Page and Sergey Brin at Stanford University, is a method for ranking web pages in search engine results. It is based on the idea that the importance of a web page can be inferred from the number and quality of links pointing to it. Essentially, a page is considered important if it is linked to by many other pages, especially if those pages are themselves important.
 
-# Key Concepts
+## Key Concepts
 
 1. Web Graph representation
   - The web is represented as a directed graph where each web page is a node, and a hyperlink from one page to another is a directed edge.
@@ -18,7 +19,7 @@ The PageRank algorithm, originally developed by Larry Page and Sergey Brin at St
   - PageRank is essentially a probability distribution that represents the likelihood of a user randomly clicking on links and landing on a particular page.
   - The PageRank of a page P is determined by the PageRank of the pages that link to it, divided by the number of links on those pages.
 
-# Mathematical Formulation
+## Mathematical Formulation
 
 1. Setup
   - Assume there are N pages on the web. The page rank of each page i is denoted as PR(i).
@@ -37,5 +38,5 @@ The PageRank algorithm, originally developed by Larry Page and Sergey Brin at St
 5. Convergence: PageRank is guaranteed to converge to a unique solution, as long as the web graph is strongly connected [strongly-connected-graph]] and aperiodic [[aperiodic-graph](/wiki/strongly-connected-graph]] and aperiodic [[aperiodic-graph/) (which the damping factor ensures by allowing random jumps).
 
 
-# References
+## References
 - chatGPT

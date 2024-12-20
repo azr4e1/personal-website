@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Purchase Order"
 author = "Lorenzo Drumond"
 date = "2024-01-03T14:39:37"
@@ -16,5 +17,5 @@ A PO is a contract between buyer and seller. The buyer is committing to
 purchasing goods or services for the agreed amount. This gives the seller
 insurance against non-payment.
 
-# References
+## References
 - https://www.sumup.com/en-us/business-guide/what-is-a-purchase-order/

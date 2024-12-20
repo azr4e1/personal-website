@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Data transformation when normality is violated"
 author = "Lorenzo Drumond"
 date = "2023-11-20T04:09:07"
@@ -12,7 +13,7 @@ Let's assume the response is actually log-normally distributed. This means that 
 
 If we take the log of the response, we should get a normally distributed response that can be used for ANOVA.
 
-# References
+## References
 - [confounding-variables](/wiki/confounding-variables/)
 - [independent-samples-t-test](/wiki/independent-samples-t-test/)
 - [data-distributions](/wiki/data-distributions/)

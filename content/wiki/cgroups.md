@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "cgroups"
 author = "Lorenzo Drumond"
 date = "2023-12-25T17:47:43"
@@ -15,7 +16,7 @@ A control group (cgroup) is a Linux kernel feature that limits, accounts for, an
 
 By default, the operating system terminates a process when it exceeds a resource limit defined by its cgroup.
 
-# References
+## References
 - https://www.nginx.com/blog/what-are-namespaces-cgroups-how-do-they-work/
 
 Next -> [cgroups-vs-namespaces](/wiki/cgroups-vs-namespaces/)

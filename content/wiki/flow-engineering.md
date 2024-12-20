@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Flow Engineering"
 author = "Lorenzo Drumond"
 date = "2024-02-20T18:29:12"
@@ -22,5 +23,5 @@ Steps:
 
 This is split into a _pre-processing_ phase, where the system analyzes the problem in natural language, and a _code-iteration_ stage, where it runs possible solutions against public and AI-generated tests
 
-# References
+## References
 - https://go.theregister.com/feed/www.theregister.com/2024/02/19/codium_ai_interview/

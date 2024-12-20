@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Exported Identifiers in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-20T18:21:16"
@@ -14,5 +15,5 @@ If you define a type, function, variable or anything else whose name starts with
 
 Exported names are things that the package intends to be _public_, while unexported names are things meant to be _private_ (the package is going to use internally)
 
-# References
+## References
 - John Arundel, For the Love of Go

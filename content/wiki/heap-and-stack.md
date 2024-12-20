@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Heap and Stack"
 author = "Lorenzo Drumond"
 date = "2023-12-21T17:49:37"
@@ -11,7 +12,7 @@ Memory of an application running is stored in three main parts:
 - Heap
 - Stack
 
-# Stack
+## Stack
 Portion of memory structured as a stack (LIFO - Last In, First Out, [stack-data-structure](/wiki/stack-data-structure/)).
 
 In the context of an application we have the _call stack_, which keeps track of the methods
@@ -21,7 +22,7 @@ executing.
 
 The call stack also keeps track of the local variables in the methods.
 
-# Heap
+## Heap
 Heap is another data structure in memory, that allows to store variables in any order.
 
 The heap has more overhead to access variables, but they can be accessed at any order
@@ -31,7 +32,7 @@ The heap is used for data that's going to outlive what's on the call stack, like
 a variable that needs to be added across different methods.
 
 
-# value and reference types
+## value and reference types
 Value type are stored as is in memory, while reference type only store a pointer
 to the actual value in memory (e.g. array variable is actually a pointer to
 the start of an array).
@@ -54,7 +55,7 @@ This means that lots of blocks of memory in the heap are left unreferenced,
 which are taken care by the garbage collector: it checks the heap for any unreferenced
 block of memory and frees it ([garbage-collectors](/wiki/garbage-collectors/)).
 
-# Exceptions
+## Exceptions
 Anonymous functions in some languages can be created and called inside another method.
 They have access to the other variables declared in the method, therefore those
 variables need to be temporarily stored in the heap until the anonymous function
@@ -65,4 +66,4 @@ call stack. Since each thread can finish independently from each other, to be
 able to access the results of the asynchronous routine, it needs to be stored
 on the heap.
 
-# References
+## References

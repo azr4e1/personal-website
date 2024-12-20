@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Probability Distributions"
 author = "Lorenzo Drumond"
 date = "2023-11-20T03:29:22"
@@ -22,7 +23,7 @@ we can draw the _probability density function_ of the distribution (pdf)
 - _Poisson_: discrete distribution - each value it takes on is a positive integer. Governed by a single parameter lambda. Count data follows this distribution, like counts of rare events, like mistakes of a gesture recognizer in time.
 - _Binomial_/_Multinomial_: discrete. Used when we have responses that are not numerical, but categorical. Binomial is governed by no. of trials, and probability of success.
 
-# References
+## References
 - [independent-samples-t-test](/wiki/independent-samples-t-test/)
 - [designing-for-experimental-control](/wiki/designing-for-experimental-control/)
 - [measuring-results](/wiki/measuring-results/)

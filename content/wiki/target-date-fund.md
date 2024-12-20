@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Target date fund"
 author = "Lorenzo Drumond"
 date = "2024-01-03T00:15:17"
@@ -12,5 +13,5 @@ E.g. if you're retiring in 2065, go and look for brokers that offer 2056 funds (
 
 These funds are automatically diversified among different stocks and bonds. As you get older, the fund gets more conservative.
 
-# References
+## References
 - [key-metrics-for-personal-finance](/wiki/key-metrics-for-personal-finance/)

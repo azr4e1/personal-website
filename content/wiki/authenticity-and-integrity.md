@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Authenticity and Integrity"
 author = "Lorenzo Drumond"
 date = "2024-07-03T14:24:01"
@@ -23,4 +24,4 @@ Moxie Marlinspike’s Cryptographic Doom Principle [Moxie11] contains a more tho
 
 Always use either an authenticated mode (like GCM), or encrypt-then-MAC.
 
-# References
+## References

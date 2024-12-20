@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "HTTP methods"
 author = "Lorenzo Drumond"
 date = "2024-03-18T01:38:50"
@@ -18,7 +19,7 @@ HTTP defines a set of request methods to indicate the desired action to be perfo
 - TRACE: this method performs a message loop-back test along the path to the target resource
 - PATCH: this method applies partial modifications to a resource.
 
-# References
+## References
 - [http-status-codes](/wiki/http-status-codes/)
 - [http-flow](/wiki/http-flow/)
 

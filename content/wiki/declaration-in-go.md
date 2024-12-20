@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Declaration in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T14:35:27"
@@ -20,4 +21,4 @@ A declaration isn’t technically a statement, because it doesn’t produce any 
 It’s worth knowing that in Go, almost all our code must be inside some function, and no statements are allowed outside functions (at package level). The only kind of code allowed outside a function is a declaration.
 
 
-# References
+## References

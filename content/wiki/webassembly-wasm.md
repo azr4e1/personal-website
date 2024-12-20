@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "WebAssembly (WASM)"
 author = "Lorenzo Drumond"
 date = "2024-01-26T16:33:59"
@@ -14,6 +15,6 @@ WASM was included in W3C (World Wide Web Consortium) in 2019. It includes a low-
 
 You won't write this code directly, but rather use it as compilation target for programs written in other languages - C, C++, Go, etc.
 
-# References
+## References
 - https://developer.mozilla.org/en-US/docs/WebAssembly
 - https://www.youtube.com/watch?v=cbB3QEwWMlA

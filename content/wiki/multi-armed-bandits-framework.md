@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Multi-armed bandits framework"
 author = "Lorenzo Drumond"
 date = "2023-11-20T16:10:20"
@@ -47,7 +48,7 @@ In practive $p_i$s are unknown; however these metric are useful to assess the qu
 _A good strategy is such that, in average, its regret decreases quickly towards zero, indicating that the best option is quickly identified and exploited_
 
 
-# References
+## References
 - https://towardsdatascience.com/the-exploration-exploitation-dilemma-f5622fbe1e82
 - [comparing-stategies](/wiki/comparing-stategies/)
 

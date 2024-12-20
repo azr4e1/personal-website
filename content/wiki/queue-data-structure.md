@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Queue Data Structure"
 author = "Lorenzo Drumond"
 date = "2024-08-18T23:05:33"
@@ -18,7 +19,7 @@ The order in which elements come off a queue gives rise to its alternative name,
 
 Think of a line to get tickets. The first person to get in line will be the first person to receive a ticket and get out of line.
 
-# References
+## References
 
 - boot.dev
 

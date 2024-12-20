@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "RB-tree Insertion"
 author = "Lorenzo Drumond"
 date = "2024-08-21T11:59:26"
@@ -9,17 +10,17 @@ tags = ["programming",  "memory",  "boot_dev",  "bst",  "computer_science",  "bi
 
 Insertion in a Red-Black Tree involves several steps to maintain the tree's properties.
 
-# Standard Binary Insertion
+## Standard Binary Insertion
 
 Insert the new node as you would in a normal binary search tree (BST). This means finding the appropriate leaf position where the new node should be added, ensuring that the BST properties are maintained.
 
 Initially, color the newly insert node red.
 
-# Fixing Violations
+## Fixing Violations
 
 After inserting a new node, the tree may violate the Red-Black properties. Specifically, the Red Property (two consecutive red nodes) might be violated. To fix this, we perform one of the following cases (assuming the newly inserted node is N)
 
-## Case 1: Uncle is red
+### Case 1: Uncle is red
 
 If the parent of N is red and the uncle (the sibling of the parent) is also red, then:
 
@@ -27,7 +28,7 @@ If the parent of N is red and the uncle (the sibling of the parent) is also red,
 2. Color the grandparent red
 3. Move N to the grandparent and check the properties again (may involve recursive fixing).
 
-## Case 2: N’s uncle is black, and N is a right child
+### Case 2: N’s uncle is black, and N is a right child
 
 If N's parent is red and the uncle is black, and N is the right child of its parent:
 
@@ -66,6 +67,6 @@ Set the grandparent to red
 Rotate the tree right around the grandparent
 Set the root to black
 
-# References
+## References
 
 Next -> [hash-map-data-structure](/wiki/hash-map-data-structure/)

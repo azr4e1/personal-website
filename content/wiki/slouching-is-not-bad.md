@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Slouching is not bad"
 author = "Lorenzo Drumond"
 date = "2024-02-25T15:07:41"
@@ -14,5 +15,5 @@ What is important is to assume a postures that is comfortable to you, and change
 
 One area where slouching may have a negative effect is memory retention: slouching has been linked to poorer information and memory recall, as well as worse mood when compared to sitting upright.
 
-# References
+## References
 - https://theconversation.com/slouching-isnt-as-bad-for-you-as-you-might-think-223801

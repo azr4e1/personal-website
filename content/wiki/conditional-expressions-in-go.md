@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Conditional expressions in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-19T09:47:09"
@@ -12,4 +13,4 @@ The expression is called _conditional expressions_ because it specifies the cond
 
 `true` and `false` are boolean values. In Go they have the type `bool`.
 
-# References
+## References

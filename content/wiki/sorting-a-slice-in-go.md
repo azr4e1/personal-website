@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Sorting a slice in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-22T15:26:28"
@@ -10,5 +11,5 @@ A slice is an _ordered_ collection of elements. A map is a random collection of 
 
 We can use the `slice.Slice` function, which takes a slice, and a comparison function that explains how any two elements of the slice should be ordered; this functions will order the slice _in place_.
 
-# References
+## References
 - [zero-values-and-default-values-in-go](/wiki/zero-values-and-default-values-in-go/)

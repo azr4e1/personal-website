@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Test driven feature design"
 author = "Lorenzo Drumond"
 date = "2024-01-19T13:16:34"
@@ -14,7 +15,7 @@ This is so that we can test that our test fails. This will give us some confiden
 
 Last step is to write the correct implementation of the function and test it.
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [go-test-driven-development-process](/wiki/go-test-driven-development-process/)

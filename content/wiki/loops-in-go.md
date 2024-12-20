@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Loops in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T17:42:25"
@@ -29,6 +30,6 @@ for i, e := range employees {
 
 If we only want the index value, we just needn’t bother to supply any variable to receive the element value.
 
-# References
+## References
 
 Next -> [init-and-post-statements-in-for-loops-in-go](/wiki/init-and-post-statements-in-for-loops-in-go/)

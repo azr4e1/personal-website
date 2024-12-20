@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Integrations with GA"
 author = "Lorenzo Drumond"
 date = "2024-01-23T10:51:06"
@@ -17,6 +18,6 @@ You can also integrate GA with other tools of the Google Marketing Platform like
 
 with similar benefits as with Google Ads
 
-# References
+## References
 
 Next -> [export-your-ga-data-to-bigquery](/wiki/export-your-ga-data-to-bigquery/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Unbalanced Binary Search Tree"
 author = "Lorenzo Drumond"
 date = "2024-08-20T09:11:23"
@@ -13,7 +14,7 @@ If mostly sorted data, or even worse, completely sorted data, is inserted into a
 
 A balanced tree will always have the minimum height possible for the number of elements it contains.
 
-# References
+## References
 
 - boot.dev
 

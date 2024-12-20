@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Closures"
 author = "Lorenzo Drumond"
 date = "2024-07-29T21:08:11"
@@ -17,7 +18,7 @@ The whole point of a closure is that it's stateful. It's a function that "rememb
 
 That means that in many cases, closures are not pure functions. They can mutate state outside of their scope and have side effects.
 
-# References
+## References
 
 - https://en.wikipedia.org/wiki/Closure_(computer_programming)
 - boot.dev

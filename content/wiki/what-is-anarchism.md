@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "What is anarchism"
 author = "Lorenzo Drumond"
 date = "2024-02-25T14:34:54"
@@ -17,7 +18,7 @@ If the "authority" can prove they legitimacy, it can stay. Otherwise, it must be
 
 An anarchist is someone who insists on knowing how exactly is a certain group of people being in charge or a certain kind of rules being followed serving everyone better than if they didn't exist at all.
 
-# References
+## References
 - https://coffeeandjunk.substack.com/p/naughtism
 
 Next -> [the-curse-of-conformism](/wiki/the-curse-of-conformism/)

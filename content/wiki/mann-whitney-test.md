@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Mann-Whitney test"
 author = "Lorenzo Drumond"
 date = "2023-11-20T04:24:21"
@@ -16,7 +17,7 @@ wilcox_test(Time ~ IDE, data=ide2, distribution="exact")
 
 N.B.: Taking the log of time in the example of [designing-for-experimental-control](/wiki/designing-for-experimental-control/) won't change the result of a non-parametric test, because taking the log of the response doesn't change the inherent ranks in the data.
 
-# References
+## References
 - [data-transformation-when-normality-is-violated](/wiki/data-transformation-when-normality-is-violated/)
 - [variable-types](/wiki/variable-types/)
 - [data-distributions](/wiki/data-distributions/)

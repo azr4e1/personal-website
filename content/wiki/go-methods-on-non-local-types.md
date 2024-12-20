@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go methods on non-local types"
 author = "Lorenzo Drumond"
 date = "2024-01-27T00:24:53"
@@ -29,7 +30,7 @@ input := MyInt(9)
 
 Not every type conversion is possible.
 
-# References
+## References
 - [go-struct-wrappers](/wiki/go-struct-wrappers/)
 - John Arundel, For the Love of Go
 

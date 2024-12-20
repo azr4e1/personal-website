@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "binary search algorithm"
 author = "Lorenzo Drumond"
 date = "2024-08-13T23:14:59"
@@ -9,7 +10,7 @@ tags = ["notation",  "boot_dev",  "computer_science",  "algorithm",  "big_o",  "
 
 A binary search algorithm is a common example of an O(log(n)) algorithm. Binary searches work on a sorted list of elements.
 
-# Pseudocode
+## Pseudocode
 
 Given an array of n elements sorted from least to greatest, and a target value:
 
@@ -25,7 +26,7 @@ Because at each iteration of the search we are halving the size of the search sp
 
 In other words, to add another step to the runtime, we need to double the size of the input. Binary searches are fast.
 
-# References
+## References
 
 - boot.dev
 

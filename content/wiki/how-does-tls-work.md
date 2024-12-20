@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "How does TLS work"
 author = "Lorenzo Drumond"
 date = "2024-03-22T00:04:27"
@@ -23,7 +24,7 @@ Once data is encrypted and authenticated, it is then signed with a message authe
 
 Image: https://cf-assets.www.cloudflare.com/slt3lc6tev37/3wZIhjRIjfVSmCbVqkBKzb/4a7aa34324108c725dc25fc9e7c4ea4a/tls-ssl-handshake.png
 
-# References
+## References
 - [tls-certificate](/wiki/tls-certificate/)
 - [what-is-http](/wiki/what-is-http/)
 - https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/

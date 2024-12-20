@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "What is JSON-RPC"
 author = "Lorenzo Drumond"
 date = "2024-03-17T17:17:41"
@@ -26,5 +27,5 @@ The receiver of the request must reply with a valid response to all received req
 
 Since there are situations where no response is needed or even desired, notifications were introduced. A notification is similar to a request except for the id, which is not needed because no response will be returned. In this case the `id` property should be omitted, or be `null`
 
-# References
+## References
 - https://en.wikipedia.org/wiki/JSON-RPC

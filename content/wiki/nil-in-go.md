@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Nil in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T13:53:43"
@@ -12,5 +13,5 @@ nil doesn't mean some "undefined" state, it's a proper value in itself. An objec
 
 An error is an interface, so nil is a valid value for one, unlike for a string. For obvious reasons a nil error represents no error.
 
-# References
+## References
 - https://stackoverflow.com/questions/35983118/what-does-nil-mean-in-golang

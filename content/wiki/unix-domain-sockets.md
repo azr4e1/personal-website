@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Unix Domain Sockets"
 author = "Lorenzo Drumond"
 date = "2024-03-12T00:04:36"
@@ -16,7 +17,7 @@ The API for UDS is similar to that of an [network-sockets](/wiki/network-sockets
 
 In addition to sending data, processes may send [file-descriptors](/wiki/file-descriptors/) across a Unix domain socket connection using the `sendmsg()` and `recvmsg()` system calls. This allows the sending processes to grant the receiving process access to a file descriptor for which the receiving process otherwise doesn't have access.
 
-# References
+## References
 - https://en.wikipedia.org/wiki/Unix_domain_socket
 - https://serverfault.com/questions/124517/what-is-the-difference-between-unix-sockets-and-tcp-ip-sockets
 

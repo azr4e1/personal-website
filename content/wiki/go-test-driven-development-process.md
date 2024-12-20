@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go test driven development process"
 author = "Lorenzo Drumond"
 date = "2024-01-19T15:08:21"
@@ -16,5 +17,5 @@ tags = ["programming",  "golang",  "for_the_love_of_go",  "testing",  "developme
 
 This is also known as the __red, green, refactor__ cycle.
 
-# References
+## References
 - John Arundel, For the Love of Go

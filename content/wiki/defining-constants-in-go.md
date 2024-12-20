@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Defining constants in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T14:13:36"
@@ -38,7 +39,7 @@ Numeric constants are _high-precision_ values.
 
 An untyped constant takes the type needed by its context.
 
-# References
+## References
 - John Arundel, For the Love of Go
 - https://go.dev/tour/basics/16
 

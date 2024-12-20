@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Git states"
 author = "Lorenzo Drumond"
 date = "2024-07-24T22:48:21"
@@ -50,7 +51,7 @@ your repo. It will tell you which files are untracked,
 staged, and committed.
 
 
-# References
+## References
 
 - progit
 - boot.dev

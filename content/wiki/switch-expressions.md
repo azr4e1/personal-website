@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Switch expressions"
 author = "Lorenzo Drumond"
 date = "2024-01-28T17:25:35"
@@ -34,5 +35,5 @@ Another difference is that Go's switch cases need not be constants, and the valu
 
 Switch with no condition is the same as `switch true`, and can be a clean way to write long if-else chains
 
-# References
+## References
 - John Arundel, For the Love of Go

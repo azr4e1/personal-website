@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Use GA data for ads personalization"
 author = "Lorenzo Drumond"
 date = "2024-01-23T09:59:10"
@@ -10,6 +11,6 @@ You may use digital advertising to help reach people online and drive conversion
 
 You can manage ad personalitation at property, country, even/user property or session level.
 
-# References
+## References
 
 Next -> [share-your-ga-data](/wiki/share-your-ga-data/)

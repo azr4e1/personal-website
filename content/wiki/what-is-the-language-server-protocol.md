@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "What is the Language Server Protocol"
 author = "Lorenzo Drumond"
 date = "2024-03-16T14:59:25"
@@ -67,5 +68,5 @@ Example of payload:
 ```
 
 
-# References
+## References
 - https://microsoft.github.io/language-server-protocol/

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "HTTP POST method"
 author = "Lorenzo Drumond"
 date = "2024-03-18T01:44:13"
@@ -20,6 +21,6 @@ Content-Length: 27
 field1=value1&field2=value2
 ```
 
-# References
+## References
 - [http-status-codes](/wiki/http-status-codes/)
 - [http-flow](/wiki/http-flow/)

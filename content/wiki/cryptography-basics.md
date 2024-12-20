@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Cryptography basics"
 author = "Lorenzo Drumond"
 date = "2024-07-03T11:16:38"
@@ -22,7 +23,7 @@ Security should provide authentication, authorisation, and auditing:
 
 The end goal is some assurance that the system is secure.
 
-# References
+## References
 - [cryptographic-glossary](/wiki/cryptographic-glossary/)
 
 Next -> [authentication](/wiki/authentication/)

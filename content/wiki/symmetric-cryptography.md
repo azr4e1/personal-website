@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Symmetric Cryptography"
 author = "Lorenzo Drumond"
 date = "2024-07-03T12:53:02"
@@ -13,6 +14,6 @@ Fundamentally, the key used by a symmetric algorithm is a sequence of bytes that
 
 There are two components to symmetric encryption: the algorithm that provides confidentiality (which is a block or stream cipher), and the component that provides integrity and authenticity (the MAC algorithm). Most ciphers do not provide both in the same algorithm, but those that do are called Authenticated Encryption (AE), or Authenticated Encryption with Additional Data (AEAD), ciphers.
 
-# References
+## References
 
 Next -> [indistinguishability](/wiki/indistinguishability/)

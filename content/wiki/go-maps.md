@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Go maps"
 author = "Lorenzo Drumond"
 date = "2024-01-27T01:03:08"
@@ -30,7 +31,7 @@ catalog := map[int]Book{
 }
 ```
 
-# Operations
+## Operations
 To access elements, you just need to specify their key in square brackets:
 ```go
 catalog[1]
@@ -73,7 +74,7 @@ func main() {
 }
 ```
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [updating-struct-elements-inside-a-map-in-go](/wiki/updating-struct-elements-inside-a-map-in-go/)

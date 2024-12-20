@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Git merging"
 author = "Lorenzo Drumond"
 date = "2024-07-24T23:00:19"
@@ -53,7 +54,7 @@ A - B - C - F    main
 
 
 
-# References
+## References
 
 - boot.dev
 

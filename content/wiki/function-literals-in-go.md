@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Function literals in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T10:25:18"
@@ -13,7 +14,7 @@ function := func(a, b float64) float64 {
 }
 ```
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [closures-in-go](/wiki/closures-in-go/)

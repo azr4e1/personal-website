@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Named result parameters in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T10:43:28"
@@ -16,6 +17,6 @@ Go allow us to omit the names from the return statments in the case all the name
 
 This is generally considered bad practice because it makes it more difficult to follow the logic flow.
 
-# References
+## References
 - [multiple-values-in-go-functions](/wiki/multiple-values-in-go-functions/)
 - [functions-as-values-in-go](/wiki/functions-as-values-in-go/)

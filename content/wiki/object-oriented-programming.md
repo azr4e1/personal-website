@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Object Oriented Programming"
 author = "Lorenzo Drumond"
 date = "2024-07-02T13:51:29"
@@ -9,7 +10,7 @@ tags = ["programming",  "object_oriented",  "oop",  "computer_science"]
 
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects," which can contain data and code. The data is in the form of fields (often known as attributes or properties), and the code is in the form of procedures (often known as methods). OOP aims to implement real-world entities like inheritance, hiding, and polymorphism, thereby creating reusable and modular code.
 
-## Four Main Pillars of OOP
+### Four Main Pillars of OOP
 
 1. **Abstraction**:
    - **Definition**: Abstraction is the concept of hiding the complex implementation details and showing only the essential features of the object. It allows a programmer to focus on interactions at a high level without worrying about the internal complexities.
@@ -29,19 +30,19 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 
    Polymorphism in programming is the ability to present the same interface (function or method signatures) for many different underlying forms (data types).
 
-# Abstraction VS Encapsulation
+## Abstraction VS Encapsulation
 
 - Abstraction is about creating a simple interface for complex behavior. It focuses on what's exposed
 - Encapsulation is about hiding internal state. It focuses on tucking implementation details away so no one depends on them.
 
 Abstraction is more about reducing complexity, encapsulation is more about maintaining integrity of system internals.
 
-## Summary
+### Summary
 
 Object-Oriented Programming enhances the modularity and reusability of code by organizing it around objects, which are instances of classes. The four main pillars—abstraction, encapsulation, inheritance, and polymorphism—each contribute to making software design more intuitive, flexible, and maintainable.
 
-# Instance
+## Instance
 
 In object-oriented programming, an instance is a concrete occurrence of any object. "Instance" is synonymous with "object" as they are each a particular value. "Instance" emphasizes the distinct identity of the object. The creation of an instance is called instantiation.
 
-# References
+## References

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Example of HTTP/1 messages"
 author = "Lorenzo Drumond"
 date = "2024-03-18T00:58:52"
@@ -29,7 +30,7 @@ Content-Type: text/html
 <!DOCTYPE html>… (here come the 29769 bytes of the requested web page)
 ```
 
-# References
+## References
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
 
 Next -> [anatomy-of-a-http-message](/wiki/anatomy-of-a-http-message/)

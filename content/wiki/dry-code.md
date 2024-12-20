@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Dry Code"
 author = "Lorenzo Drumond"
 date = "2024-07-27T16:03:47"
@@ -13,6 +14,6 @@ tags = ["yourself",  "pattern",  "boot_dev",  "programming",  "clean",  "repeat"
 - If you forget to change it in one place, you'll have a bug
 - It's more work to write it over and over again
 
-# References
+## References
 - [functional-programming](/wiki/functional-programming/)
 - [object-oriented-programming](/wiki/object-oriented-programming/)

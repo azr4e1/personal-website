@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Frequentist vs Bayesian"
 author = "Lorenzo Drumond"
 date = "2023-11-07T11:15:14"
@@ -15,5 +16,5 @@ E.g. Let’s say we’re interested in a binary action, like conversion on an up
 
 In frequentist approach, the statistics is assumed to be a single value, a _ground truth_. In bayesian approach, the probability of conversion is a distribution.
 
-# References
+## References
 - https://towardsdatascience.com/bayesian-experimentation-methods-for-products-636514951e43

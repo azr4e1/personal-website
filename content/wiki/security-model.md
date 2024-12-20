@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Security Model"
 author = "Lorenzo Drumond"
 date = "2024-07-03T11:37:29"
@@ -17,6 +18,6 @@ It is important to begin discussing the security requirements during the initial
 
 The security components must service the other objectives of the system; they must do something useful inside the specifications of the system.
 
-# References
+## References
 
 Next -> [on-errors-in-cryptographic-systems](/wiki/on-errors-in-cryptographic-systems/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Geo experiments"
 author = "Lorenzo Drumond"
 date = "2024-04-22T15:01:55"
@@ -165,4 +166,4 @@ Your support and encouragement serve as motivation for me to continue contributi
 
 To ensure transparency, I want to emphasize that supporting me will not affect the price for you. However, approximately half of the subscription fees directly benefit me. Your consideration in supporting me is greatly appreciated! If you have any questions, please feel free to reach out to me on LinkedIn.
 
-# References
+## References

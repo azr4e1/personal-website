@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Precordium and resuscitation"
 author = "Lorenzo Drumond"
 date = "2024-02-26T17:25:18"
@@ -20,5 +21,5 @@ In some situations, blows in this area can actually restart a heart.
 
 Historically, part of the algorithm for treating a patient in cardiac arrest was to first strike the precordium once using the base of a clenched fist. This is called a precordial thump. The reason why this could work is the same behind commotio cordis: mechanical energy that turns into tiny electrical currents. However some studies have found no benefit for its use at all.
 
-# References
+## References
 - https://theconversation.com/a-blow-to-the-heart-can-kill-you-or-bring-you-back-to-life-224197

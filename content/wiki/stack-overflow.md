@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Stack Overflow"
 author = "Lorenzo Drumond"
 date = "2023-12-21T17:59:15"
@@ -29,6 +30,6 @@ A stack overflow occurs if the number of calls in the stack exceeds the limit. T
 
 Python, unlike lower-level languages like C, prevents the interpreter stack from growing so large that a stack overflow occurs. Instead, a runtime exception is thrown.
 
-# References
+## References
 
 Next -> [queue-data-structure](/wiki/queue-data-structure/)

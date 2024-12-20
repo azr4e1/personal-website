@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Ad Frequency in general"
 author = "Lorenzo Drumond"
 date = "2024-02-27T10:29:00"
@@ -16,5 +17,5 @@ Spacing is also fundamental in increasing ad recall, by allowing the customer to
 
 Keep in mind that decay effects will lower ad recall of your campaigns.
 
-# References
+## References
 - https://www.newneuromarketing.com/want-to-get-your-brand-on-top-of-mind-here-s-how-often-you-should-show-your-ad

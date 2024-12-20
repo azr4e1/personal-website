@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Authentication"
 author = "Lorenzo Drumond"
 date = "2024-07-03T11:32:23"
@@ -17,7 +18,7 @@ The most common multifactor authentication configuration found in common use is 
 
 This is in contrast with two-step verification; an example is an SMS code sent to the phone. The user and server have to communicate, albeit over a different channel than the browser, to share this code. This still provides a channel for intercepting the code.
 
-# References
+## References
 - [cryptographic-glossary](/wiki/cryptographic-glossary/)
 - [authentication](/wiki/authentication/)
 - [authorisation](/wiki/authorisation/)

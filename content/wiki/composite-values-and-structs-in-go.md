@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Composite values and structs in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-20T18:13:53"
@@ -25,7 +26,7 @@ The `type` keyword introduces a new _type definition_. The `struct` keyword spec
 
 Everything after `type Customer ...` is a _type literal_.
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [exported-identifiers-in-go](/wiki/exported-identifiers-in-go/)

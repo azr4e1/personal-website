@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Git porcelain and plumbing"
 author = "Lorenzo Drumond"
 date = "2024-07-24T22:49:56"
@@ -10,7 +11,7 @@ tags = ["working_tree",  "computer_science",  "boot_dev",  "programming",  "work
 In Git, commands are divided into high-level ("porcelain")
 commands and low-level ("plumbing") commands.
 
-# References
+## References
 
 - boot.dev
 

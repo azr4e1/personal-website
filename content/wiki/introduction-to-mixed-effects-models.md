@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Introduction to Mixed Effects Models"
 author = "Lorenzo Drumond"
 date = "2023-12-05T15:29:02"
@@ -17,12 +18,12 @@ As said, subject is a random effect, which, if included, makes the model a
 Mixed linear model. Including them allows us to correlate measures across the
 same subjects across different rows in the metatable.
 
-# Advantages
+## Advantages
 - we can handle missing data points
 - better handle unbalanced designs
 - no need for sphericity test [one-way-repeated-measures-anova](/wiki/one-way-repeated-measures-anova/)
 
-# Disadvantages
+## Disadvantages
 - computationally more intensive
 - they retain larger DFres (Denominator degrees of freedom)
 
@@ -30,7 +31,7 @@ same subjects across different rows in the metatable.
 A nested effect comes into play when the levels of a factor shouldn't be pooled just by their label alone.
 E.g. subjects is nested in the Keyboard factor and Posture factor.
 
-# References
+## References
 - [one-way-repeated-measures-anova](/wiki/one-way-repeated-measures-anova/)
 - [anova-assumptions](/wiki/anova-assumptions/)
 - [example-analysis-of-an-ab-test](/wiki/example-analysis-of-an-ab-test/)

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Git fast-forward merge"
 author = "Lorenzo Drumond"
 date = "2024-07-24T23:01:53"
@@ -41,7 +42,7 @@ git branch -d <branch>
 ```
 
 
-# References
+## References
 
 - boot.dev
 

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Rotation in RB-trees"
 author = "Lorenzo Drumond"
 date = "2024-08-21T11:49:10"
@@ -13,7 +14,7 @@ Rotations are fundamental operations in maintaining the balanced structure of a 
 
 There are two types of rotation:
 
-# Left Rotation
+## Left Rotation
 
 A left rotation at node x moves x down to the left and its right child y up to take x’s place.
 
@@ -42,7 +43,7 @@ After Left Rotation:
 5. Set y’s left child to x.
 6. Update x’s parent to y.
 
-# Right Rotation
+## Right Rotation
 
 A right rotation at node x moves x down to the right and its left child y up to take x’s place.
 
@@ -71,7 +72,7 @@ After Right Rotation:
 5. Set y’s right child to x.
 6. Update x’s parent to y.
 
-# References
+## References
 
 - chatGPT
 - https://www.geeksforgeeks.org/introduction-to-red-black-tree/

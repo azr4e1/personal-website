@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Projects"
 author = "Lorenzo Drumond"
 date = "2023-12-31T16:27:47"
@@ -61,5 +62,5 @@ tags = ["projects",  "gtk",  "python",  "libadwaita",  "linux",  "terminal",  "n
 - [ ] dht client
 - [ ] web crawler
 
-# References
+## References
 - https://medium.com/@alexobidiegwu/10-hard-python-projects-for-intermediates-to-boost-your-python-skills-portfolio-79a2488ec8a4

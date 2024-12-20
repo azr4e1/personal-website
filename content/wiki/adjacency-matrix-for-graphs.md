@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Adjacency Matrix for Graphs"
 author = "Lorenzo Drumond"
 date = "2024-08-22T23:33:22"
@@ -17,7 +18,7 @@ An adjacency matrix is a square matrix used to represent a finite graph. The ele
 | 3 | false | true  | true  | false | true  |
 | 4 | true  | true  | false | true  | false |
 
-# References
+## References
 
 - boot.dev
 

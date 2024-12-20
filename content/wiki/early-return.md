@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Early return"
 author = "Lorenzo Drumond"
 date = "2024-01-28T16:45:52"
@@ -20,5 +21,5 @@ It’s clear that if the function gets past this point, the condition must have 
 
 This often makes `else` statements pointless
 
-# References
+## References
 - [happy-path](/wiki/happy-path/)

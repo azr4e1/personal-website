@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Interview Roadmap"
 author = "Lorenzo Drumond"
 date = "2024-07-03T16:52:14"
@@ -20,4 +21,4 @@ tags = ["copmuter_science",  "interview",  "boot_dev",  "golang"]
 5. [ ] Docker/K8
 6. [ ] Cloud certification (AWS)
 
-# References
+## References

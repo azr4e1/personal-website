@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Fedora Server setup"
 author = "Lorenzo Drumond"
 date = "2024-01-06T12:37:43"
@@ -66,7 +67,7 @@ systemctl enable --now docker
 docker run hello-world
 ```
 
-# References
+## References
 - https://fedoraproject.org/en/server/download
 - https://askubuntu.com/questions/62858/turn-off-monitor-using-command-line/1076734#1076734
 - https://serverfault.com/questions/1006634/nmcli-set-static-ip-address-without-the-dhcp

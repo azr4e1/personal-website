@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Methods on non struct-types"
 author = "Lorenzo Drumond"
 date = "2024-02-23T17:27:53"
@@ -35,6 +36,6 @@ func main() {
 }
 ```
 
-# References
+## References
 - [go-struct-wrappers](/wiki/go-struct-wrappers/)
 - [go-methods-on-non-local-types](/wiki/go-methods-on-non-local-types/)

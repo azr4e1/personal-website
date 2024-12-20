@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Python Fixed Length VS Variable Length Variables"
 author = "Lorenzo Drumond"
 date = "2024-08-20T08:42:33"
@@ -21,4 +22,4 @@ dynamic_list = [1, 2, 3, 4, 5]
 
 Here, array.array provides a fixed-length array, offering more predictable performance than dynamic lists.
 
-# References
+## References

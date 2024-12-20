@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Deterministic Turing Machine"
 author = "Lorenzo Drumond"
 date = "2024-08-17T00:41:08"
@@ -27,6 +28,6 @@ The Turing machine can equivalently be defined as a model that recognises valid 
 
 Given a Turing machine M and an arbitrary string s, it is generally not possible to decide whether M will eventually produce s. This is due to the fact that the halting problem [halting-problem](/wiki/halting-problem/) is unsolvable, which has major implications for the theoretical limits of computing.
 
-# References
+## References
 
 - https://en.wikipedia.org/wiki/Turing_machine

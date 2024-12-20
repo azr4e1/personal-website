@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "DFS vs BFS"
 author = "Lorenzo Drumond"
 date = "2024-08-23T00:17:03"
@@ -9,7 +10,7 @@ tags = ["computer_science",  "search",  "bfs",  "dfs",  "function",  "structure"
 
 Should you use depth first search or breadth first search? It depends:
 
-# Is the solution close to the root?
+## Is the solution close to the root?
 
 If you have a good reason to believe the vertex you're looking for is close to the root (where you plan to start searching) then BFS should be faster.
 Is the graph extremely wide, but not very deep (from the root)?
@@ -24,7 +25,7 @@ level 4: 10000
 
 Because BFS stores entire horizontal levels in memory, you may not have enough memory on your machine to execute the search.
 
-# Is the search space infinite?
+## Is the search space infinite?
 
 In some searches, the graph has infinite size. For example, imagine a simulation of a game of chess.
 
@@ -32,14 +33,14 @@ The first level of the graph would be all the possible current moves, the next l
 
 In these cases, true DFS is practically impossible, you would need to either use BFS, another algorithm, or put a limit on how far your DFS algorithm can search before returning.
 
-# Are you trying to reach an "end"?
+## Are you trying to reach an "end"?
 
 Think of a maze simulator. You want your algorithm to explore the end of a path before exiting to know if it has hit a dead end. DFS will typically find a solution much more quickly than BFS for this kind of exhaustive search.
 
-# Are you trying to find the shortest path between two nodes?
+## Are you trying to find the shortest path between two nodes?
 
 Then BFS is the best choice, as it will explore all the adjacent nodes to A one by one, stopping as soon as B is found.
 
-# References
+## References
 
 - boot.dev

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "What is HTTP"
 author = "Lorenzo Drumond"
 date = "2024-03-17T17:47:03"
@@ -14,14 +15,14 @@ HTTP is a client-server protocol: requests are sent by one entity, the user-agen
 
 Each individual request is sent to a server, which handles it and provides an answer called the response. Between the client and the server there are numerous entities, collectively called proxies, which perform different operations and act as gateways or caches, for example.
 
-# Client
+## Client
 The user-agent is any tool that acts on behalf of the user. This role is primarily performed by the Web browser, but it may also be performed by programs used by engineers and Web developers to debug their applications.
 
  The browser is always the entity initiating the request. It is never the server (though some mechanisms have been added over the years to simulate server-initiated messages).
 
 To display a Web page, the browser sends an original request to fetch the HTML document that represents the page. It then parses this file, making additional requests corresponding to execution scripts, layout information (CSS) to display, and sub-resources contained within the page (usually images and videos). The Web browser then combines these resources to present the complete document, the Web page. Scripts executed by the browser can fetch more resources in later phases and the browser updates the Web page accordingly.
 
-# Server
+## Server
 On the opposite side of the communication channel is the server, which serves the document as requested by the client. A server appears as only a single machine virtually; but it may actually be a collection of servers sharing the load (load balancing), or other software (such as caches, a database server, or e-commerce servers), totally or partially generating the document on demand.
 
 
@@ -40,7 +41,7 @@ With the use of headers, HTTP can control:
 - proxy and tunnelling
 - sessions
 
-# References
+## References
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
 
 Next -> [http-flow](/wiki/http-flow/)

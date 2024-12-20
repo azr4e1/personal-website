@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Clean Code"
 author = "Lorenzo Drumond"
 date = "2024-07-27T16:01:13"
@@ -13,13 +14,13 @@ Paradigms like object-oriented programming [object-oriented-programming]] and fu
 
     -- Martin Fowler
 
-# Clean Code Does Not
+## Clean Code Does Not
 
 - Make your programs run faster
 - Make your programs function correctly
 - Only occur in object-oriented programming
 
-# Clean code does
+## Clean code does
 
 - Make code easier to work with
 - Make it easier to find and fix bugs
@@ -27,7 +28,7 @@ Paradigms like object-oriented programming [object-oriented-programming]] and fu
 - Help us retain our sanity
 
 
-# References
+## References
 
 - boot.dev
 

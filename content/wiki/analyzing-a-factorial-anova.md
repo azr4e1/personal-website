@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Analyzing a factorial ANOVA"
 author = "Lorenzo Drumond"
 date = "2023-11-20T10:48:45"
@@ -73,7 +74,7 @@ t.test(mbltxt.wide[mbltxt.wide$Keyboard == "iPhone",]$Sit, mbltxt.wide[mbltxt.wi
 boxplot(mbltxt.wide[mbltxt.wide$Keyboard == "iPhone",]$Sit, mbltxt.wide[mbltxt.wide$Keyboard == "iPhone",]$Walk,xlab="iPhone.Sit vs. iPhone.Walk", ylab="WPM") # custom boxplot
 ```
 
-# References
+## References
 - [anova-assumptions](/wiki/anova-assumptions/)
 - [factorial-anova](/wiki/factorial-anova/)
 - [one-way-anova](/wiki/one-way-anova/)

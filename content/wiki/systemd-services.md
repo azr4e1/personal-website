@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Systemd Services"
 author = "Lorenzo Drumond"
 date = "2024-04-22T18:14:17"
@@ -7,7 +8,7 @@ tags = ["boot",  "services",  "linux",  "init",  "process",  "introduction",  "s
 
 
 
-# What is a service
+## What is a service
 It's a background process started or stopped based on certain circumstances by systemd (init process).
 
 A _systemd service file_ is a file written in such a format that systemd can parse it and understand.
@@ -44,7 +45,7 @@ Common unit types are:
 - A _socket_ is a primary communication channel. A service or process uses it to communicate with other services or processes running in the local or remote system.
 - A service refers to one or more daemons. Starting and stopping a service makes a one-time change to the state of the system.
 
-# Basic Structure
+## Basic Structure
 A service file has three necessary sections:
 - `[Unit]`
 - `[Service]`
@@ -72,14 +73,14 @@ WantedBy=default.target
 RequiredBy=network.target
 ```
 
-## The Unit section
+### The Unit section
 This section contains details and description about the unit itself.
 
 - `Description`: Human-readable title of the service
 - `After`: dependency on a service; start the service *after* the [Systemd Targets](/wiki/Systemd Targets/) or service specified.
 - `Before`: start current service *before* specified service.
 
-## The Service section
+### The Service section
 This section contains details about the execution and termination of service.
 
 - `ExecStart`: the command that needs to be executed when the service starts.
@@ -87,7 +88,7 @@ This section contains details about the execution and termination of service.
 - `Type`: indicates the start-up type of a process for a given systemd service. Default is `simple`
 - `Restart`: optional; specifies if a service should be restarted or not.
 
-## The Install section
+### The Install section
 This section handles the installation of a systemd service/unit file. Used when you run either `systemctl enable` and `systemctl disable`.
 
 This section contains information about the target unit.
@@ -98,11 +99,11 @@ This section contains information about the target unit.
   initialization is complete -- when the user is asked to log in.
 - `RequiredBy`: similar to `WantedBy`, with the difference that this specifies _hard dependencies_.
 
-# Creating your own systemd service
+## Creating your own systemd service
 
 Let's create two unit files, one as root and one as user; the main difference in the two is their filesystem location.
 
-## Service for root
+### Service for root
 Let's say we wrote a script we want to run as root user at boot called `sys-update.sh`, with path `/root/.scripts/sys-update.sh`
 
 `sys-update.sh`
@@ -133,7 +134,7 @@ Type=simple
 WantedBy=multi-user.target
 ```
 
-## Enabling the service
+### Enabling the service
 After you place the unit file under `/etc/systemd/system`, you can make systemd aware of the new service with
 ```
 sudo systemctl daemon-reload
@@ -149,7 +150,7 @@ To verify that it's enabled, run
 sudo systemctl is-enabled SERVICE-NAME.service
 ```
 
-## Systemd service for normal users
+### Systemd service for normal users
 Let's create a script intended to run before a shutdown. Let's create a script at `/home/ld/.scripts/big-uptime.sh`
 ```
 #!/usr/bin/env bash
@@ -198,4 +199,4 @@ Now we can enable the service; run
 systemctl --user enable SERVICE-NAME.service
 ```
 
-# References
+## References

@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Updating struct elements inside a map in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-22T14:42:22"
@@ -22,7 +23,7 @@ b.Title = "For the Love of Go"
 catalog[1] = b
 ```
 
-# References
+## References
 - John Arundel, For the Love of Go
 
 Next -> [non-existent-keys-in-go-maps](/wiki/non-existent-keys-in-go-maps/)

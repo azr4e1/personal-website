@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Network sockets in Golang"
 author = "Lorenzo Drumond"
 date = "2024-03-12T00:23:22"
@@ -18,7 +19,7 @@ if err != nil {
 }
 ```
 
-# References
+## References
 - [unix-domain-sockets-in-golang](/wiki/unix-domain-sockets-in-golang/)
 - [file-descriptors](/wiki/file-descriptors/)
 - [network-sockets](/wiki/network-sockets/)

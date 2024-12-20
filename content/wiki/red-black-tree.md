@@ -1,4 +1,5 @@
 +++
+toc = true
 title = "Red Black Tree"
 author = "Lorenzo Drumond"
 date = "2024-08-20T09:14:57"
@@ -13,7 +14,7 @@ When the tree is modified, the new tree is rearranged and repainted to restore t
 
 In a normal BST, the child nodes don't need to know about, or carry a reference to their parent, the same is not true for Red-Black trees.
 
-# Properties
+## Properties
 
 In addition to all the properties of a Binary Search Tree, a red-black tree must have the following:
 
@@ -27,7 +28,7 @@ The re-balancing of a red-black tree does not result in a perfectly balanced tre
 
 A simple example to understand balancing is, that a chain of 3 nodes is not possible in the Red-Black tree. We can try any combination of colors and see if all of them violate the Red-Black tree property.
 
-## NOT POSSIBLE
+### NOT POSSIBLE
 
 ```
     black    |      black    |      black
@@ -39,7 +40,7 @@ black        |  black        |  red
 
 These examples all violate a property of an RB tree: Black-Height property, Black-Height property, Red Property
 
-## POSSIBLE
+### POSSIBLE
 
 ```
     black       |    black
@@ -47,7 +48,7 @@ These examples all violate a property of an RB tree: Black-Height property, Blac
 black  black    |  red    red
 ```
 
-# References
+## References
 
 - boot.dev
 - https://www.geeksforgeeks.org/introduction-to-red-black-tree/
