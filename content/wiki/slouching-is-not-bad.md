@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Slouching is not bad"
 author = "Lorenzo Drumond"
 date = "2024-02-25T15:07:41"

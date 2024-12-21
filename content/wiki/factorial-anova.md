@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Factorial ANOVA"
 author = "Lorenzo Drumond"
 date = "2023-11-20T10:22:34"

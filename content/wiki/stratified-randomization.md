@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Stratified Randomization"
 author = "Lorenzo Drumond"
 date = "2024-03-14T14:57:16"

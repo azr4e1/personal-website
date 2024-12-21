@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Rotation in RB-trees"
 author = "Lorenzo Drumond"
 date = "2024-08-21T11:49:10"

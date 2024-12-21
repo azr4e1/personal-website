@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Input sanitisation"
 author = "Lorenzo Drumond"
 date = "2024-07-03T11:55:45"

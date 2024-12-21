@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Link Google Ads and GA"
 author = "Lorenzo Drumond"
 date = "2024-01-22T14:29:51"

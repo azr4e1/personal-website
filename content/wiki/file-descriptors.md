@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "File Descriptors"
 author = "Lorenzo Drumond"
 date = "2024-03-12T00:39:59"

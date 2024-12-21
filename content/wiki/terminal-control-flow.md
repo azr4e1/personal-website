@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Terminal control flow"
 author = "Lorenzo Drumond"
 date = "2024-01-03T14:56:55"

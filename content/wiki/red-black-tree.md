@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Red Black Tree"
 author = "Lorenzo Drumond"
 date = "2024-08-20T09:14:57"

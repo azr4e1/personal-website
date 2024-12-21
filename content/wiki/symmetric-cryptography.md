@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Symmetric Cryptography"
 author = "Lorenzo Drumond"
 date = "2024-07-03T12:53:02"

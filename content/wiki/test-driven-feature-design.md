@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Test driven feature design"
 author = "Lorenzo Drumond"
 date = "2024-01-19T13:16:34"

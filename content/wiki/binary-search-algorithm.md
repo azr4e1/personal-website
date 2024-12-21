@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "binary search algorithm"
 author = "Lorenzo Drumond"
 date = "2024-08-13T23:14:59"

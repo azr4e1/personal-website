@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Confounding variables"
 author = "Lorenzo Drumond"
 date = "2023-11-20T02:56:55"

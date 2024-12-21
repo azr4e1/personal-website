@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Object Oriented Programming"
 author = "Lorenzo Drumond"
 date = "2024-07-02T13:51:29"

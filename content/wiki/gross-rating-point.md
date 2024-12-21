@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Gross Rating Point"
 author = "Lorenzo Drumond"
 date = "2024-03-22T14:17:57"

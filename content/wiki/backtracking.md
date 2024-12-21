@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Backtracking"
 author = "Lorenzo Drumond"
 date = "2024-03-06T13:06:14"

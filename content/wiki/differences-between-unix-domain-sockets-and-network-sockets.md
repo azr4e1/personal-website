@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Differences between Unix Domain Sockets and Network Sockets"
 author = "Lorenzo Drumond"
 date = "2024-03-12T00:18:39"

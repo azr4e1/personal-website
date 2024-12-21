@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Ad Frequency in general"
 author = "Lorenzo Drumond"
 date = "2024-02-27T10:29:00"

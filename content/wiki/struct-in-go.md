@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Struct in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-19T13:29:34"

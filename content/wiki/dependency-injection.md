@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Dependency Injection"
 author = "Lorenzo Drumond"
 date = "2024-07-02T13:53:22"

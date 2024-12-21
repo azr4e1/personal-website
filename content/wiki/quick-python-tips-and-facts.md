@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Quick Python tips and facts"
 author = "Lorenzo Drumond"
 date = "2024-07-22T14:22:05"

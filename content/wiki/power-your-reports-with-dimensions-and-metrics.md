@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Power your Reports with Dimensions and Metrics"
 author = "Lorenzo Drumond"
 date = "2024-01-15T15:36:46"

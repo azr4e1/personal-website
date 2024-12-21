@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Geo experiments"
 author = "Lorenzo Drumond"
 date = "2024-04-22T15:01:55"

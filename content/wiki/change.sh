@@ -1,5 +1,6 @@
 sed -i '1 s/---/+++/g' *
 toc = true
+hideReply = true
 sed -i '8 s/---/+++/g' *
 sed -i 's/^title: \(.\+$\)/title = "\1"/g' *
 sed -i 's/^author: \(.\+$\)/author = "\1"/g' *

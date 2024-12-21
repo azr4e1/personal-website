@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Pointer methods in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-27T00:55:15"

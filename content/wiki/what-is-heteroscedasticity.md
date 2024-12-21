@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "What is Heteroscedasticity"
 author = "Lorenzo Drumond"
 date = "2024-03-14T15:40:02"

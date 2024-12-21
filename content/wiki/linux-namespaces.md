@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Linux Namespaces"
 author = "Lorenzo Drumond"
 date = "2023-12-25T17:38:08"

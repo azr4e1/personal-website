@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "How ideas are borne"
 author = "Lorenzo Drumond"
 date = "2024-02-18T15:43:42"

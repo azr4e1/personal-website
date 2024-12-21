@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Difference between Bugs and Errors"
 author = "Lorenzo Drumond"
 date = "2024-07-24T12:43:36"

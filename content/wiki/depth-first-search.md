@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Depth First Search"
 author = "Lorenzo Drumond"
 date = "2024-08-23T00:05:19"

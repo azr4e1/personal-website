@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Type switches in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T14:12:06"

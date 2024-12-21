@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Sorting a slice in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-22T15:26:28"

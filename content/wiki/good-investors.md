@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Good investors"
 author = "Lorenzo Drumond"
 date = "2024-01-03T00:22:42"

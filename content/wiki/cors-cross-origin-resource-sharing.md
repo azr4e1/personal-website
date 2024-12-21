@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "CORS Cross-Origin Resource Sharing"
 author = "Lorenzo Drumond"
 date = "2024-08-27T11:52:47"

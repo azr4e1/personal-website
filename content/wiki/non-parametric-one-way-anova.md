@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Non-parametric One-Way ANOVA"
 author = "Lorenzo Drumond"
 date = "2023-11-20T05:19:15"

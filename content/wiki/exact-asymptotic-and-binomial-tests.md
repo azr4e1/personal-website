@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Exact, Asymptotic and Binomial Tests"
 author = "Lorenzo Drumond"
 date = "2023-11-14T13:57:34"

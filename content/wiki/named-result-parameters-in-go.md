@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Named result parameters in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T10:43:28"

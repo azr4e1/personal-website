@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "gitignore"
 author = "Lorenzo Drumond"
 date = "2024-07-25T00:26:01"

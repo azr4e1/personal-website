@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Ajax"
 author = "Lorenzo Drumond"
 date = "2024-01-18T12:56:18"

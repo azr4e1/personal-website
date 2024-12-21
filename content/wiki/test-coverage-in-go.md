@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Test coverage in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-21T13:01:56"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "ART - non-parametric factorial ANOVA"
 author = "Lorenzo Drumond"
 date = "2023-11-28T11:03:24"

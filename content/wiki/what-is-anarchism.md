@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "What is anarchism"
 author = "Lorenzo Drumond"
 date = "2024-02-25T14:34:54"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Manchester Trip"
 author = "Lorenzo Drumond"
 date = "2024-02-11T19:47:49"

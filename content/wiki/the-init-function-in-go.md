@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "The init function in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T11:08:05"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Precordium and resuscitation"
 author = "Lorenzo Drumond"
 date = "2024-02-26T17:25:18"

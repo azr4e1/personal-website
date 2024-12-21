@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "The Big Tech enshittification process"
 author = "Lorenzo Drumond"
 date = "2024-02-25T15:38:45"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Types of Graph"
 author = "Lorenzo Drumond"
 date = "2024-08-23T00:03:07"

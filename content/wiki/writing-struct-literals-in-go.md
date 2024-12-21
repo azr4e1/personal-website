@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Writing Struct literals in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-20T18:35:42"

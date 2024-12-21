@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Type assertions in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T14:07:26"

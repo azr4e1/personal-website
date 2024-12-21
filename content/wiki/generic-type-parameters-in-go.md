@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Generic type parameters in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T15:20:01"

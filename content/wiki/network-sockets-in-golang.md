@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Network sockets in Golang"
 author = "Lorenzo Drumond"
 date = "2024-03-12T00:23:22"

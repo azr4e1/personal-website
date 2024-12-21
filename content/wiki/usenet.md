@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Usenet"
 author = "Lorenzo Drumond"
 date = "2023-12-31T22:04:50"

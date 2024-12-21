@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Mann-Whitney test"
 author = "Lorenzo Drumond"
 date = "2023-11-20T04:24:21"

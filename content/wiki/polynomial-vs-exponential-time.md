@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Polynomial VS Exponential time"
 author = "Lorenzo Drumond"
 date = "2024-08-15T11:18:23"

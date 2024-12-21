@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Conditional expressions in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-19T09:47:09"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Analytics 360"
 author = "Lorenzo Drumond"
 date = "2024-01-23T11:02:17"

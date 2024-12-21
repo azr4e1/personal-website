@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Clever code and obviousness-oriented programming"
 author = "Lorenzo Drumond"
 date = "2024-02-18T23:25:23"

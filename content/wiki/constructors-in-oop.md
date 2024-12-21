@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Constructors in OOP"
 author = "Lorenzo Drumond"
 date = "2024-07-27T17:00:22"

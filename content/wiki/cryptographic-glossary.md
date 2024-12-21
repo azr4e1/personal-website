@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Cryptographic glossary"
 author = "Lorenzo Drumond"
 date = "2024-07-03T11:15:24"

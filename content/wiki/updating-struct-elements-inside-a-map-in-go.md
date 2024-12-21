@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Updating struct elements inside a map in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-22T14:42:22"

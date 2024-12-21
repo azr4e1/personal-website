@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Systemd introduction"
 author = "Lorenzo Drumond"
 date = "2024-04-22T18:11:10"

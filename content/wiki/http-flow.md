@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "HTTP flow"
 author = "Lorenzo Drumond"
 date = "2024-03-18T00:56:34"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Big O summary"
 author = "Lorenzo Drumond"
 date = "2024-08-15T13:44:57"

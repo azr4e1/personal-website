@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Analyzing a factorial ANOVA"
 author = "Lorenzo Drumond"
 date = "2023-11-20T10:48:45"

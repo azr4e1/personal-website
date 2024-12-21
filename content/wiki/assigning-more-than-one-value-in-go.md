@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Assigning more than one value in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T14:52:07"

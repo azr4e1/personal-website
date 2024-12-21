@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "HTTP methods"
 author = "Lorenzo Drumond"
 date = "2024-03-18T01:38:50"

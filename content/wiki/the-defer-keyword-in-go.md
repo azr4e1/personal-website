@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "The defer keyword in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T10:37:06"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Referential transparency"
 author = "Lorenzo Drumond"
 date = "2024-07-29T01:34:01"

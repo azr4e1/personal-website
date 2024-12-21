@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Adguardhome Setup"
 author = "Lorenzo Drumond"
 date = "2024-01-06T12:42:16"

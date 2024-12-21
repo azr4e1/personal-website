@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Blank identifier in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-19T16:02:02"

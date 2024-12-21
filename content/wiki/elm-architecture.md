@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Elm Architecture"
 author = "Lorenzo Drumond"
 date = "2024-03-22T00:22:13"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Composite values and structs in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-20T18:13:53"

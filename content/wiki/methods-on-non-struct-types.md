@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Methods on non struct-types"
 author = "Lorenzo Drumond"
 date = "2024-02-23T17:27:53"

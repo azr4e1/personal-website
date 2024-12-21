@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Advertising Workspace in GA"
 author = "Lorenzo Drumond"
 date = "2024-01-22T12:22:46"

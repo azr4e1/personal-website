@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "What is RPC"
 author = "Lorenzo Drumond"
 date = "2024-03-16T15:10:35"

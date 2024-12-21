@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Go modules"
 author = "Lorenzo Drumond"
 date = "2024-01-18T14:06:30"

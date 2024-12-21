@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "GA Account structure"
 author = "Lorenzo Drumond"
 date = "2023-12-06T12:25:54"

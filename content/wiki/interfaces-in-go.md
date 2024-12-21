@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Interfaces in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T13:23:47"

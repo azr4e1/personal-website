@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Measuring Results"
 author = "Lorenzo Drumond"
 date = "2023-11-20T03:00:03"

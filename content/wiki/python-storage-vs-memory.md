@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Python Storage VS Memory"
 author = "Lorenzo Drumond"
 date = "2024-08-20T08:40:34"

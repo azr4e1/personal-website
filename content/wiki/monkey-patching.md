@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Monkey Patching"
 author = "Lorenzo Drumond"
 date = "2024-03-18T01:56:01"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Yield pattern in Go"
 author = "Lorenzo Drumond"
 date = "2024-07-09T11:01:16"

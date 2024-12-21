@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "How to get a rich life"
 author = "Lorenzo Drumond"
 date = "2024-01-02T23:54:53"

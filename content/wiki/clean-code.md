@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Clean Code"
 author = "Lorenzo Drumond"
 date = "2024-07-27T16:01:13"

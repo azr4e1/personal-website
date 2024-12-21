@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Purchase Order"
 author = "Lorenzo Drumond"
 date = "2024-01-03T14:39:37"

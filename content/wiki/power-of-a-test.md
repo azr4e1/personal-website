@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Power of a test"
 author = "Lorenzo Drumond"
 date = "2023-11-10T11:25:59"

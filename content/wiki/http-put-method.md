@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "HTTP PUT method"
 author = "Lorenzo Drumond"
 date = "2024-03-18T01:46:43"

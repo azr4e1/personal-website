@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "DFS vs BFS"
 author = "Lorenzo Drumond"
 date = "2024-08-23T00:17:03"

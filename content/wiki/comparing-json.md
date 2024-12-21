@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Comparing JSON"
 author = "Lorenzo Drumond"
 date = "2024-02-21T00:38:00"

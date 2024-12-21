@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Nil in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T13:53:43"

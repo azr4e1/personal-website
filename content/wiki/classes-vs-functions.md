@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Classes VS Functions"
 author = "Lorenzo Drumond"
 date = "2024-07-28T16:05:24"

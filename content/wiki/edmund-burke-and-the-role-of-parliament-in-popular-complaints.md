@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Edmund Burke and the role of parliament in popular complaints"
 author = "Lorenzo Drumond"
 date = "2024-02-25T15:20:18"

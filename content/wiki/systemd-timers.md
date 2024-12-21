@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Systemd Timers"
 author = "Lorenzo Drumond"
 date = "2024-04-22T18:19:25"

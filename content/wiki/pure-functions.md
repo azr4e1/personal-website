@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Pure Functions"
 author = "Lorenzo Drumond"
 date = "2024-07-29T01:06:16"

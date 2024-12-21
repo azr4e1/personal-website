@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Linear Time Majority Algorithm"
 author = "Lorenzo Drumond"
 date = "2024-03-12T22:55:56"

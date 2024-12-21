@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Bayesian Inference - Continuous Distributions"
 author = "Lorenzo Drumond"
 date = "2024-10-03T10:10:15"

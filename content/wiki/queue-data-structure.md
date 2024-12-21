@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Queue Data Structure"
 author = "Lorenzo Drumond"
 date = "2024-08-18T23:05:33"

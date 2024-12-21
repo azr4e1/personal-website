@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "GA and data"
 author = "Lorenzo Drumond"
 date = "2023-12-06T12:15:04"

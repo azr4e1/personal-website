@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Independent Samples T-Test"
 author = "Lorenzo Drumond"
 date = "2023-11-17T16:30:25"

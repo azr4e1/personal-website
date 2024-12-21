@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "html cheatsheet"
 author = "Lorenzo Drumond"
 date = "2024-07-30T13:17:17"

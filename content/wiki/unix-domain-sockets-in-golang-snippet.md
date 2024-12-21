@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Unix domain sockets in Golang snippet"
 author = "Lorenzo Drumond"
 date = "2024-03-12T00:59:36"

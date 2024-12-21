@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Initialize a go package"
 author = "Lorenzo Drumond"
 date = "2024-01-19T09:50:31"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Fatalf and Errorf in Go testing"
 author = "Lorenzo Drumond"
 date = "2024-01-19T14:39:46"

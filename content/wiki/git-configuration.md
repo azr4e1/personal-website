@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Git configuration"
 author = "Lorenzo Drumond"
 date = "2024-07-24T22:58:02"

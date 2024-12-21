@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Data Types"
 author = "Lorenzo Drumond"
 date = "2024-07-22T14:11:27"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Closures"
 author = "Lorenzo Drumond"
 date = "2024-07-29T21:08:11"

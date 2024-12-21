@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Wide vs Long format tables"
 author = "Lorenzo Drumond"
 date = "2023-11-20T07:28:29"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Functions as values in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T10:20:59"

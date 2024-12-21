@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Go test driven development process"
 author = "Lorenzo Drumond"
 date = "2024-01-19T15:08:21"

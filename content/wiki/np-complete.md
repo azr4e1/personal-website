@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "NP complete"
 author = "Lorenzo Drumond"
 date = "2024-08-17T15:56:24"

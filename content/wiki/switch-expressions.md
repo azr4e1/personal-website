@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Switch expressions"
 author = "Lorenzo Drumond"
 date = "2024-01-28T17:25:35"

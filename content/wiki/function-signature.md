@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Function signature"
 author = "Lorenzo Drumond"
 date = "2024-07-28T14:30:39"

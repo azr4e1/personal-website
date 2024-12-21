@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Python Fixed Length VS Variable Length Variables"
 author = "Lorenzo Drumond"
 date = "2024-08-20T08:42:33"

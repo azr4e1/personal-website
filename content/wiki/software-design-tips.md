@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Software Design tips"
 author = "Lorenzo Drumond"
 date = "2024-04-23T20:13:12"

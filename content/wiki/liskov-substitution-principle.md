@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Liskov substitution principle"
 author = "Lorenzo Drumond"
 date = "2024-02-05T17:39:01"

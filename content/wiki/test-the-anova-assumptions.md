@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Test the ANOVA assumptions"
 author = "Lorenzo Drumond"
 date = "2023-11-20T03:52:10"

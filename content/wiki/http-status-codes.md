@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "HTTP status codes"
 author = "Lorenzo Drumond"
 date = "2024-03-18T01:18:08"

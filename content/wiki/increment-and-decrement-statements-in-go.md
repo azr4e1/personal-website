@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Increment and decrement statements in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T15:00:53"

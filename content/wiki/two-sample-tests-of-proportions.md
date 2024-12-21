@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Two-sample tests of proportions"
 author = "Lorenzo Drumond"
 date = "2023-11-14T14:00:43"

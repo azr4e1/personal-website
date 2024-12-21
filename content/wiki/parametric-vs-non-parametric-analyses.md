@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Parametric vs Non-parametric Analyses"
 author = "Lorenzo Drumond"
 date = "2023-11-20T03:46:29"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Virtual Machine"
 author = "Lorenzo Drumond"
 date = "2023-12-24T23:39:31"

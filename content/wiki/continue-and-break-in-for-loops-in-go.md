@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Continue and Break in For loops in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T17:54:14"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Parameters vs arguments"
 author = "Lorenzo Drumond"
 date = "2024-07-22T15:35:28"

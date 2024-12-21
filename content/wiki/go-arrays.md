@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Go Arrays"
 author = "Lorenzo Drumond"
 date = "2024-02-23T13:48:15"

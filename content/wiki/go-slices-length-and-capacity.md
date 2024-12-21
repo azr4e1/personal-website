@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Go slices length and capacity"
 author = "Lorenzo Drumond"
 date = "2024-02-23T14:01:29"

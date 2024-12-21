@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Exiting in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T11:13:57"

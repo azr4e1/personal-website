@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Frequentist vs Bayesian"
 author = "Lorenzo Drumond"
 date = "2023-11-07T11:15:14"

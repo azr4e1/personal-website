@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Assignment statement in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T14:34:22"

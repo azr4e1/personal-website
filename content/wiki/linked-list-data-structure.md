@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Linked List Data Structure"
 author = "Lorenzo Drumond"
 date = "2024-08-18T23:17:24"

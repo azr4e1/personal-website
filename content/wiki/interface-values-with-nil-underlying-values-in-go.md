@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Interface values with nil underlying values in Go"
 author = "Lorenzo Drumond"
 date = "2024-02-27T13:49:42"

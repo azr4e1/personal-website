@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Optimistic initialization"
 author = "Lorenzo Drumond"
 date = "2023-11-27T17:07:30"

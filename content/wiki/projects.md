@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Projects"
 author = "Lorenzo Drumond"
 date = "2023-12-31T16:27:47"

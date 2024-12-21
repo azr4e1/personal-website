@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Closures in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T10:27:12"

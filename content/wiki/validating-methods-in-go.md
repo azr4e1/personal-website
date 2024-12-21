@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Validating methods in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T13:54:07"

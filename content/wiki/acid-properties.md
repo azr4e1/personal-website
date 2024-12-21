@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "ACID properties"
 author = "Lorenzo Drumond"
 date = "2024-10-07T11:45:57"

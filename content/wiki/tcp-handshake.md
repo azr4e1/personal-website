@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "TCP handshake"
 author = "Lorenzo Drumond"
 date = "2024-03-21T23:53:44"

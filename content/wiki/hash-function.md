@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Hash Function"
 author = "Lorenzo Drumond"
 date = "2024-08-21T15:23:49"

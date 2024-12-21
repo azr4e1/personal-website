@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Multiple categories test of proportions"
 author = "Lorenzo Drumond"
 date = "2023-11-14T13:59:30"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Heap and Stack"
 author = "Lorenzo Drumond"
 date = "2023-12-21T17:49:37"

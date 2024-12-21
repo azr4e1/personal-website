@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Counterbalancing repeated measures factors"
 author = "Lorenzo Drumond"
 date = "2023-11-20T07:14:31"

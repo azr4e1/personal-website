@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Homelab setup"
 author = "Lorenzo Drumond"
 date = "2024-01-06T12:24:10"

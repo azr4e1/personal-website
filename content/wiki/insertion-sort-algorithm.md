@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "insertion sort algorithm"
 author = "Lorenzo Drumond"
 date = "2024-08-15T00:33:38"

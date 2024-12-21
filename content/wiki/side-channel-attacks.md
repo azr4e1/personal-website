@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Side channel attacks"
 author = "Lorenzo Drumond"
 date = "2024-07-03T12:24:43"

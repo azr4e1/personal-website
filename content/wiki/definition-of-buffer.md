@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Definition of buffer"
 author = "Lorenzo Drumond"
 date = "2024-02-27T20:34:10"

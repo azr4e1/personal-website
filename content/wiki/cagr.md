@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "CAGR"
 author = "Lorenzo Drumond"
 date = "2024-08-15T16:11:00"

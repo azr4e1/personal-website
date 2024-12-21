@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "What is HTTP"
 author = "Lorenzo Drumond"
 date = "2024-03-17T17:47:03"

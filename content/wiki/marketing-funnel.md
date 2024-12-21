@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Marketing Funnel"
 author = "Lorenzo Drumond"
 date = "2023-12-06T11:41:02"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Garbage collectors"
 author = "Lorenzo Drumond"
 date = "2023-12-21T18:17:58"

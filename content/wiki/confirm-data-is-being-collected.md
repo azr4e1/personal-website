@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Confirm Data is being collected"
 author = "Lorenzo Drumond"
 date = "2024-01-15T14:22:44"

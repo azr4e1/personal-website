@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Unit tests VS Integration tests"
 author = "Lorenzo Drumond"
 date = "2024-02-09T15:08:39"

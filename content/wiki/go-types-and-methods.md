@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Go types and methods"
 author = "Lorenzo Drumond"
 date = "2024-01-22T16:47:27"

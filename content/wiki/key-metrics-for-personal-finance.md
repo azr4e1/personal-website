@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Key metrics for personal finance"
 author = "Lorenzo Drumond"
 date = "2024-01-02T23:45:15"

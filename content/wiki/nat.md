@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "NAT"
 author = "Lorenzo Drumond"
 date = "2023-12-31T15:35:23"

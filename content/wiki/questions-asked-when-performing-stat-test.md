@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Questions asked when performing stat. test"
 author = "Lorenzo Drumond"
 date = "2023-11-07T11:55:48"

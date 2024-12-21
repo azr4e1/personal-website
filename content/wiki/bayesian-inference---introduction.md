@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Bayesian Inference - introduction"
 author = "Lorenzo Drumond"
 date = "2024-10-02T10:13:42"

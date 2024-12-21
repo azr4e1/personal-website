@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Deterministic Turing Machine"
 author = "Lorenzo Drumond"
 date = "2024-08-17T00:41:08"

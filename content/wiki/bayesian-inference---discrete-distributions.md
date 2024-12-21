@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Bayesian Inference - Discrete Distributions"
 author = "Lorenzo Drumond"
 date = "2024-10-03T09:39:48"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Go methods on non-local types"
 author = "Lorenzo Drumond"
 date = "2024-01-27T00:24:53"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Example of HTTP/1 messages"
 author = "Lorenzo Drumond"
 date = "2024-03-18T00:58:52"

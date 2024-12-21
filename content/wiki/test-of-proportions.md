@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Test of Proportions"
 author = "Lorenzo Drumond"
 date = "2023-11-14T13:49:32"

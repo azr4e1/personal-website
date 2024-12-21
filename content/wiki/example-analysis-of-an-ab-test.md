@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Example Analysis of an A/B test"
 author = "Lorenzo Drumond"
 date = "2023-11-17T10:29:28"

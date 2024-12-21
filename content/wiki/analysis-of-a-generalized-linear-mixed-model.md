@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Analysis of a Generalized Linear Mixed Model"
 author = "Lorenzo Drumond"
 date = "2023-12-05T16:20:46"

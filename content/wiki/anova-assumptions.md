@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Anova assumptions"
 author = "Lorenzo Drumond"
 date = "2023-11-20T03:18:59"

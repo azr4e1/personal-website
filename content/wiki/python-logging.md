@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Python logging"
 author = "Lorenzo Drumond"
 date = "2024-01-04T16:09:01"

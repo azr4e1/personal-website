@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Manage your Google Analytics Events"
 author = "Lorenzo Drumond"
 date = "2024-01-15T17:01:55"

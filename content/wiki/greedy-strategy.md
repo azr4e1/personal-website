@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Greedy Strategy"
 author = "Lorenzo Drumond"
 date = "2023-11-20T17:15:38"

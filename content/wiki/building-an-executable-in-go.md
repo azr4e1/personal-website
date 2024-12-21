@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Building an executable in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-29T11:10:17"

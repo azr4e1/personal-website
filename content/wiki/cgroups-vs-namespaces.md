@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "cgroups VS namespaces"
 author = "Lorenzo Drumond"
 date = "2023-12-25T17:54:54"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Backus Naur Form (BNF)"
 author = "Lorenzo Drumond"
 date = "2024-02-13T10:10:44"

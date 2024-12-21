@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Data transformation when normality is violated"
 author = "Lorenzo Drumond"
 date = "2023-11-20T04:09:07"

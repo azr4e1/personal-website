@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Gotchas with SQLite in Production"
 author = "Lorenzo Drumond"
 date = "2024-07-19T11:51:33"

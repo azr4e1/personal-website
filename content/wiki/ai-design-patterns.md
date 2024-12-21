@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "AI design patterns"
 author = "Lorenzo Drumond"
 date = "2024-02-07T10:39:13"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "If statements in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T16:33:28"

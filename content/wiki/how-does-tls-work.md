@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "How does TLS work"
 author = "Lorenzo Drumond"
 date = "2024-03-22T00:04:27"

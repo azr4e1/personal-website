@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Go maps"
 author = "Lorenzo Drumond"
 date = "2024-01-27T01:03:08"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Notepy ideas"
 author = "Lorenzo Drumond"
 date = "2023-12-12T17:27:39"

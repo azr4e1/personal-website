@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Set up your App for Data Collection"
 author = "Lorenzo Drumond"
 date = "2024-01-15T14:17:03"

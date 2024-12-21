@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Bayesian Inference - PyMC example"
 author = "Lorenzo Drumond"
 date = "2024-10-03T13:28:22"

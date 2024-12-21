@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Cryptographic agility"
 author = "Lorenzo Drumond"
 date = "2024-07-03T12:52:14"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Git commit history and logs"
 author = "Lorenzo Drumond"
 date = "2024-07-24T22:52:37"

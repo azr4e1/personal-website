@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Data structures"
 author = "Lorenzo Drumond"
 date = "2024-08-18T22:34:03"

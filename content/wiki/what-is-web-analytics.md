@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "What is web analytics"
 author = "Lorenzo Drumond"
 date = "2023-12-06T11:38:09"

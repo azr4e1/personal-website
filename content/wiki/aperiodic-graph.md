@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Aperiodic Graph"
 author = "Lorenzo Drumond"
 date = "2024-08-20T14:52:08"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Use GA data for ads personalization"
 author = "Lorenzo Drumond"
 date = "2024-01-23T09:59:10"

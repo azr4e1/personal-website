@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Zero values and default values in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-20T17:44:43"

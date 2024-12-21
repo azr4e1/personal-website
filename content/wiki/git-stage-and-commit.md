@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Git stage and commit"
 author = "Lorenzo Drumond"
 date = "2024-07-24T22:51:47"

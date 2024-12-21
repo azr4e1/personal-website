@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Get to know the Predefined Reports of GA4"
 author = "Lorenzo Drumond"
 date = "2024-01-15T18:45:10"

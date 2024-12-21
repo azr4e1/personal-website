@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Stack Data Structure"
 author = "Lorenzo Drumond"
 date = "2023-12-21T17:53:54"

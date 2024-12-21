@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Above the line marketing"
 author = "Lorenzo Drumond"
 date = "2024-03-22T14:25:30"

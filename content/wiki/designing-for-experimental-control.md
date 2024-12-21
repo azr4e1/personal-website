@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Designing for Experimental Control"
 author = "Lorenzo Drumond"
 date = "2023-11-19T23:31:14"

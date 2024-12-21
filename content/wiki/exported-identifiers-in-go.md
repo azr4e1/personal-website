@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Exported Identifiers in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-20T18:21:16"

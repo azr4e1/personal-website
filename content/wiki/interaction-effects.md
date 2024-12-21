@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Interaction effects"
 author = "Lorenzo Drumond"
 date = "2023-11-20T10:38:29"

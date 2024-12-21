@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Control how data is used in GA"
 author = "Lorenzo Drumond"
 date = "2024-01-23T09:35:35"

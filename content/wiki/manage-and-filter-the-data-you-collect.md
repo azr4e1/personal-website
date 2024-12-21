@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Manage and Filter the Data you collect"
 author = "Lorenzo Drumond"
 date = "2024-01-15T17:28:56"

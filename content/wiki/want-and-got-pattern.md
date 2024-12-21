@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "want-and-got pattern"
 author = "Lorenzo Drumond"
 date = "2024-01-18T14:54:38"

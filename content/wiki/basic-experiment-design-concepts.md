@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Basic Experiment Design Concepts"
 author = "Lorenzo Drumond"
 date = "2023-11-14T13:47:29"

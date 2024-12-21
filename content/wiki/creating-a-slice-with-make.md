@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Creating a slice with make"
 author = "Lorenzo Drumond"
 date = "2024-02-23T14:16:12"

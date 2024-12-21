@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Multiple values in Go functions"
 author = "Lorenzo Drumond"
 date = "2024-01-19T14:29:05"

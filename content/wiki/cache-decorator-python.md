@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Cache decorator python"
 author = "Lorenzo Drumond"
 date = "2024-01-04T11:47:17"

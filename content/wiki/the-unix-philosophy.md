@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "The Unix philosophy"
 author = "Lorenzo Drumond"
 date = "2024-07-24T15:14:31"

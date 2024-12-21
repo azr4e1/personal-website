@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Synthetic Data"
 author = "Lorenzo Drumond"
 date = "2024-02-12T11:39:59"

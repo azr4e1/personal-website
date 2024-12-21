@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Authenticity and Integrity"
 author = "Lorenzo Drumond"
 date = "2024-07-03T14:24:01"

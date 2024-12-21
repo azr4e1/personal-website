@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Golden Files"
 author = "Lorenzo Drumond"
 date = "2024-02-20T23:30:33"

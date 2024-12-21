@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Structural subtyping"
 author = "Lorenzo Drumond"
 date = "2023-11-07T02:02:21"

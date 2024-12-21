@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Go main package"
 author = "Lorenzo Drumond"
 date = "2024-01-19T15:46:44"

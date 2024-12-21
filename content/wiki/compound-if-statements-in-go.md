@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Compound if statements in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-28T17:10:25"

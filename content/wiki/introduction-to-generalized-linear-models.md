@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Introduction to Generalized Linear Models"
 author = "Lorenzo Drumond"
 date = "2023-11-29T10:16:38"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Tree Data Structure"
 author = "Lorenzo Drumond"
 date = "2024-08-19T21:38:33"

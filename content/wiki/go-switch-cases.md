@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Go Switch cases"
 author = "Lorenzo Drumond"
 date = "2024-01-28T17:16:46"

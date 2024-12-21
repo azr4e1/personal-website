@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Non deterministic polynomial time"
 author = "Lorenzo Drumond"
 date = "2024-08-17T00:25:07"

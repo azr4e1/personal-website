@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "User stories in development"
 author = "Lorenzo Drumond"
 date = "2024-01-21T04:07:21"

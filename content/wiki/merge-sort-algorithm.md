@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "merge sort algorithm"
 author = "Lorenzo Drumond"
 date = "2024-08-14T00:14:46"

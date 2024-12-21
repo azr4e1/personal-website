@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Subtypes"
 author = "Lorenzo Drumond"
 date = "2023-11-07T01:38:06"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Binary Tree Data Structure"
 author = "Lorenzo Drumond"
 date = "2024-08-19T21:40:21"

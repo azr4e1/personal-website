@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Values and Variables in Go"
 author = "Lorenzo Drumond"
 date = "2024-01-20T16:46:16"

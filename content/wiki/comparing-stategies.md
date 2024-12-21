@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Comparing stategies"
 author = "Lorenzo Drumond"
 date = "2023-11-27T16:22:52"

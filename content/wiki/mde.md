@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "MDE"
 author = "Lorenzo Drumond"
 date = "2024-08-20T09:31:43"

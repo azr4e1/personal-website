@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Report the result of a test"
 author = "Lorenzo Drumond"
 date = "2023-11-14T13:54:33"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "cgroups"
 author = "Lorenzo Drumond"
 date = "2023-12-25T17:47:43"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Unix Domain Sockets"
 author = "Lorenzo Drumond"
 date = "2024-03-12T00:04:36"

@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "Go struct wrappers"
 author = "Lorenzo Drumond"
 date = "2024-01-22T17:44:41"

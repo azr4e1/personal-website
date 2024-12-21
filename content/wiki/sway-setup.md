@@ -1,5 +1,6 @@
 +++
 toc = true
+hideReply = true
 title = "sway setup"
 author = "Lorenzo Drumond"
 date = "2024-04-21T16:55:43"
