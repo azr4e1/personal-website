@@ -2,5 +2,6 @@
   Simply place a custom_head.html into
   your local /layouts/partials-directory -->
 {{ if .Param "math" }}
-  {{ partialCached "math.html" . }}
+{{ partialCached "math.html" . }}
 {{ end }}
+<script type="application/javascript" src="/search.js" defer></script>
